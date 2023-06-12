@@ -56,4 +56,19 @@
     <!-- Carousel End -->
 
 
+    @include("sections.service")
+
+    @include("sections.about")
+
+    @include("sections.fact")
+
+    @include("sections.service_two")
+
+    @include("sections.booking")
+
+    @include("sections.team")
+
+    @include("sections.testimonial")
+
+
 @endsection
