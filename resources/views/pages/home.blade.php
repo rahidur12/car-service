@@ -1,7 +1,10 @@
 @extends('layout.master')
 
 @section('content')
-
+    @if(session()->has('success'))
+    <?php dd("hello"); ?>
+        {{-- <div class="alert alert-success alert-dismissible text-center"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>{{ session()->get('success') }}</div> --}}
+    @endif
         <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5" id="home">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -12,7 +15,7 @@
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
-                                    
+
                                 <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">We Provide 24x7 Roadside Assistance service</h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Wiithin 30 minutes!!</h5>
 
@@ -26,7 +29,7 @@
 
                                     <button class="button">
                                     <a href="https://wa.me/971564954359">
-                                    <i aria-hidden="true" class="fab fa-whatsapp"></i>		
+                                    <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>
                                     </button>
@@ -51,14 +54,14 @@
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">REACH YOUR DESTINATION SAFE AND IN COMFORT</h5>
                                     <button class="button">
                                     <a href="tel:971564954359">
-                                    <i class="bi bi-telephone-outbound"></i>		
+                                    <i class="bi bi-telephone-outbound"></i>
                                     <span class="elementor-button-text">Call Us</span>
                                     </a>
                                     </button>
 
                                     <button class="button">
                                     <a href="https://wa.me/971564954359">
-                                    <i aria-hidden="true" class="fab fa-whatsapp"></i>		
+                                    <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>
                                     </button>

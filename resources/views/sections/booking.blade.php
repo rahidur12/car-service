@@ -12,23 +12,24 @@
                 <div class="col-lg-6">
                     <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Book US For A Service</h1>
-                        <form>
+                        <form action="{{route("send_booking_mail")}}" method="POST" >
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" class="form-control border-0" name="name" placeholder="Your Name" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" class="form-control border-0" name="email" placeholder="Your Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
+                                    <select class="form-select border-0" style="height: 55px;" name="service">
                                         <option selected>Select A Service</option>
-                                        <option value="1">Diagnostic Test</option>
-                                        <option value="2">Engine Service</option>
-                                        <option value="3">Tire Repair & Change</option>
-                                        <option value="4">Oil Change</option>
-                                        <option value="5">Car Battery</option>
-                                        <option value="6">Car AC</option>
+                                        <option value="Diagnostic Test">Diagnostic Test</option>
+                                        <option value="Engine Service">Engine Service</option>
+                                        <option value="Tire Repair & Change">Tire Repair & Change</option>
+                                        <option value="Oil Change">Oil Change</option>
+                                        <option value="Car Battery">Car Battery</option>
+                                        <option value="Car AC">Car AC</option>
                                         <option value="7">Others</option>
 
 
@@ -39,11 +40,11 @@
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control border-0 datetimepicker-input"
-                                            placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                            placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" name="date" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Special Request"></textarea>
+                                    <textarea class="form-control border-0" name="special_request" placeholder="Special Request"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-secondary w-100 py-3" type="submit">Book Now</button>

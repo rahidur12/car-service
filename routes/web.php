@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\BookingController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +21,9 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('pages.home');
-});
+})->name('home');
+
+
+
+Route::post('/send_booking_mail',[BookingController::class,'send_booking_mail'])->name("send_booking_mail");
+
