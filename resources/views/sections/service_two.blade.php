@@ -16,7 +16,7 @@
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
                             <!-- <i class="fa fa-engine fa-2x me-3"></i> -->
-                            <i class="fa-sharp fa-regular fa-engine fa-2x me-3"></i>
+                            <!-- <i class="fa-sharp fa-regular fa-engine fa-2x me-3"></i> -->
                             <h4 class="m-0">Engine Servicing</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
@@ -38,7 +38,7 @@
 
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-6" type="button">
                             <!-- <i class="fa fa-oil-can fa-2x me-3"></i> -->
-                            <i class="fa-solid fa-air-conditioner fa-2x me-3"></i>
+                            <!-- <i class="fa-solid fa-air-conditioner fa-2x me-3"></i> -->
                          
                             <h4 class="m-0">Car AC</h4>
                         </button>

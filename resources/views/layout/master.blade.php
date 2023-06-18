@@ -106,7 +106,7 @@
                     <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bar Dubai, Dubai, United Arab Emirates</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+971 05 6495 4359</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>shafiqmkhokan@gmail.com</p>
                 </div>
                 <div class="col-lg-5 col-md-4">
                     <h4 class="text-light mb-4">Opening Hours</h4>
@@ -138,7 +138,7 @@
                         <img class="img-fluid" style="width:120px" src="{{asset('public/img/c5.png')}}">
                     </div>
                     <div class="col-2">
-                        <img class="img-fluid" style="width:110px" src="{{asset('public/img/c6.png')}}">
+                        <img class="img-fluid" style="width:100px" src="{{asset('public/img/c6.png')}}">
                     </div>
                 </div>
             </div>
