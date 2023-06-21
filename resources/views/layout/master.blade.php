@@ -2,15 +2,23 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0MZQ4R00T"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11224625343"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-E0MZQ4R00T');
+  gtag('config', 'AW-11224625343');
 </script>
+
+<!-- Event snippet for Phone call lead (1) conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11224625343/HyL3CL-Nmq8YEL_hqOgp'});
+</script>
+
+
+
 
     <meta charset="utf-8">
     <title>DXB Car Repair</title>
