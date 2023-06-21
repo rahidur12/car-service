@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0MZQ4R00T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E0MZQ4R00T');
+</script>
+
     <meta charset="utf-8">
     <title>DXB Car Repair</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
