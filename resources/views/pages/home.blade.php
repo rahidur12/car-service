@@ -21,14 +21,14 @@
 
                                     <div class="elementor-button-wrapper">
                                     <button class="button">
-                                    <a href="tel:971564954359">
+                                    <a href="tel:+971 56 495 4359">
                                     <i class="bi bi-telephone-outbound"></i>
                                     <span class="elementor-button-text">Call Us</span>
                                     </a>
                                     </button>
 
                                     <button class="button">
-                                    <a href="https://wa.me/971564954359">
+                                    <a href="https://wa.me/+971 56 495 4359">
                                     <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>
