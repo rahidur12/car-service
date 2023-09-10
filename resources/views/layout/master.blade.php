@@ -52,6 +52,8 @@
     <!-- Template Stylesheet -->
     <link href="{{asset('public/css/style.css')}}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -78,7 +80,7 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2 .nav_clr_upr{"></small>
-                    <small>+971 05 6495 4359</small>
+                    <small>056-4954359</small>
                 </div>
             </div>
         </div>
@@ -96,9 +98,11 @@
         </button>
         <div class="collapse navbar-collapse .nav-link" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#service" class="nav-item nav-link">Services</a>
+                <a href="{{route('home') }}" class="nav-item nav-link active">Home</a>
+                <a href="{{route('about') }}" class="nav-item nav-link">About</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Services</a>
+                <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a>
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
                 <div class="nav-item dropdown">
                     <!-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a> -->
                     <!-- <div class="dropdown-menu fade-up m-0">
@@ -123,7 +127,7 @@
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bar Dubai, Dubai, United Arab Emirates</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+971 05 6495 4359</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-4954359</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>shafiqmkhokan@gmail.com</p>
                 </div>
                 <div class="col-lg-5 col-md-4">
@@ -181,6 +185,7 @@
     <script src="{{asset('public/lib/tempusdominus/js/moment-timezone.min.js')}}"></script>
     <script src="{{asset('public/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
     $(document).ready(function(){
       $('.nav-link').click(function(){
@@ -200,6 +205,7 @@
 
     <!-- Template Javascript -->
     <script src="{{asset('public/js/main.js')}}"></script>
+    @yield('script')
 
 </body>
 
