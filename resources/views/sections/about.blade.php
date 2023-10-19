@@ -1,8 +1,5 @@
     <!-- About Start -->
 
-    <a href="https://api.whatsapp.com/send?phone=971564954359" class="float" target="_blank">
-    <i class="bi bi-whatsapp"></i>
-</a>
 
     <div class="container-xxl py-5" id="about">
         <div class="container">

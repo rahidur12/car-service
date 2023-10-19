@@ -23,8 +23,8 @@
     <meta charset="utf-8">
     <title>DXB Car Repair</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="{{$meta_keywords}}" name="keywords">
+    <meta content="{{$meta_description}}" name="description">
 
     <!-- Favicon -->
     <link href="{{asset('public/img/favicon.ico')}}" rel="icon">
@@ -57,6 +57,10 @@
 </head>
 
 <body>
+<a href="https://api.whatsapp.com/send?phone=971564954359" class="float" target="_blank">
+    <i class="bi bi-whatsapp"></i>
+</a>
+
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -100,15 +104,20 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{route('home') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{route('about') }}" class="nav-item nav-link">About</a>
-                <a href="{{ route('service') }}" class="nav-item nav-link">Services</a>
-                <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a>
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
+                <!-- <a href="{{ route('service') }}" class="nav-item nav-link">Services</a> -->
                 <div class="nav-item dropdown">
-                    <!-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a> -->
-                    <!-- <div class="dropdown-menu fade-up m-0">
-                    </div> -->
+                    <a href="{{ route('service') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services </a>
+                        <a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a>
+                        <a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a>
+                        <a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change </a>
+                        <a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a>
+                    </div>
                 </div>
-                <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
+                <!-- <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a> -->
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
+               
             </div>
             <a href="#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Booking<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
