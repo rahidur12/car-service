@@ -29,6 +29,10 @@
     <!-- Favicon -->
     <link href="{{asset('public/img/favicon.ico')}}" rel="icon">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/counterup/1.0.0/jquery.counterup.min.js"></script>
+
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,7 +78,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2 .nav_clr_upr{"></small>
-                    <small>Bar Dubai, Dubai, United Arab Emirates</small>
+                    <small>222 Al Satwa Rd - Al Satwa - Dubai - United Arab Emirates</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2 .nav_clr_upr{"></small>
@@ -94,9 +98,13 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary nav_clr"><i class="fa fa-car me-3"></i>DXB Car Repair</h2>
-        </a>
+    <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+    <h2 class="m-0 text-primary nav_clr">
+        <img src="{{asset('public/img/logo.png')}}" alt="Logo" class="logo-img me-3" style="width: 80px; height: auto;">
+    </h2>
+    <h2>DXB Car Repair</h2>
+    </a>
+
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -133,15 +141,15 @@
     <div class="container-fluid bg-dark text-light footer pt-8 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-4 col-md-4">
-                    <h4 class="text-light mb-4">Address</h4>
+            <div class="col-lg-4 col-md-4">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115493.43018679877!2d55.19476726826947!3d25.231208851415023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f438155692891%3A0x85f09a9921e1c24c!2sDXB%20Car%20Repair%20%7C%20Home%20%26%20Roadside%20Assistance%20-%20Dubai!5e0!3m2!1sen!2sbd!4v1698087133026!5m2!1sen!2sbd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+                <div class="col-lg-5 col-md-4">
+                <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bar Dubai, Dubai, United Arab Emirates</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-4954359</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>shafiqmkhokan@gmail.com</p>
-                </div>
-                <div class="col-lg-5 col-md-4">
-                    <h4 class="text-light mb-4">Opening Hours</h4>
-                    <h6 class="text-light">We Provide 24x7 Service At Your Place</h6>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <h4 class="text-light mb-4">Services</h4>
@@ -196,6 +204,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
+    
+    <script>
+    $(document).ready(function () {
+        $('.counter-up').counterUp({
+        delay: 10, // Delay in milliseconds
+        time: 1000 // Animation duration in milliseconds
+        });
+    });
+    </script>
+
+
+    <script>
     $(document).ready(function(){
       $('.nav-link').click(function(){
         debugger;
@@ -217,5 +237,4 @@
     @yield('script')
 
 </body>
-
 </html>

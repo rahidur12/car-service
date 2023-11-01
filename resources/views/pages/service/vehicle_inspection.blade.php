@@ -1,9 +1,14 @@
 @extends('layout.master')
 
 @section('content')
-<div class="container-fluid"> <div class="row "> <div class="col-md-12 g-0"> <img
-    src="{{asset('public/img/cs3.jpg')}}" class="img-fluid" alt="" width="1400" height="50"> </div>
-    </div> </div> <div class="container mt-3">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 g-0" style="overflow: hidden; height: 400px;">
+      <img src="{{asset('public/img/cs3.jpg')}}" class="img-fluid" alt="" style="object-fit: cover; width: 100%; height: 100%;">
+    </div>
+  </div>
+</div>
+     <div class="container mt-3">
     <div class="row">
         <div class="col-lg-12">
             <h1 class="mb-4"> Best Comprehensive Guide to Vehicle Inspection and Technical Testing in Dubai</h1>

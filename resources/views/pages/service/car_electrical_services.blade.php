@@ -1,9 +1,14 @@
 @extends('layout.master')
 
 @section('content')
-<div class="container-fluid"> <div class="row "> <div class="col-md-12 g-0"> <img
-    src="{{asset('public/img/cs2.jpg')}}" class="img-fluid" alt=""> </div>
-    </div> </div> <div class="container mt-3">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 g-0" style="overflow: hidden; height: 400px;">
+      <img src="{{asset('public/img/cs2.jpg')}}" class="img-fluid" alt="" style="object-fit: cover; width: 100%; height: 100%;">
+    </div>
+  </div>
+</div>
+    <div class="container mt-3">
     <div class="row">
         <div class="col-lg-12">
             <h1 class="mb-4"> Best Auto Car Electrical Services in Dubai - Car Electrical Repair. </h1>
