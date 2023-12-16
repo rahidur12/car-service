@@ -153,12 +153,11 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Diagnostic Test</a>
-                    <a class="btn btn-link" href="">Engine Servicing</a>
-                    <a class="btn btn-link" href="">Tires Replacement</a>
-                    <a class="btn btn-link" href="">Oil Changing</a>
-                    <a class="btn btn-link" href="">Car Battery Change</a>
-                    <a class="btn btn-link" href="">Car AC Servicing</a>
+                    <a class="btn btn-link" href="https://dxbcarrepair.net/mechanical-services">Mechanical Services</a>
+                    <a class="btn btn-link" href="https://dxbcarrepair.net/car-electrical-services">Car Electrical Services</a>
+                    <a class="btn btn-link" href="https://dxbcarrepair.net/vehicle-inspection">Vehicle Inspection</a>
+                    <a class="btn btn-link" href="https://dxbcarrepair.net/engine-oil-change">Car Oil Change</a>
+                    <a class="btn btn-link" href="http://localhost/car-service/car-brake-pad-replacement">Car Brake Pad Replacement</a>
                 </div>
                 <div class="row  mt-5 align-items-center">
                     <div class="col-2">
@@ -205,11 +204,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
     
-    <script>
+
+
+    <script>     
+
     $(document).ready(function () {
         $('.counter-up').counterUp({
-        delay: 10, // Delay in milliseconds
-        time: 1000 // Animation duration in milliseconds
+            delay: 10, // Delay in milliseconds
+            time: 1000 // Animation duration in milliseconds
         });
     });
     </script>

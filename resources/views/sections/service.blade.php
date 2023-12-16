@@ -18,7 +18,7 @@
                         <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0 nav_clr"></i>
                         <div class="ps-4">
                             <h5 class="mb-3">Expert Workers</h5>
-                            <p>Our expert mechanics have over 20 years of experience. They can diagnose and repair any car problem, big or small. Trust your car to our experts.</p>
+                            <p>Our expert mechanics have over 12 years of experience. They can diagnose and repair any car problem, big or small. Trust your car to our experts.</p>
                         </div>
                     </div>
                 </div>
