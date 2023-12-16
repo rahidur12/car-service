@@ -61,7 +61,7 @@
 </head>
 
 <body>
-<a href="https://api.whatsapp.com/send?phone=971564954359" class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=0564954359" class="float" target="_blank">
     <i class="bi bi-whatsapp"></i>
 </a>
 
@@ -147,7 +147,7 @@
 
                 <div class="col-lg-4 col-md-4">
                 <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bar Dubai, Dubai, United Arab Emirates</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Al Satwa, Dubai, United Arab Emirates</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-4954359</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>shafiqmkhokan@gmail.com</p>
                 </div>

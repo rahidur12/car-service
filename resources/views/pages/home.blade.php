@@ -21,14 +21,14 @@
 
                                     <div class="elementor-button-wrapper">
                                     <button class="button">
-                                    <a href="tel:971564954359">
+                                    <a href="tel:0564954359">
                                     <i class="bi bi-telephone-outbound"></i>
                                     <span class="elementor-button-text">Call Us</span>
                                     </a>
                                     </button>
 
                                     <button class="button">
-                                    <a href="https://wa.me/971564954359">
+                                    <a href="https://wa.me/0564954359">
                                     <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>
@@ -53,14 +53,14 @@
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">EXPRESS CAR SERVICES 24x7 AT YOUR PLACE</h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">REACH YOUR DESTINATION SAFE AND IN COMFORT</h5>
                                     <button class="button">
-                                    <a href="tel:971564954359">
+                                    <a href="tel:0564954359">
                                     <i class="bi bi-telephone-outbound"></i>
                                     <span class="elementor-button-text">Call Us</span>
                                     </a>
                                     </button>
 
                                     <button class="button">
-                                    <a href="https://wa.me/971564954359">
+                                    <a href="https://wa.me/0564954359">
                                     <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>
