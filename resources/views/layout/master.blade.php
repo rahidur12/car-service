@@ -220,7 +220,6 @@
     <script>
     $(document).ready(function(){
       $('.nav-link').click(function(){
-        debugger;
         $('.collapse').removeClass('show');
       });
     });
