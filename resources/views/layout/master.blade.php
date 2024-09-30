@@ -61,7 +61,7 @@
 </head>
 
 <body>
-<a href="https://api.whatsapp.com/send?phone=0564954359" class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=0566121423" class="float" target="_blank">
     <i class="bi bi-whatsapp"></i>
 </a>
 
@@ -100,7 +100,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
     <h2 class="m-0 text-primary nav_clr">
-        <img src="{{asset('public/img/logo.png')}}" alt="Logo" class="logo-img me-3" style="width: 50px; height: auto;">
+        <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3" style="width: 50px; height: auto;">
     </h2>
     <h2>Dubai Car Repair Service</h2>
     </a>
@@ -153,11 +153,11 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="https://dxbcarrepair.net/mechanical-services">Mechanical Services</a>
-                    <a class="btn btn-link" href="https://dxbcarrepair.net/car-electrical-services">Car Electrical Services</a>
-                    <a class="btn btn-link" href="https://dxbcarrepair.net/vehicle-inspection">Vehicle Inspection</a>
-                    <a class="btn btn-link" href="https://dxbcarrepair.net/engine-oil-change">Car Oil Change</a>
-                    <a class="btn btn-link" href="http://localhost/car-service/car-brake-pad-replacement">Car Brake Pad Replacement</a>
+                    <a class="btn btn-link" href="{{route('mechanical-services')}}">Mechanical Services</a>
+                    <a class="btn btn-link" href="{{route('car-electrical-services')}}">Car Electrical Services</a>
+                    <a class="btn btn-link" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a>
+                    <a class="btn btn-link" href="{{route('engine-oil-change')}}">Engine Oil Change</a>
+                    <a class="btn btn-link" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a>
                 </div>
                 <div class="row  mt-5 align-items-center">
                     <div class="col-2">
