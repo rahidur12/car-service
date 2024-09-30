@@ -21,7 +21,7 @@
 
 
     <meta charset="utf-8">
-    <title>DXB Car Repair</title>
+    <title>Dubai Car Repair Service</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="{{$meta_keywords}}" name="keywords">
     <meta content="{{$meta_description}}" name="description">
@@ -82,13 +82,13 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2 .nav_clr_upr{"></small>
-                    <small>Service 24/7</small>
+                    <small>Sat–Fri, 7 AM–11:30 PM</small>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2 .nav_clr_upr{"></small>
-                    <small>056-4954359</small>
+                    <small>056-6121423</small>
                 </div>
             </div>
         </div>
@@ -102,7 +102,7 @@
     <h2 class="m-0 text-primary nav_clr">
         <img src="{{asset('public/img/logo.png')}}" alt="Logo" class="logo-img me-3" style="width: 50px; height: auto;">
     </h2>
-    <h2>DXB Car Repair</h2>
+    <h2>Dubai Car Repair Service</h2>
     </a>
 
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -148,8 +148,8 @@
                 <div class="col-lg-4 col-md-4">
                 <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Al Satwa, Dubai, United Arab Emirates</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-4954359</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>shafiqmkhokan@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-6121423</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>rahidur11@gmail.com</p>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-light mb-4">Services</h4>

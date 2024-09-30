@@ -16,19 +16,20 @@
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
 
-                                <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">We Provide 24x7 Roadside Assistance service</h1>
+                                <h6 class="text-white text-uppercase mb-3 animated slideInDown">From Dubai Car Repair Service</h6>
+                                <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">We Provide Roadside Assistance Anywhere In The Dubai City</h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Wiithin 30 minutes!!</h5>
 
                                     <div class="elementor-button-wrapper">
                                     <button class="button">
-                                    <a href="tel:0564954359">
+                                    <a href="tel:0566121423">
                                     <i class="bi bi-telephone-outbound"></i>
                                     <span class="elementor-button-text">Call Us</span>
                                     </a>
                                     </button>
 
                                     <button class="button">
-                                    <a href="https://wa.me/0564954359">
+                                    <a href="https://wa.me/0566121423">
                                     <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>
@@ -50,17 +51,17 @@
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
                                 <h6 class="text-white text-uppercase mb-3 animated slideInDown">Our Main Goal</h6>
-                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">EXPRESS CAR SERVICES 24x7 AT YOUR PLACE</h1>
-                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">REACH YOUR DESTINATION SAFE AND IN COMFORT</h5>
+                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">EXPRESS CAR SERVICES AT YOUR PLACE</h1>
+                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">AVAILABLE EVERY DAY!!</h5>
                                     <button class="button">
-                                    <a href="tel:0564954359">
+                                    <a href="tel:0566121423">
                                     <i class="bi bi-telephone-outbound"></i>
                                     <span class="elementor-button-text">Call Us</span>
                                     </a>
                                     </button>
 
                                     <button class="button">
-                                    <a href="https://wa.me/0564954359">
+                                    <a href="https://wa.me/0566121423">
                                     <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>

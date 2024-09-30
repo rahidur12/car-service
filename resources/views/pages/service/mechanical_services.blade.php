@@ -54,7 +54,7 @@
             <p>
                 <strong>Competitive Pricing:</strong> Quality mechanical services don't have to come with a hefty price tag. We offer competitive pricing without compromising on the quality of our work. We believe that everyone deserves access to reliable and affordable car maintenance and repair services.
             </p>
-            <p>At DXB Car Repair, we are your partners in keeping your vehicle in peak condition. With our experience, commitment to quality, transparency, and dedication to customer satisfaction, we stand as your trusted choice for mechanical services in Dubai. When you choose us, you're choosing excellence, reliability, and a team that cares about the well-being of your vehicle as much as you do.
+            <p>At Dubai Car Repair Service, we are your partners in keeping your vehicle in peak condition. With our experience, commitment to quality, transparency, and dedication to customer satisfaction, we stand as your trusted choice for mechanical services in Dubai. When you choose us, you're choosing excellence, reliability, and a team that cares about the well-being of your vehicle as much as you do.
 </p>
 
         </div>

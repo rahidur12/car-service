@@ -15,7 +15,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h6 class="text-primary text-uppercase nav_clr">About Us</h6>
-                    <h1 class="mb-4"><span class="text-primary"> <a style="color: #00454a!important;" href="{{url('/')}}"> DXB Car Repair </a></span> Is The Best Place For Your Auto Care</h1>
+                    <h1 class="mb-4"><span class="text-primary"> <a style="color: #00454a!important;" href="{{url('/')}}">Dubai Car Repair Service</a></span> Is The Best Place For Your Auto Care</h1>
                     <p class="mb-4">We are the best for your auto care. We offer quality, affordable, and timely services for all makes and models. Our team of experienced mechanics is dedicated to providing you with the best possible service.</p>
                     <div class="row g-4 mb-3 pb-3">
                         <div class="col-12 wow fadeIn" data-wow-delay="0.1s">

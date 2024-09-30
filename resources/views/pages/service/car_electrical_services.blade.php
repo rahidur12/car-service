@@ -96,7 +96,7 @@
             <p>
                 <strong>Emergency Assistance:</strong> We offer emergency car electrical services for those unexpected breakdowns. Our team is available to assist you whenever and wherever you need it, ensuring you're never stranded on the road.
             </p>
-            <p>In Dubai's dynamic and demanding automotive landscape, choosing the right car electrical services provider is paramount. With our commitment to expertise, advanced tools, comprehensive services, fair pricing, and a customer-centric approach, DXB Car Repair is your trusted partner in keeping your vehicle's electrical system in top-notch condition. When you DXB Car Repair, you're choosing reliability, quality, and peace of mind for your automotive electrical needs.</p>
+            <p>In Dubai's dynamic and demanding automotive landscape, choosing the right car electrical services provider is paramount. With our commitment to expertise, advanced tools, comprehensive services, fair pricing, and a customer-centric approach, Dubai Car Repair Service is your trusted partner in keeping your vehicle's electrical system in top-notch condition. When you Dubai Car Repair Service, you're choosing reliability, quality, and peace of mind for your automotive electrical needs.</p>
 
 
 
