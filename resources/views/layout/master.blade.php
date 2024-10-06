@@ -64,7 +64,7 @@
 </head>
 
 <body>
-    <a href="https://api.whatsapp.com/send?phone=0566121423" class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=971566121423" class="float" target="_blank">
         <i class="bi bi-whatsapp"></i>
     </a>
 
@@ -101,45 +101,41 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
         <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary nav_clr">
-                <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
-                    style="width: 50px; height: auto;">
-            </h2>
+            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
+                style="width: 50px; height: auto;">
             <h2>Dubai Car Repair Service</h2>
         </a>
 
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <!-- Trigger Button for MMENU -->
+        <button class="navbar-toggler me-4" type="button" id="mmenu-toggle">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse .nav-link" id="navbarCollapse">
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{route('home') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{route('about') }}" class="nav-item nav-link">About</a>
-                <!-- <a href="{{ route('service') }}" class="nav-item nav-link">Services</a> -->
                 <div class="nav-item dropdown">
                     <a href="{{ route('service') }}" class="nav-link dropdown-toggle"
                         data-bs-toggle="dropdown">Service</a>
                     <div class="dropdown-menu fade-up m-0">
-                        <a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services </a>
+                        <a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a>
                         <a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a>
                         <a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a>
-                        <a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change </a>
+                        <a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a>
                         <a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad
                             Replacement</a>
                     </div>
                 </div>
-                <!-- <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a> -->
                 <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
-
             </div>
             <a href="#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Booking<i
                     class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
-
 
 
     @yield('content')
@@ -214,10 +210,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-
-
-
-        <script>
 
             $(document).ready(function () {
                 $('.counter-up').counterUp({

@@ -16,7 +16,7 @@
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
 
-                                <h6 class="text-white text-uppercase mb-3 animated slideInDown">From Dubai Car Repair Service</h6>
+                                <!-- <h6 class="text-white text-uppercase mb-3 animated slideInDown">From Dubai Car Repair Service</h6> -->
                                 <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">We Provide Roadside Assistance Anywhere In The Dubai City</h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Wiithin 30 minutes!!</h5>
 
@@ -29,7 +29,7 @@
                                     </button>
 
                                     <button class="button">
-                                    <a href="https://wa.me/0566121423">
+                                    <a href="https://wa.me/971566121423">
                                     <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>
@@ -61,7 +61,7 @@
                                     </button>
 
                                     <button class="button">
-                                    <a href="https://wa.me/0566121423">
+                                    <a href="https://wa.me/971566121423">
                                     <i aria-hidden="true" class="fab fa-whatsapp"></i>
                                     <span class="elementor-button-text">WhatsApp Us</span>
                                     </a>
