@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+
+    <!-- Include Bootstrap's CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11224625343"></script>
     <script>
@@ -100,42 +106,70 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
-        <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
-                style="width: 50px; height: auto;">
-            <h2>Dubai Car Repair Service</h2>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
+    <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
+        <!-- Brand and Logo -->
+        <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
+            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3" style="width: 50px; height: auto;">
+            <h2 class="mb-0">Dubai Car Repair Service</h2>
         </a>
 
         <!-- Trigger Button for MMENU -->
-        <button class="navbar-toggler me-4" type="button" id="mmenu-toggle">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+    </div>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="{{route('home') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{route('about') }}" class="nav-item nav-link">About</a>
-                <div class="nav-item dropdown">
-                    <a href="{{ route('service') }}" class="nav-link dropdown-toggle"
-                        data-bs-toggle="dropdown">Service</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a>
-                        <a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a>
-                        <a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a>
-                        <a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a>
-                        <a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad
-                            Replacement</a>
-                    </div>
-                </div>
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
-            </div>
-            <a href="#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Booking<i
-                    class="fa fa-arrow-right ms-3"></i></a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="{{route('home') }}" class="nav-item nav-link active">Home</a>
+            <a href="{{route('about') }}" class="nav-item nav-link">About</a>
+            
+            <!-- Dropdown Menu for Services -->
+            <div class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Service
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
+        <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
+        <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
+        <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
+        <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
+    </ul>
+</div>
+
+
+            <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
         </div>
-    </nav>
-    <!-- Navbar End -->
+        <a href="#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Booking<i class="fa fa-arrow-right ms-3"></i></a>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Custom CSS for the Navbar -->
+<style>
+    .navbar-brand h2 {
+        font-size: 1.25rem; /* Adjust the size to align with the button */
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem; /* Adjust the padding to control alignment */
+    }
+
+    .navbar-toggler-icon {
+        font-size: 1.5rem; /* Adjust icon size */
+    }
+
+    /* Ensure perfect alignment on all screen sizes */
+    @media (max-width: 991.98px) {
+        .navbar-brand h2 {
+            font-size: 1rem;
+        }
+    }
+</style>
+
 
 
     @yield('content')
