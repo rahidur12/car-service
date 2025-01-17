@@ -4,9 +4,13 @@
 <head>
 
     <!-- Include Bootstrap's CSS and JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="path/to/your/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11224625343"></script>
@@ -134,90 +138,78 @@
     </div>
     <!-- Topbar End -->
 
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
+    <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
+        <!-- Brand and Logo -->
+        <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
+            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
+                style="width: 50px; height: auto;">
+            <h2 class="mb-0">Dubai Car Repair Service</h2>
+        </a>
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0 d-none d-lg-flex">
-        <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
-            <!-- Brand and Logo -->
-            <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
-                <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
-                    style="width: 50px; height: auto;">
-                <h2 class="mb-0">Dubai Car Repair Service</h2>
-            </a>
-
-            <!-- Trigger Button for MMENU -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="{{route('home') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{route('about') }}" class="nav-item nav-link">About</a>
-
-                <!-- Dropdown Menu for Services -->
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Service
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a>
-                        </li>
-                        <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical
-                                Services</a></li>
-                        <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
-                        <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
-                        <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad
-                                Replacement</a></li>
-                    </ul>
-                </div>
-
-
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
-            </div>
-            <a href="#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Booking<i
-                    class="fa fa-arrow-right ms-3"></i></a>
-        </div>
-    </nav>
-    <!-- Navbar End -->
-
-
-
-    <!-- nav-mobile -->
-    <div class="d-flex d-lg-none nav-mobile position-absolute" style="right:0 ;z-index:100">
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-            aria-controls="offcanvasExample">
-            <i class="bi bi-text-indent-left"></i>
+        <!-- Mobile Navbar Offcanvas Trigger Button -->
+        <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+            aria-controls="offcanvasMenu">
+            <i class="bi bi-list"></i>
         </button>
+    </div>
 
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-            aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <!-- Navbar Links (Desktop) -->
+    <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-0">
+            <a href="{{route('home')}}" class="nav-item nav-link active mx-3">Home</a>
+            <a href="{{route('about')}}" class="nav-item nav-link mx-3">About</a>
+
+            <!-- Dropdown Menu for Services -->
+            <div class="nav-item dropdown mx-3">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Service
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
+                    <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
+                    <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
+                    <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
+                    <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
+                </ul>
             </div>
-            <div class="offcanvas-body">
-                <div>
-                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
-                    images, lists, etc.
-                </div>
-                <div class="dropdown mt-3">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                        Dropdown button
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
-            </div>
+
+            <a href="{{ route('contact') }}" class="nav-item nav-link mx-3">Contact Us</a>
+        </div>
+        <a href="#booking" class="btn btn-primary py-2 px-4 ms-lg-3">Booking<i class="fa fa-arrow-right ms-3"></i></a>
+    </div>
+
+    <!-- Mobile Navbar -->
+    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasMenuLabel">
+                <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
+                    <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2" style="width: 40px; height: auto;">
+                    <span>Dubai Car Repair Service</span>
+                </a>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="nav flex-column">
+                <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                <a href="{{ route('mechanical-services') }}" class="nav-item nav-link">Mechanical Services</a>
+                <a href="{{ route('car-electrical-services') }}" class="nav-item nav-link">Car Electrical Services</a>
+                <a href="{{ route('vehicle-inspection') }}" class="nav-item nav-link">Vehicle Inspection</a>
+                <a href="{{ route('engine-oil-change') }}" class="nav-item nav-link">Engine Oil Change</a>
+                <a href="{{ route('car-brake-pad-replacement') }}" class="nav-item nav-link">Car Brake Pad Replacement</a>
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+            </nav>
         </div>
     </div>
-    <!-- nav-mobile-end -->
+</nav>
+<!-- Navbar End -->
+
+
+@yield('content')
 
 
     @yield('content')
@@ -316,6 +308,17 @@
             }
             toastr.success("{{ session('succcess') }}");
         @endif
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('Bootstrap version:', typeof bootstrap);
+        
+        // Test dropdown initialization
+        const dropdownButton = document.getElementById('serviceDropdown');
+        dropdownButton.addEventListener('click', function(e) {
+            console.log('Dropdown clicked');
+        });
+    });
     </script>
 
     <!-- Template Javascript -->
