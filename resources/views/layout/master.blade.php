@@ -227,7 +227,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4">
-                    <h4 class="text-light mb-4">Address</h4>
+                    <h4 class="text-light mb-4">adr</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Al Satwa, Dubai, United Arab Emirates</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-6121423</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>rahidur11@gmail.com</p>
