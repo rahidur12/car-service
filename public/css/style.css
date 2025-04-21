@@ -129,3 +129,87 @@
     white-space: nowrap; /* Prevents wrapping */
     text-align: center; /* Ensures centered text */
 }
+
+.navbar-nav .nav-link {
+    white-space: nowrap;
+    font-size: 0.95rem;
+}
+
+
+.elementor-button-wrapper .btn {
+    min-width: 160px;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.elementor-button-wrapper .btn i {
+    font-size: 1.1rem;
+}
+
+.custom-close-button {
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-close-button i {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.custom-close-button:hover {
+    background: rgba(0, 0, 0, 0.15);
+    transform: rotate(90deg);
+}
+
+
+.elementor-button-wrapper .btn {
+    min-width: 140px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.elementor-button-wrapper .btn i {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 576px) {
+    .elementor-button-wrapper {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .elementor-button-wrapper .btn {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
+        padding: 10px 16px;
+    }
+}
+
+.elementor-button-wrapper .btn {
+    min-width: 140px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    .elementor-button-wrapper .btn {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
+        padding: 10px 16px;
+    }
+}

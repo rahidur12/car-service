@@ -155,31 +155,33 @@
         </button>
     </div>
 
-    <!-- Navbar Links (Desktop) -->
-    <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-0">
-            <a href="{{route('home')}}" class="nav-item nav-link active mx-3">Home</a>
-            <a href="{{route('about')}}" class="nav-item nav-link mx-3">About</a>
+<!-- Navbar Links (Desktop) -->
+<div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
+    <div class="navbar-nav ms-auto p-0 w-100 justify-content-center flex-nowrap">
+        <a href="{{route('home')}}" class="nav-item nav-link active mx-2">Home</a>
+        <a href="{{route('about')}}" class="nav-item nav-link mx-2">About</a>
 
-            <!-- Dropdown Menu for Services -->
-            <div class="nav-item dropdown mx-3">
-                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Service
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
-                    <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
-                    <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
-                    <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
-                    <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
-                </ul>
-            </div>
-
-            <a href="{{ route('contact') }}" class="nav-item nav-link mx-3">Contact Us</a>
+        <!-- Dropdown Menu for Services -->
+        <div class="nav-item dropdown mx-2">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Service
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
+                <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
+                <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
+                <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
+                <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
+            </ul>
         </div>
-        <a href="#booking" class="btn btn-primary py-2 px-4 ms-lg-3">Booking<i class="fa fa-arrow-right ms-3"></i></a>
+
+        <a href="{{ route('contact') }}" class="nav-item nav-link mx-2">Contact Us</a>
     </div>
+    <a href="#booking" class="btn btn-primary py-2 px-4 ms-lg-3">Booking<i class="fa fa-arrow-right ms-3"></i></a>
+</div>
+
+
 
     <!-- Mobile Navbar -->
     <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
@@ -190,7 +192,10 @@
                     <span>Dubai Car Repair Service</span>
                 </a>
             </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="custom-close-button" data-bs-dismiss="offcanvas" aria-label="Close">
+    <i class="fas fa-times"></i>
+</button>
+
         </div>
         <div class="offcanvas-body">
             <nav class="nav flex-column">
@@ -212,8 +217,6 @@
 @yield('content')
 
 
-    @yield('content')
-
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-8 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -227,7 +230,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4">
-                    <h4 class="text-light mb-4">adr</h4>
+                    <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Al Satwa, Dubai, United Arab Emirates</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-6121423</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>rahidur11@gmail.com</p>
