@@ -14,10 +14,11 @@
 
             <!-- Mobile Navigation -->
             <div class="d-flex d-lg-none nav-mobile position-absolute" style="right: 10px; z-index: 100;">
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+                <button class="custom-menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
                     aria-controls="offcanvasMenu">
                     <i class="bi bi-list"></i>
                 </button>
+
 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
                     <div class="offcanvas-header">
@@ -34,7 +35,6 @@
                         <nav class="nav flex-column">
                             <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
                             <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                            <a href="{{ url('/about') }}" class="nav-item nav-link">About Us</a>
                             <a href="{{ url('/contact') }}" class="nav-item nav-link">Contact</a>
                             <!-- Services -->
                             <a href="{{ route('mechanical-services') }}" class="nav-item nav-link">Mechanical Services</a>

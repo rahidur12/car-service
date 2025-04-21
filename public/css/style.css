@@ -213,3 +213,28 @@
         padding: 10px 16px;
     }
 }
+
+.custom-menu-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #00454A; /* Bootstrap primary */
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.custom-menu-toggle i {
+    font-size: 1.2rem;
+}
+
+.custom-menu-toggle:hover {
+    background-color: #00454A;
+    transform: rotate(90deg);
+}

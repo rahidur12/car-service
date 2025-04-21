@@ -10,7 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="path/to/your/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11224625343"></script>
@@ -138,83 +140,95 @@
     </div>
     <!-- Topbar End -->
 
-<!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
-    <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
-        <!-- Brand and Logo -->
-        <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
-            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
-                style="width: 50px; height: auto;">
-            <h2 class="mb-0">Dubai Car Repair Service</h2>
-        </a>
-
-        <!-- Mobile Navbar Offcanvas Trigger Button -->
-        <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
-            aria-controls="offcanvasMenu">
-            <i class="bi bi-list"></i>
-        </button>
-    </div>
-
-<!-- Navbar Links (Desktop) -->
-<div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
-    <div class="navbar-nav ms-auto p-0 w-100 justify-content-center flex-nowrap">
-        <a href="{{route('home')}}" class="nav-item nav-link active mx-2">Home</a>
-        <a href="{{route('about')}}" class="nav-item nav-link mx-2">About</a>
-
-        <!-- Dropdown Menu for Services -->
-        <div class="nav-item dropdown mx-2">
-            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Service
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
+        <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
+            <!-- Brand and Logo -->
+            <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
+                <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
+                    style="width: 50px; height: auto;">
+                <h2 class="mb-0">Dubai Car Repair Service</h2>
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
-                <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
-                <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
-                <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
-                <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
-            </ul>
-        </div>
 
-        <a href="{{ route('contact') }}" class="nav-item nav-link mx-2">Contact Us</a>
-    </div>
-    <a href="#booking" class="btn btn-primary py-2 px-4 ms-lg-3">Booking<i class="fa fa-arrow-right ms-3"></i></a>
-</div>
-
-
-
-    <!-- Mobile Navbar -->
-    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasMenuLabel">
-                <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
-                    <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2" style="width: 40px; height: auto;">
-                    <span>Dubai Car Repair Service</span>
-                </a>
-            </h5>
-            <button type="button" class="custom-close-button" data-bs-dismiss="offcanvas" aria-label="Close">
-    <i class="fas fa-times"></i>
-</button>
+            <!-- Mobile Navbar Offcanvas Trigger Button -->
+            <button class="custom-menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+                aria-controls="offcanvasMenu">
+                <i class="bi bi-list"></i>
+            </button>
 
         </div>
-        <div class="offcanvas-body">
-            <nav class="nav flex-column">
-                <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                <a href="{{ route('mechanical-services') }}" class="nav-item nav-link">Mechanical Services</a>
-                <a href="{{ route('car-electrical-services') }}" class="nav-item nav-link">Car Electrical Services</a>
-                <a href="{{ route('vehicle-inspection') }}" class="nav-item nav-link">Vehicle Inspection</a>
-                <a href="{{ route('engine-oil-change') }}" class="nav-item nav-link">Engine Oil Change</a>
-                <a href="{{ route('car-brake-pad-replacement') }}" class="nav-item nav-link">Car Brake Pad Replacement</a>
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
-            </nav>
+
+
+
+
+        <!-- Navbar Links (Desktop) -->
+        <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-0 w-100 justify-content-center flex-nowrap">
+                <a href="{{route('home')}}" class="nav-item nav-link active mx-2">Home</a>
+                <a href="{{route('about')}}" class="nav-item nav-link mx-2">About</a>
+
+                <!-- Dropdown Menu for Services -->
+                <div class="nav-item dropdown mx-2">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Service
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a>
+                        </li>
+                        <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical
+                                Services</a></li>
+                        <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
+                        <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
+                        <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad
+                                Replacement</a></li>
+                    </ul>
+                </div>
+
+                <a href="{{ route('contact') }}" class="nav-item nav-link mx-2">Contact Us</a>
+            </div>
+            <a href="#booking" class="btn btn-primary py-2 px-4 ms-lg-3">Booking<i
+                    class="fa fa-arrow-right ms-3"></i></a>
         </div>
-    </div>
-</nav>
-<!-- Navbar End -->
 
 
-@yield('content')
+
+        <!-- Mobile Navbar -->
+        <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasMenu"
+            aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasMenuLabel">
+                    <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
+                        <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2"
+                            style="width: 40px; height: auto;">
+                        <span>Dubai Car Repair Service</span>
+                    </a>
+                </h5>
+                <button type="button" class="custom-close-button" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+
+            </div>
+            <div class="offcanvas-body">
+                <nav class="nav flex-column">
+                    <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+                    <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                    <a href="{{ route('mechanical-services') }}" class="nav-item nav-link">Mechanical Services</a>
+                    <a href="{{ route('car-electrical-services') }}" class="nav-item nav-link">Car Electrical
+                        Services</a>
+                    <a href="{{ route('vehicle-inspection') }}" class="nav-item nav-link">Vehicle Inspection</a>
+                    <a href="{{ route('engine-oil-change') }}" class="nav-item nav-link">Engine Oil Change</a>
+                    <a href="{{ route('car-brake-pad-replacement') }}" class="nav-item nav-link">Car Brake Pad
+                        Replacement</a>
+                    <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    @yield('content')
 
 
 
@@ -313,15 +327,15 @@
         @endif
     </script>
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        console.log('Bootstrap version:', typeof bootstrap);
-        
-        // Test dropdown initialization
-        const dropdownButton = document.getElementById('serviceDropdown');
-        dropdownButton.addEventListener('click', function(e) {
-            console.log('Dropdown clicked');
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('Bootstrap version:', typeof bootstrap);
+
+            // Test dropdown initialization
+            const dropdownButton = document.getElementById('serviceDropdown');
+            dropdownButton.addEventListener('click', function (e) {
+                console.log('Dropdown clicked');
+            });
         });
-    });
     </script>
 
     <!-- Template Javascript -->
