@@ -135,54 +135,84 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0 d-none d-lg-flex">
-        <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
-            <!-- Brand and Logo -->
-            <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
-                <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
-                    style="width: 50px; height: auto;">
-                <h2 class="mb-0">Dubai Car Repair Service</h2>
-            </a>
+ <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
+    <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
+        <!-- Brand and Logo -->
+        <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
+            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3" style="width: 50px; height: auto;">
+            <h2 class="mb-0">Dubai Car Repair Service</h2>
+        </a>
 
-            <!-- Trigger Button for MMENU -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <!-- Mobile Navbar Offcanvas Trigger Button (Visible only on mobile) -->
+        <button class="custom-menu-toggle d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+            aria-controls="offcanvasMenu">
+            <i class="bi bi-list"></i>
+        </button>
+    </div>
+
+<!-- Navbar Links (Desktop) -->
+<div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
+    <div class="navbar-nav mx-auto p-0 d-flex justify-content-center align-items-center gap-4">
+        <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>
+        <a href="{{route('about')}}" class="nav-item nav-link">About</a>
+
+        <!-- Dropdown Menu for Services -->
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Service
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
+                <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
+                <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
+                <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
+                <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
+            </ul>
+        </div>
+
+        <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
+    </div>
+
+    <div class="d-flex align-items-center">
+            <a href="#booking" class="btn btn-primary py-2 px-4 ms-4 d-flex align-items-center">
+                Booking <i class="fa fa-arrow-right ms-3"></i>
+            </a>
+        </div>
+</div>
+
+
+    <!-- Mobile Navbar -->
+    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasMenu"
+        aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasMenuLabel">
+                <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
+                    <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2" style="width: 40px; height: auto;">
+                    <span>Dubai Car Repair Service</span>
+                </a>
+            </h5>
+            <button type="button" class="custom-close-button" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fas fa-times"></i>
             </button>
         </div>
-
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="{{route('home') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{route('about') }}" class="nav-item nav-link">About</a>
-
-                <!-- Dropdown Menu for Services -->
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Service
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a>
-                        </li>
-                        <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical
-                                Services</a></li>
-                        <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
-                        <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
-                        <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad
-                                Replacement</a></li>
-                    </ul>
-                </div>
-
-
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
-            </div>
-            <a href="#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Booking<i
-                    class="fa fa-arrow-right ms-3"></i></a>
+        <div class="offcanvas-body">
+            <nav class="nav flex-column">
+                <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                <a href="{{ route('mechanical-services') }}" class="nav-item nav-link">Mechanical Services</a>
+                <a href="{{ route('car-electrical-services') }}" class="nav-item nav-link">Car Electrical Services</a>
+                <a href="{{ route('vehicle-inspection') }}" class="nav-item nav-link">Vehicle Inspection</a>
+                <a href="{{ route('engine-oil-change') }}" class="nav-item nav-link">Engine Oil Change</a>
+                <a href="{{ route('car-brake-pad-replacement') }}" class="nav-item nav-link">Car Brake Pad Replacement</a>
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+            </nav>
         </div>
-    </nav>
-    <!-- Navbar End -->
+    </div>
+</nav>
+<!-- Navbar End -->
+
 
 
 
@@ -207,7 +237,7 @@
                     <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Al Satwa, Dubai, United Arab Emirates</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-6121423</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>rahidur11@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@dubaicarrepairservice.com</p>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-light mb-4">Services</h4>

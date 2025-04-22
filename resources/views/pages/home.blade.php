@@ -14,10 +14,7 @@
 
             <!-- Mobile Navigation -->
             <div class="d-flex d-lg-none nav-mobile position-absolute" style="right: 10px; z-index: 100;">
-                <button class="custom-menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
-                    aria-controls="offcanvasMenu">
-                    <i class="bi bi-list"></i>
-                </button>
+
 
 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
