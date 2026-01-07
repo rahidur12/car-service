@@ -168,13 +168,17 @@
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Service
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
-                <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
-                <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
-                <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
-                <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
-            </ul>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
+                    <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
+                    <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
+                    <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
+                    <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
+                    <li><a class="dropdown-item" href="{{route('car-maintenance')}}">Car Maintenance</a></li>
+                    <li><a class="dropdown-item" href="{{route('car-repair-service')}}">Car Repair Service</a></li>
+                    <li><a class="dropdown-item" href="{{route('car-repair-center')}}">Car Repair Center</a></li>
+                    <li><a class="dropdown-item" href="{{route('car-battery-replacement')}}">Car Battery Replacement</a></li>
+                </ul>
         </div>
 
         <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
@@ -210,6 +214,10 @@
                 <a href="{{ route('vehicle-inspection') }}" class="nav-item nav-link">Vehicle Inspection</a>
                 <a href="{{ route('engine-oil-change') }}" class="nav-item nav-link">Engine Oil Change</a>
                 <a href="{{ route('car-brake-pad-replacement') }}" class="nav-item nav-link">Car Brake Pad Replacement</a>
+                <a href="{{ route('car-maintenance') }}" class="nav-item nav-link">Car Maintenance</a>
+                <a href="{{ route('car-repair-service') }}" class="nav-item nav-link">Car Repair Service</a>
+                <a href="{{ route('car-repair-center') }}" class="nav-item nav-link">Car Repair Center</a>
+                <a href="{{ route('car-battery-replacement') }}" class="nav-item nav-link">Car Battery Replacement</a>
                 <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
             </nav>
         </div>
@@ -247,6 +255,10 @@
                     <a class="btn btn-link" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a>
                     <a class="btn btn-link" href="{{route('engine-oil-change')}}">Engine Oil Change</a>
                     <a class="btn btn-link" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a>
+                    <a class="btn btn-link" href="{{route('car-maintenance')}}">Car Maintenance</a>
+                    <a class="btn btn-link" href="{{route('car-repair-service')}}">Car Repair Service</a>
+                    <a class="btn btn-link" href="{{route('car-repair-center')}}">Car Repair Center</a>
+                    <a class="btn btn-link" href="{{route('car-battery-replacement')}}">Car Battery Replacement</a>
                 </div>
                 <div class="row  mt-5 align-items-center">
                     <div class="col-2">

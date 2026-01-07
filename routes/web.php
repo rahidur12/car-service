@@ -79,6 +79,45 @@ Route::get('/car-brake-pad-replacement', function () {
 })->name('car-brake-pad-replacement');
 
 
+Route::get('/car-maintenance-dubai', function () {
+    $meta_keywords = "car maintenance dubai, car service dubai, auto maintenance dubai, vehicle maintenance dubai, car maintenance service, periodic maintenance dubai";
+    $meta_description = "Professional and affordable car maintenance service in Dubai by Dubai Car Repair Service. Complete vehicle maintenance solutions for all car brands.";
+
+    return view('pages.service.car_maintenance',
+        compact('meta_keywords','meta_description')
+    );
+})->name('car-maintenance');
+
+
+Route::get('/car-repair-service-dubai', function () {
+    $meta_keywords = "car repair service dubai, car repair dubai, auto repair dubai, car repair shop dubai, vehicle repair dubai, car garage dubai";
+    $meta_description = "Reliable and professional car repair service in Dubai. Expert auto repair solutions for all vehicle types. Call 056-6121423 for trusted repairs.";
+
+    return view('pages.service.car_repair_service',
+        compact('meta_keywords','meta_description')
+    );
+})->name('car-repair-service');
+
+
+Route::get('/car-repair-center-dubai', function () {
+    $meta_keywords = "car repair center dubai, auto repair center dubai, car service center dubai, vehicle repair center dubai, professional car repair dubai";
+    $meta_description = "Trusted and professional car repair center in Dubai. Modern facilities, certified technicians, and complete auto repair services. Call 056-6121423.";
+
+    return view('pages.service.car_repair_center',
+        compact('meta_keywords','meta_description')
+    );
+})->name('car-repair-center');
+
+
+Route::get('/car-battery-replacement-dubai', function () {
+    $meta_keywords = "car battery replacement dubai, battery replacement dubai, car battery service dubai, battery change dubai, emergency battery replacement dubai";
+    $meta_description = "Fast and affordable car battery replacement in Dubai. On-site and workshop service for all vehicles. Professional installation with warranty. Call 056-6121423.";
+
+    return view('pages.service.car_battery_replacement',
+        compact('meta_keywords','meta_description')
+    );
+})->name('car-battery-replacement');
+
 Route::get('/contact', function () {
     $meta_keywords = "car,service";
     $meta_description = "car,service";

@@ -41,6 +41,7 @@
                             <a href="{{ route('engine-oil-change') }}" class="nav-item nav-link">Engine Oil Change</a>
                             <a href="{{ route('car-brake-pad-replacement') }}" class="nav-item nav-link">Car Brake Pad
                                 Replacement</a>
+                            <a href="{{ route('car-maintenance') }}" class="nav-item nav-link">Car Maintenance</a>
                         </nav>
                     </div>
                 </div>
