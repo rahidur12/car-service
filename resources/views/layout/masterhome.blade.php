@@ -8,24 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11224625343"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-11224625343');
-    </script>
-
-    <!-- Event snippet for Phone call lead (1) conversion page -->
-    <script>
-        gtag('event', 'conversion', { 'send_to': 'AW-11224625343/HyL3CL-Nmq8YEL_hqOgp' });
-    </script>
-
-
-
-
     <meta charset="utf-8">
     <title>Dubai Car Repair Service</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
