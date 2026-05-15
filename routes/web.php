@@ -106,7 +106,7 @@ Route::get('/car-maintenance-dubai', function () {
     $meta_description = "Complete car maintenance services in Dubai to keep your vehicle running smoothly and avoid breakdowns.";
 
     return view('pages.service.car_maintenance', compact('meta_keywords', 'meta_description'));
-})->name('car-maintenance-dubai');
+})->name('car-maintenance'); // ✅ FIXED
 
 
 // ================= CAR REPAIR SERVICE =================
