@@ -253,26 +253,28 @@
                     <a class="btn btn-link" href="{{route('car-repair-center')}}">Car Repair Center</a>
                     <a class="btn btn-link" href="{{route('car-battery-replacement')}}">Car Battery Replacement</a>
                 </div>
-                <div class="row  mt-5 align-items-center">
-                    <div class="col-2">
-                        <img class="img-fluid mt-2" style="width:110px" src="{{asset('public/img/c1.png')}}">
+                    <div class="row mt-5 align-items-center justify-content-center">
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c1.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c2.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c3.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c4.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c6.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:120px" src="{{asset('public/img/c2.png')}}">
-                    </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:100px" src="{{asset('public/img/c3.png')}}">
-                    </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:100px" src="{{asset('public/img/c4.png')}}">
-                    </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:120px" src="{{asset('public/img/c5.png')}}">
-                    </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:100px" src="{{asset('public/img/c6.png')}}">
-                    </div>
-                </div>
             </div>
         </div>
     </div>

@@ -122,7 +122,7 @@
     <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
         <!-- Brand and Logo -->
         <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
-            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3" style="width: 50px; height: auto;">
+            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3" style="width: 60px; height: auto;">
             <h2 class="mb-0">Dubai Car Repair Service</h2>
         </a>
 
@@ -239,26 +239,28 @@
                     <a class="btn btn-link" href="{{route('car-maintenance')}}">Car Maintenance</a>
                     <a class="btn btn-link" href="{{route('car-repair-service')}}">Car Repair Service</a>
                 </div>
-                <div class="row  mt-5 align-items-center">
-                    <div class="col-2">
-                        <img class="img-fluid mt-2" style="width:110px" src="{{asset('public/img/c1.png')}}">
+                    <div class="row mt-5 align-items-center justify-content-center">
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c1.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c2.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c3.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c4.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                            <img class="img-fluid" src="{{asset('public/img/c6.png')}}" 
+                                style="height: 60px; width: 100%; object-fit: contain;">
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:120px" src="{{asset('public/img/c2.png')}}">
-                    </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:100px" src="{{asset('public/img/c3.png')}}">
-                    </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:100px" src="{{asset('public/img/c4.png')}}">
-                    </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:120px" src="{{asset('public/img/c5.png')}}">
-                    </div>
-                    <div class="col-2">
-                        <img class="img-fluid" style="width:100px" src="{{asset('public/img/c6.png')}}">
-                    </div>
-                </div>
             </div>
         </div>
     </div>

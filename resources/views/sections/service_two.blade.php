@@ -12,35 +12,35 @@
                     <div class="nav w-100 nav-pills me-4">
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
                             <!-- <i class="fa fa-car-side fa-2x me-3"></i> -->
-                            <h4 class="m-0">Diagnostic Test</h4>
+                            <h4 class="m-0">Car Inspections</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
                             <!-- <i class="fa fa-engine fa-2x me-3"></i> -->
                             <!-- <i class="fa-sharp fa-regular fa-engine fa-2x me-3"></i> -->
-                            <h4 class="m-0">Engine Servicing</h4>
+                            <h4 class="m-0">Engine Repair & Service</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
                             <!-- <i class="fa fa-cog fa-2x me-3"></i> -->
                             <i class="fa-regular fa-tire"></i>
-                            <h4 class="m-0">Tires Replacement</h4>
+                            <h4 class="m-0">Tyre Replacement & Alignment</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
                             <!-- <i class="fa fa-oil-can fa-2x me-3"></i> -->
-                            <h4 class="m-0">Oil Changing</h4>
+                            <h4 class="m-0">Engine Oil & Filter Change</h4>
                         </button>
 
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-5" type="button">
                             <!-- <i class="fa fa-oil-can fa-2x me-3"></i> -->
                             <!-- <i class="fa fa-car-battery fa-2x me-3"></i> -->
                             
-                            <h4 class="m-0">Car Battery</h4>
+                            <h4 class="m-0">Car Battery Replacement</h4>
                         </button>
 
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-6" type="button">
                             <!-- <i class="fa fa-oil-can fa-2x me-3"></i> -->
                             <!-- <i class="fa-solid fa-air-conditioner fa-2x me-3"></i> -->
                          
-                            <h4 class="m-0">Car AC</h4>
+                            <h4 class="m-0">Car AC Repair & Gas Refill</h4>
                         </button>
                     </div>
                 </div>
@@ -50,13 +50,13 @@
                             <div class="row g-4">
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/s1.jpg')}}"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service1.webp')}}"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
-                                    <h3 class="mb-3">Car Diagnostic Test</h3>
-                                    <p class="mb-4">Our car diagnostic service identifies potential problems before they cause major damage or require expensive repairs. Get peace of mind with our comprehensive evaluation of your vehicle's systems and components.</p>
+                                    <h3 class="mb-3">Advanced Car Diagnostic Test</h3>
+                                    <p class="mb-4">Our professional car diagnostic service uses state-of-the-art scanning tools to identify hidden engine faults and electrical issues. We provide a comprehensive vehicle health report to prevent costly repairs and ensure peak performance.</p>
                                 </div>
                             </div>
                         </div>
@@ -64,13 +64,13 @@
                             <div class="row g-4">
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/s2.jpg')}}"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service2.webp')}}"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
-                                    <h3 class="mb-3">Engine Servicing With Expert Mechanic</h3>
-                                    <p class="mb-4">Our car engine service ensures your vehicle runs smoothly and efficiently. We perform a comprehensive inspection and maintenance of your engine, including oil changes, tune-ups, and repairs.</p>
+                                    <h3 class="mb-3">Expert Engine Repair & Servicing</h3>
+                                    <p class="mb-4">Keep your vehicle running like new with our expert engine maintenance. From minor tune-ups to major engine overhauls, our certified mechanics handle everything including timing belts, fuel systems, and performance optimization.</p>                                    
                                 </div>
                             </div>
                         </div>
@@ -78,14 +78,13 @@
                             <div class="row g-4">
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/s3.jpg')}}"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service3.webp')}}"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
-                                    <h3 class="mb-3">Tire Repair and Replacement</h3>
-                                    <p class="mb-4">We provide quick, reliable, and affordable tire replacement services. Our team of experienced technicians will get you back on the road in no time.</p>
-                            
+                                    <h3 class="mb-3">Tyre Replacement & Wheel Alignment</h3>
+                                    <p class="mb-4">Drive safely with our premium tyre services. We offer professional tyre fitting, precision wheel balancing, and 3D alignment to improve fuel efficiency and extend the life of your tyres across all major brands.</p>
                                 </div>
                             </div>
                         </div>
@@ -93,13 +92,13 @@
                             <div class="row g-4">
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/s4.jpg')}}"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service4.webp')}}"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
-                                    <h3 class="mb-3">Engine Oil Change</h3>
-                                    <p class="mb-4">Get your car's engine oil changed by our expert mechanics. We use high-quality oil and filters to keep your engine running smoothly. Book an appointment today!</p>
+                                    <h3 class="mb-3">Premium Engine Oil & Filter Change</h3>
+                                    <p class="mb-4">Ensure long-lasting engine life with our high-quality synthetic oil change service. We replace your oil and filters using manufacturer-approved products to keep your engine lubricated and running cool under high temperatures.</p>
                                 </div>
                             </div>
                         </div>
@@ -109,14 +108,13 @@
                             <div class="row g-4">
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/s5.jpg')}}"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service5.webp')}}"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
-                                    <h3 class="mb-3">Car Battery Change</h3>
-                                    <p class="mb-4">We offer a fast and affordable car battery change service. Our experienced technicians will quickly diagnose your battery and install a new one, so you can get back on the road in no time.</p>
-                            
+                                    <h3 class="mb-3">Professional Car Battery Replacement</h3>
+                                    <p class="mb-4">Never get stranded again. We provide on-the-spot battery health checks and fast replacement services with top-tier brands. Our technicians ensure proper installation and professional testing of your vehicle's charging system.</p> 
                                 </div>
                             </div>
                         </div>
@@ -125,14 +123,13 @@
                             <div class="row g-4">
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/s6.jpg')}}"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service6.webp')}}"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
-                                    <h3 class="mb-3">Car AC Servicing</h3>
-                                    <p class="mb-4">We offer a comprehensive car AC servicing that includes checking the refrigerant levels, cleaning the coils, and replacing any worn or damaged parts. Our services will keep your car's AC system running smoothly and efficiently.</p>
-                            
+                                    <h3 class="mb-3">Car AC Repair & Refrigerant Refill</h3>
+                                    <p class="mb-4">Stay cool in the heat with our comprehensive AC servicing. We specialize in refrigerant gas refills, leak detection, and compressor repairs to restore your vehicle's cooling system to factory standards.</p> 
                                 </div>
                             </div>
                         </div>

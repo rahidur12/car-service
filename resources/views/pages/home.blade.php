@@ -22,7 +22,7 @@
                         <h5 class="offcanvas-title" id="offcanvasMenuLabel">
                             <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
                                 <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2"
-                                    style="width: 40px; height: auto;">
+                                    style="width: 60px; height: auto;">
                                 <span>Dubai Car Repair Service</span>
                             </a>
                         </h5>
@@ -52,61 +52,73 @@
             <!-- Carousel Content -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('public/img/img2.jpg') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('public/img/hero2.webp') }}" alt="Image"
+                        style="height: 100vh; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
-                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">We Provide Roadside
-                                        Assistance Anywhere In Dubai City</h1>
+                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Roadside Assistance
+                                        Anywhere in Dubai City</h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Within 30 minutes!</h5>
-                                    <div
-                                        class="elementor-button-wrapper d-flex gap-2 flex-wrap justify-content-lg-start justify-content-center">
-                                        <a href="tel:0566121423"
-                                            class="btn btn-primary rounded-pill shadow-sm d-flex align-items-center justify-content-center px-4 py-2">
+                                    <div class="elementor-button-wrapper d-flex gap-2 flex-wrap justify-content-lg-start justify-content-center"
+                                        style="max-width:100%; align-items:center;">
+                                        <!-- CALL BUTTON -->
+                                        <a href="tel:0566121423" class="btn btn-primary rounded-pill shadow-sm" style="display:inline-flex; align-items:center; justify-content:center;
+                                            padding:10px 22px; font-size:16px;
+                                            white-space:nowrap; width:auto;
+                                            flex:0 0 auto; flex-shrink:0;">
+
                                             <i class="bi bi-telephone-outbound me-2"></i>
                                             <span>Call Us</span>
                                         </a>
-                                        <a href="https://wa.me/971566121423"
-                                            class="btn btn-success rounded-pill shadow-sm d-flex align-items-center justify-content-center px-4 py-2">
+                                        <!-- WHATSAPP BUTTON -->
+                                        <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill shadow-sm"
+                                            style="display:inline-flex; align-items:center; justify-content:center;
+                                            padding:10px 22px; font-size:16px;
+                                            white-space:nowrap; width:auto;
+                                            flex:0 0 auto; flex-shrink:0;">
                                             <i class="fab fa-whatsapp me-2"></i>
                                             <span>WhatsApp Us</span>
                                         </a>
                                     </div>
-
-
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{ asset('public/img/img1.jpg') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('public/img/hero1.webp') }}" alt="Image"
+                        style="height: 100vh; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
-                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Express Car Services at
-                                        Your Place</h1>
+                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Best Car Repair Services
+                                        at Your Doorstep in Dubai</h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Available Every Day!
                                     </h5>
-                                    <div
-                                        class="elementor-button-wrapper d-flex gap-2 flex-wrap justify-content-lg-start justify-content-center">
-                                        <a href="tel:0566121423"
-                                            class="btn btn-primary rounded-pill shadow-sm d-flex align-items-center justify-content-center px-4 py-2">
+                                    <div class="elementor-button-wrapper d-flex gap-2 flex-wrap justify-content-lg-start justify-content-center"
+                                        style="max-width:100%; align-items:center;">
+                                        <!-- CALL BUTTON -->
+                                        <a href="tel:0566121423" class="btn btn-primary rounded-pill shadow-sm" style="display:inline-flex; align-items:center; justify-content:center;
+                                            padding:10px 22px; font-size:16px;
+                                            white-space:nowrap; width:auto;
+                                            flex:0 0 auto; flex-shrink:0;">
+
                                             <i class="bi bi-telephone-outbound me-2"></i>
                                             <span>Call Us</span>
                                         </a>
-                                        <a href="https://wa.me/971566121423"
-                                            class="btn btn-success rounded-pill shadow-sm d-flex align-items-center justify-content-center px-4 py-2">
+                                        <!-- WHATSAPP BUTTON -->
+                                        <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill shadow-sm"
+                                            style="display:inline-flex; align-items:center; justify-content:center;
+                                            padding:10px 22px; font-size:16px;
+                                            white-space:nowrap; width:auto;
+                                            flex:0 0 auto; flex-shrink:0;">
                                             <i class="fab fa-whatsapp me-2"></i>
                                             <span>WhatsApp Us</span>
                                         </a>
                                     </div>
-
-
                                 </div>
                             </div>
                         </div>
