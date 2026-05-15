@@ -32,7 +32,7 @@
     <meta content="{{$meta_description}}" name="description">
 
     <!-- Favicon -->
-    <link href="{{asset('public/img/favicon.ico')}}" rel="icon">
+    <link href="{{asset('public/img/logo-round.png')}}" rel="icon" type="image/webp">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/counterup/1.0.0/jquery.counterup.min.js"></script>

@@ -15,113 +15,88 @@ use Illuminate\Support\Facades\Request;
 |
 */
 
+// Consolidated Homepage Route (Removed duplicate /home)
 Route::get('/', function () {
-    $meta_keywords = "car,service";
-    $meta_description = "car,service";
-    return view('pages.home',compact('meta_keywords','meta_description'));
-});
-
-Route::get('/home', function () {
-    $meta_keywords = "car,service";
-    $meta_description = "car,service";
-    return view('pages.home',compact('meta_keywords','meta_description'));
+    $meta_keywords = "car repair dubai, auto workshop al satwa, car maintenance dubai, professional mechanic dubai";
+    $meta_description = "Dubai Car Repair Service provides expert automotive solutions in Al Satwa. From engine diagnostics to routine maintenance, our certified technicians ensure your vehicle performs at its best. Call 056-6121423 for a booking.";
+    return view('pages.home', compact('meta_keywords', 'meta_description'));
 })->name('home');
 
 Route::get('/about', function () {
-    $meta_keywords = "car,service";
-    $meta_description = "car,service";
-    return view('pages.about',compact('meta_keywords','meta_description'));
+    $meta_keywords = "about us, car repair experts dubai, professional mechanics, automotive excellence";
+    $meta_description = "Learn more about Dubai Car Repair Service. With years of experience and a passion for automotive excellence, we are dedicated to providing reliable and transparent car repair services to the Dubai community.";
+    return view('pages.about', compact('meta_keywords', 'meta_description'));
 })->name('about');
 
 Route::get('/service', function () {
-    $meta_keywords = "car,service";
-    $meta_description = "car,service";
-    return view('pages.service',compact('meta_keywords','meta_description'));
+    $meta_keywords = "car services dubai, mechanical electrical repair, oil change, battery replacement, brake service";
+    $meta_description = "Explore our wide range of professional car services. We offer complete mechanical repairs, electrical diagnostics, oil changes, and preventive maintenance to keep your car running smoothly in Dubai's conditions.";
+    return view('pages.service', compact('meta_keywords', 'meta_description'));
 })->name('service');
 
 Route::get('/gallery', function () {
-    $meta_keywords = "car,service";
-    $meta_description = "car,service";
-    return view('pages.gallery',compact('meta_keywords','meta_description'));
+    $meta_keywords = "car repair gallery, workshop photos, car service portfolio, automotive work dubai";
+    $meta_description = "See our work in action. Browse our gallery to view our modern workshop facilities and the high-quality automotive repair and maintenance services we provide for our valued clients.";
+    return view('pages.gallery', compact('meta_keywords', 'meta_description'));
 })->name('gallery');
 
-
 Route::get('/mechanical-services', function () {
-    $meta_keywords = "mechanical services, mechanical technical services, mechanical engineering services, car mechanic, car mechanic near me, mobile car mechanic, car mechanic service, car body mechanic, car door handle mechanism, best car mechanic, mobile car mechanic dubai, car mechanic dubai";
-    $meta_description = "Explore reliable mechanical services, including mechanical engineering expertise, and top-notch car mechanic solutions. Find the best car mechanics near you, offering mobile car mechanic services and car body repairs. Whether you need assistance with car door handle mechanisms or general car maintenance, our skilled team has you covered. Discover the leading car mechanic services in Dubai, providing expert solutions to keep your vehicle in optimal condition.";
-    return view('pages.service.mechanical_services',compact('meta_keywords','meta_description'));
+    $meta_keywords = "mechanical services, engine repair dubai, car mechanic, mobile mechanic, suspension repair";
+    $meta_description = "Expert mechanical services for all vehicle brands. From engine overhauls to suspension and transmission repairs, our skilled mechanics provide reliable solutions to keep your car in top condition.";
 })->name('mechanical-services');
 
 Route::get('/car-electrical-services', function () {
-    $meta_keywords = "auto electrical services, advertise electrical services, electric motor service, electric motor service near me, abs electrical services, best electrical services in Dubai, electric range repair service, electric service and repair, electrical service company near me, electrical wiring repair service, general electric products and services, car electrical services, car electrical shop near me, car electrical repair, car electrical shop, car electrical problems repair, car electrical repair shops near me, car electrical tester, car electrical services, car electrical workshop, car electrical diagnostic near me";
-    $meta_description = "Discover top-notch auto electrical services and electric motor service options, including ABS electrical services and electrical wiring repairs. Find the best electrical service companies near you in Dubai. Whether you need car electrical services, car electrical repairs, or car electrical diagnostics, we've got you covered. Explore our services for general electric products, advertising electrical services, and electric motor service solutions. Trust us for comprehensive electrical service and repair, including electric range repair services. We're your one-stop destination for all your auto electrical needs.";
-    return view('pages.service.car_electrical_services',compact('meta_keywords','meta_description'));
+    $meta_keywords = "car electrical repair, auto electrical services dubai, battery diagnostic, alternator repair, car wiring";
+    $meta_description = "Comprehensive auto electrical services in Dubai. We specialize in diagnosing and repairing complex electrical issues, including battery problems, alternator issues, and computerized engine diagnostics.";
+    return view('pages.service.car_electrical_services', compact('meta_keywords', 'meta_description'));
 })->name('car-electrical-services');
 
-
 Route::get('/vehicle-inspection', function () {
-    $meta_keywords = "vehicle inspection, vehicle inspection near me, vehicle inspection dubai, vehicle testing center, vehicle testing center near me, vehicle testing, vehicle testing dubai, car inspection, car inspection dubai, car inspection near me, pre purchase car inspection dubai, cars vehicle testing centre, speed vehicle testing";
-    $meta_description = "Welcome to our vehicle inspection and testing services. We provide comprehensive car and vehicle inspection in Dubai, as well as nearby testing centers. Whether you need a pre-purchase car inspection or general vehicle testing, our experts are here to help. Explore our services and visit our vehicle testing center near you for reliable car inspection and testing in Dubai.";
-    return view('pages.service.vehicle_inspection',compact('meta_keywords','meta_description'));
+    $meta_keywords = "vehicle inspection dubai, pre-purchase inspection, car testing center, health check dubai";
+    $meta_description = "Professional vehicle inspection and testing services in Dubai. Our comprehensive health checks and pre-purchase inspections give you complete peace of mind before you buy or travel.";
+    return view('pages.service.vehicle_inspection', compact('meta_keywords', 'meta_description'));
 })->name('vehicle-inspection');
 
 Route::get('/engine-oil-change', function () {
-    $meta_keywords = "oil change service, oil change, oil change near me, car oil change near me, car oil change dubai, car oil change, oil change dubai, engine oil change, transmission oil change, engine oil change near me, oil change total, bike engine oil change, car oil change price in dubai, oil change service near me";
-    $meta_description = "Discover top-notch oil change services in Dubai and nearby areas. Our expert team offers efficient car and engine oil change solutions at competitive prices. Find the nearest locations for quick oil change services near you. We provide transmission oil change, bike engine oil change, and a variety of oil change options to keep your vehicle in optimal condition. Explore our services and pricing for car oil change in Dubai and experience the convenience of professional oil change service near you.";
-    return view('pages.service.engine_oil_change',compact('meta_keywords','meta_description'));
+    $meta_keywords = "oil change dubai, engine oil service, transmission fluid change, synthetic oil change";
+    $meta_description = "Quick and professional engine oil change services in Dubai. We use premium lubricants and filters to extend the life of your engine and ensure peak performance on the road.";
+    return view('pages.service.engine_oil_change', compact('meta_keywords', 'meta_description'));
 })->name('engine-oil-change');
 
-
 Route::get('/car-brake-pad-replacement', function () {
-    $meta_keywords = "brake pads service, brake shoe, brake pad replacement, brake cleaner, brake lining, car brake pads, brake cylinder, brake light, brake oil, brake pads price, hydraulic brakes, only brakes auto repairing, front brake pads, advanced braking system, auto brake repair near me, best brake pad replacement near me, blue print brake pads review, brake caliper set, brake service near me cheap, brake shoe adjuster, pan brake, silver brake";
-    $meta_description = "Explore a wide range of brake services and components, including brake pads service, brake shoe replacement, brake cleaner, brake lining, and more. Find top-quality car brake pads, brake oil, and brake cylinder solutions at competitive prices. Whether you need advanced braking system repairs or front brake pad replacements, discover auto brake repair options near you. Read Blue Print brake pads reviews and find the best brake pad replacement services in your area. Trust us for brake caliper sets, hydraulic brake repairs, and affordable brake services. Your one-stop destination for all your brake-related needs.";
-    return view('pages.service.car_brake_pad_replacement',compact('meta_keywords','meta_description'));
+    $meta_keywords = "brake pad replacement, car brake service, hydraulic brakes repair, brake shoe replacement";
+    $meta_description = "Ensure your safety with our expert brake services. We offer brake pad replacement, brake fluid flushing, and full hydraulic system repairs using high-quality parts for maximum stopping power.";
+    return view('pages.service.car_brake_pad_replacement', compact('meta_keywords', 'meta_description'));
 })->name('car-brake-pad-replacement');
 
-
 Route::get('/car-maintenance-dubai', function () {
-    $meta_keywords = "car maintenance dubai, car service dubai, auto maintenance dubai, vehicle maintenance dubai, car maintenance service, periodic maintenance dubai";
-    $meta_description = "Professional and affordable car maintenance service in Dubai by Dubai Car Repair Service. Complete vehicle maintenance solutions for all car brands.";
-
-    return view('pages.service.car_maintenance',
-        compact('meta_keywords','meta_description')
-    );
+    $meta_keywords = "periodic car maintenance, vehicle service dubai, affordable car maintenance, car checkup";
+    $meta_description = "Stay ahead of repairs with professional car maintenance in Dubai. Our scheduled service plans are designed to prevent breakdowns and maintain your vehicle's resale value.";
+    return view('pages.service.car_maintenance', compact('meta_keywords', 'meta_description'));
 })->name('car-maintenance');
 
-
 Route::get('/car-repair-service-dubai', function () {
-    $meta_keywords = "car repair service dubai, car repair dubai, auto repair dubai, car repair shop dubai, vehicle repair dubai, car garage dubai";
-    $meta_description = "Reliable and professional car repair service in Dubai. Expert auto repair solutions for all vehicle types. Call 056-6121423 for trusted repairs.";
-
-    return view('pages.service.car_repair_service',
-        compact('meta_keywords','meta_description')
-    );
+    $meta_keywords = "car repair dubai, auto repair shop, car garage satwa, vehicle repair solutions";
+    $meta_description = "Reliable and professional car repair services in Dubai. We provide expert auto repair solutions for all makes and models, ensuring your vehicle is back on the road quickly.";
+    return view('pages.service.car_repair_service', compact('meta_keywords', 'meta_description'));
 })->name('car-repair-service');
 
-
 Route::get('/car-repair-center-dubai', function () {
-    $meta_keywords = "car repair center dubai, auto repair center dubai, car service center dubai, vehicle repair center dubai, professional car repair dubai";
-    $meta_description = "Trusted and professional car repair center in Dubai. Modern facilities, certified technicians, and complete auto repair services. Call 056-6121423.";
-
-    return view('pages.service.car_repair_center',
-        compact('meta_keywords','meta_description')
-    );
+    $meta_keywords = "certified car repair center, modern auto garage, specialized car workshop dubai";
+    $meta_description = "Visit our state-of-the-art car repair center in Dubai. Featuring modern diagnostic equipment and certified technicians, we provide the highest standard of automotive care.";
+    return view('pages.service.car_repair_center', compact('meta_keywords', 'meta_description'));
 })->name('car-repair-center');
 
-
 Route::get('/car-battery-replacement-dubai', function () {
-    $meta_keywords = "car battery replacement dubai, battery replacement dubai, car battery service dubai, battery change dubai, emergency battery replacement dubai";
-    $meta_description = "Fast and affordable car battery replacement in Dubai. On-site and workshop service for all vehicles. Professional installation with warranty. Call 056-6121423.";
-
-    return view('pages.service.car_battery_replacement',
-        compact('meta_keywords','meta_description')
-    );
+    $meta_keywords = "emergency battery replacement, car battery dubai, on-site battery change, car battery price";
+    $meta_description = "Fast and affordable car battery replacement in Dubai. We offer on-site battery testing and installation with a full warranty to get you moving again in no time.";
+    return view('pages.service.car_battery_replacement', compact('meta_keywords', 'meta_description'));
 })->name('car-battery-replacement');
 
 Route::get('/contact', function () {
-    $meta_keywords = "car,service";
-    $meta_description = "car,service";
-    return view('pages.contact',compact('meta_keywords','meta_description'));
+    $meta_keywords = "contact dubai car repair, booking car service, al satwa workshop location, mechanic phone number";
+    $meta_description = "Get in touch with Dubai Car Repair Service today. Visit our workshop in Al Satwa or call us at 056-6121423 to book your service or get a free estimate.";
+    return view('pages.contact', compact('meta_keywords', 'meta_description'));
 })->name('contact');
 
 Route::post('/send_booking_mail',[BookingController::class,'send_booking_mail'])->name("send_booking_mail");

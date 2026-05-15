@@ -252,3 +252,20 @@
       height: 150px; /* Reduced height so it doesn't overwhelm the phone screen */
     }
   }
+
+
+  /* Stop all CSS animations, transitions, and smooth scrolling */
+*, *::before, *::after {
+    /* Stops CSS keyframe animations */
+    animation: none !important;
+    
+    /* Stops smooth transitions (fades, slides, etc.) */
+    transition: none !important;
+    
+    /* Forces durations to zero just in case */
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+    
+    /* Stops smooth scrolling behavior */
+    scroll-behavior: auto !important;
+}
