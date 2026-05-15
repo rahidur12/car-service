@@ -238,3 +238,17 @@
     background-color: #00454A;
     transform: rotate(90deg);
 }
+
+/* Desktop View */
+  .service-container {
+    overflow: hidden; 
+    height: 400px;
+    width: 100%;
+  }
+
+  /* Phone View */
+  @media (max-width: 767px) {
+    .service-container {
+      height: 150px; /* Reduced height so it doesn't overwhelm the phone screen */
+    }
+  }
