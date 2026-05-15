@@ -51,7 +51,7 @@
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service1.webp')}}"
-                                            style="object-fit: cover;" alt="">
+                                            width="600" height="350" style="object-fit: cover;" loading="lazy" alt="Advanced Car Diagnostic Test">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
@@ -65,7 +65,7 @@
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service2.webp')}}"
-                                            style="object-fit: cover;" alt="">
+                                            width="600" height="350" style="object-fit: cover;" loading="lazy" alt="Expert Engine Repair & Servicing">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
@@ -79,7 +79,7 @@
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service3.webp')}}"
-                                            style="object-fit: cover;" alt="">
+                                            width="600" height="350" style="object-fit: cover;" loading="lazy" alt="Tyre Replacement & Wheel Alignment">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
@@ -93,7 +93,7 @@
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service4.webp')}}"
-                                            style="object-fit: cover;" alt="">
+                                            width="600" height="350" style="object-fit: cover;" loading="lazy" alt="Premium Engine Oil & Filter Change">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
@@ -109,7 +109,7 @@
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service5.webp')}}"
-                                            style="object-fit: cover;" alt="">
+                                            width="600" height="350" style="object-fit: cover;" loading="lazy" alt="Professional Car Battery Replacement">
                                     </div>
                                 </div>
                                 <div class="col-md-14">
@@ -124,7 +124,7 @@
                                 <div class="col-md-14" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="{{asset('public/img/service6.webp')}}"
-                                            style="object-fit: cover;" alt="">
+                                            width="600" height="350" style="object-fit: cover;" loading="lazy" alt="Car AC Repair & Refrigerant Refill">
                                     </div>
                                 </div>
                                 <div class="col-md-14">

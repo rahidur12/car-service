@@ -19,17 +19,17 @@
                                     <input type="text" class="form-control border-0" name="name" placeholder="Your Name" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" name="email" placeholder="Your Email" style="height: 55px;">
+                                    <input type="phone" class="form-control border-0" name="phone" placeholder="Your Phone Number" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;" name="service">
                                         <option selected>Select A Service</option>
-                                        <option value="Diagnostic Test">Diagnostic Test</option>
-                                        <option value="Engine Service">Engine Service</option>
-                                        <option value="Tire Repair & Change">Tire Repair & Change</option>
-                                        <option value="Oil Change">Oil Change</option>
-                                        <option value="Car Battery">Car Battery</option>
-                                        <option value="Car AC">Car AC</option>
+                                        <option value="Diagnostic Test">Car Inspections</option>
+                                        <option value="Engine Service">Engine Repair & Service</option>
+                                        <option value="Tire Repair & Change">Tyre Replacement & Alignment</option>
+                                        <option value="Oil Change">Engine Oil & Filter Change</option>
+                                        <option value="Car Battery">Car Battery Replacement</option>
+                                        <option value="Car AC">Car AC Repair & Gas Refill</option>
                                         <option value="7">Others</option>
 
 

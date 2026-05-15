@@ -52,14 +52,15 @@
             <!-- Carousel Content -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('public/img/hero2.webp') }}" alt="Image"
+                    <img class="w-100" src="{{ asset('public/img/hero2.webp') }}" alt="Roadside Assistance
+                                        Anywhere in Dubai"
                         style="height: 100vh; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Roadside Assistance
-                                        Anywhere in Dubai City</h1>
+                                        Anywhere in Dubai</h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Within 30 minutes!</h5>
                                     <div class="elementor-button-wrapper d-flex gap-2 flex-wrap justify-content-lg-start justify-content-center"
                                         style="max-width:100%; align-items:center;">
@@ -88,14 +89,15 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{ asset('public/img/hero1.webp') }}" alt="Image"
+                    <img class="w-100" src="{{ asset('public/img/hero1.webp') }}" alt="Best Car Repair Services
+                                        at Your in Dubai"
                         style="height: 100vh; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Best Car Repair Services
-                                        at Your Doorstep in Dubai</h1>
+                                        at Your in Dubai</h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Available Every Day!
                                     </h5>
                                     <div class="elementor-button-wrapper d-flex gap-2 flex-wrap justify-content-lg-start justify-content-center"

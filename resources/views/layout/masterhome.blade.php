@@ -175,7 +175,7 @@
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasMenuLabel">
                 <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
-                    <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2" style="width: 40px; height: auto;">
+                    <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2" style="width: 60px; height: auto;">
                     <span>Dubai Car Repair Service</span>
                 </a>
             </h5>
@@ -239,7 +239,9 @@
                     <a class="btn btn-link" href="{{route('car-maintenance')}}">Car Maintenance</a>
                     <a class="btn btn-link" href="{{route('car-repair-service')}}">Car Repair Service</a>
                 </div>
-                    <div class="row mt-5 align-items-center justify-content-center">
+
+<!-- Footer Car Brand Images -->
+                    <!-- <div class="row mt-5 align-items-center justify-content-center">
                         <div class="col-4 col-md-2 mb-4">
                             <img class="img-fluid" src="{{asset('public/img/c1.png')}}" 
                                 style="height: 60px; width: 100%; object-fit: contain;">
@@ -260,7 +262,9 @@
                             <img class="img-fluid" src="{{asset('public/img/c6.png')}}" 
                                 style="height: 60px; width: 100%; object-fit: contain;">
                         </div>
-                    </div>
+                    </div> -->
+
+
             </div>
         </div>
     </div>
