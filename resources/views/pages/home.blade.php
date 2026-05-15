@@ -89,8 +89,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{ asset('public/img/hero1.webp') }}" alt="Best Car Repair Services
-                                        at Your in Dubai"
+                    <img class="w-100" src="{{ asset('public/img/hero1.webp') }}" alt="Best Car Repair Services in Dubai"
                         style="height: 100vh; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
