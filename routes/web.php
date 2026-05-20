@@ -15,11 +15,12 @@ use Illuminate\Support\Facades\Request;
 |
 */
 
-// Consolidated Homepage Route (Removed duplicate /home)
 Route::get('/', function () {
+    $meta_title = "Best Car Service Dubai | Expert Car Repair & Maintenance";
     $meta_keywords = "car repair dubai, auto workshop al satwa, car maintenance dubai, professional mechanic dubai";
-    $meta_description = "Dubai Car Repair Service provides expert automotive solutions in Al Satwa. From engine diagnostics to routine maintenance, our certified technicians ensure your vehicle performs at its best. Call 056-6121423 for a booking.";
-    return view('pages.home', compact('meta_keywords', 'meta_description'));
+    $meta_description = "Looking for the best car repair in Dubai? We offer expert mechanical, electrical, and maintenance services. Fast, reliable, and affordable. Book your service today!";
+    
+    return view('pages.home', compact('meta_title', 'meta_keywords', 'meta_description'));
 })->name('home');
 
 Route::get('/about', function () {
@@ -43,7 +44,8 @@ Route::get('/gallery', function () {
 Route::get('/mechanical-services', function () {
     $meta_keywords = "mechanical services, engine repair dubai, car mechanic, mobile mechanic, suspension repair";
     $meta_description = "Expert mechanical services for all vehicle brands. From engine overhauls to suspension and transmission repairs, our skilled mechanics provide reliable solutions to keep your car in top condition.";
-})->name('mechanical-services');
+    return view('pages.service.mechanical-services', compact('meta_keywords', 'meta_description'));
+    })->name('mechanical-services');
 
 Route::get('/car-electrical-services', function () {
     $meta_keywords = "car electrical repair, auto electrical services dubai, battery diagnostic, alternator repair, car wiring";

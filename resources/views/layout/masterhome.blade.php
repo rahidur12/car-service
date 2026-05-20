@@ -15,7 +15,7 @@
     <meta content="{{$meta_description}}" name="description">
 
     <!-- Favicon -->
-   <link href="{{asset('public/img/logo-round.png')}}" rel="icon" type="image/webp">
+    <link href="{{asset('public/img/logo-round.png')}}" rel="icon" type="image/webp">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/counterup/1.0.0/jquery.counterup.min.js"></script>
@@ -117,91 +117,100 @@
     <!-- Topbar End -->
 
 
- <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
-    <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
-        <!-- Brand and Logo -->
-        <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
-            <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3" style="width: 60px; height: auto;">
-            <h2 class="mb-0">Dubai Car Repair Service</h2>
-        </a>
-
-        <!-- Mobile Navbar Offcanvas Trigger Button (Visible only on mobile) -->
-        <button class="custom-menu-toggle d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
-            aria-controls="offcanvasMenu">
-            <i class="bi bi-list"></i>
-        </button>
-    </div>
-
-<!-- Navbar Links (Desktop) -->
-<div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
-    <div class="navbar-nav mx-auto p-0 d-flex justify-content-center align-items-center gap-4">
-        <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>
-        <a href="{{route('about')}}" class="nav-item nav-link">About</a>
-
-        <!-- Dropdown Menu for Services -->
-        <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Service
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
+        <div class="container-fluid d-flex align-items-center justify-content-between px-4 px-lg-5">
+            <!-- Brand and Logo -->
+            <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center">
+                <img src="{{asset('public/img/logo.webp')}}" alt="Logo" class="logo-img me-3"
+                    style="width: 60px; height: auto;">
+                <h2 class="mb-0">Dubai Car Repair Service</h2>
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a></li>
-                <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical Services</a></li>
-                <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
-                <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
-                <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad Replacement</a></li>
-                <li><a class="dropdown-item" href="{{route('car-maintenance')}}">Car Maintenance</a></li>
-                <li><a class="dropdown-item" href="{{route('car-repair-service')}}">Car Repair Service</a></li>
-                <li><a class="dropdown-item" href="{{route('car-repair-center')}}">Car Repair Center</a></li>
-                <li><a class="dropdown-item" href="{{route('car-battery-replacement')}}">Car Battery Replacement</a></li>
-            </ul>
-        </div>
 
-        <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
-    </div>
-
-    <div class="d-flex align-items-center">
-            <a href="#booking" class="btn btn-primary py-2 px-4 ms-4 d-flex align-items-center">
-                Booking <i class="fa fa-arrow-right ms-3"></i>
-            </a>
-        </div>
-</div>
-
-
-    <!-- Mobile Navbar -->
-    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasMenu"
-        aria-labelledby="offcanvasMenuLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasMenuLabel">
-                <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
-                    <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2" style="width: 60px; height: auto;">
-                    <span>Dubai Car Repair Service</span>
-                </a>
-            </h5>
-            <button type="button" class="custom-close-button" data-bs-dismiss="offcanvas" aria-label="Close">
-                <i class="fas fa-times"></i>
+            <!-- Mobile Navbar Offcanvas Trigger Button (Visible only on mobile) -->
+            <button class="custom-menu-toggle d-lg-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                <i class="bi bi-list"></i>
             </button>
         </div>
-        <div class="offcanvas-body">
-            <nav class="nav flex-column">
-                <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                <a href="{{ route('mechanical-services') }}" class="nav-item nav-link">Mechanical Services</a>
-                <a href="{{ route('car-electrical-services') }}" class="nav-item nav-link">Car Electrical Services</a>
-                <a href="{{ route('vehicle-inspection') }}" class="nav-item nav-link">Vehicle Inspection</a>
-                <a href="{{ route('engine-oil-change') }}" class="nav-item nav-link">Engine Oil Change</a>
-                <a href="{{ route('car-brake-pad-replacement') }}" class="nav-item nav-link">Car Brake Pad Replacement</a>
-                <a href="{{ route('car-maintenance') }}" class="nav-item nav-link">Car Maintenance</a>
-                <a href="{{ route('car-repair-service') }}" class="nav-item nav-link">Car Repair Service</a>
-                <a href="{{ route('car-repair-center') }}" class="nav-item nav-link">Car Repair Center</a>
-                <a href="{{ route('car-battery-replacement') }}" class="nav-item nav-link">Car Battery Replacement</a>
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
-            </nav>
+
+        <!-- Navbar Links (Desktop) -->
+        <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
+            <div class="navbar-nav mx-auto p-0 d-flex justify-content-center align-items-center gap-4">
+                <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>
+                <a href="{{route('about')}}" class="nav-item nav-link">About</a>
+
+                <!-- Dropdown Menu for Services -->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Service
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{route('mechanical-services')}}">Mechanical Services</a>
+                        </li>
+                        <li><a class="dropdown-item" href="{{route('car-electrical-services')}}">Car Electrical
+                                Services</a></li>
+                        <li><a class="dropdown-item" href="{{route('vehicle-inspection')}}">Vehicle Inspection</a></li>
+                        <li><a class="dropdown-item" href="{{route('engine-oil-change')}}">Engine Oil Change</a></li>
+                        <li><a class="dropdown-item" href="{{route('car-brake-pad-replacement')}}">Car Brake Pad
+                                Replacement</a></li>
+                        <li><a class="dropdown-item" href="{{route('car-maintenance')}}">Car Maintenance</a></li>
+                        <li><a class="dropdown-item" href="{{route('car-repair-service')}}">Car Repair Service</a></li>
+                        <li><a class="dropdown-item" href="{{route('car-repair-center')}}">Car Repair Center</a></li>
+                        <li><a class="dropdown-item" href="{{route('car-battery-replacement')}}">Car Battery
+                                Replacement</a></li>
+                    </ul>
+                </div>
+
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
+            </div>
+
+            <div class="d-flex align-items-center">
+                <a href="#booking" class="btn btn-primary py-2 px-4 ms-4 d-flex align-items-center">
+                    Booking <i class="fa fa-arrow-right ms-3"></i>
+                </a>
+            </div>
         </div>
-    </div>
-</nav>
-<!-- Navbar End -->
+
+
+        <!-- Mobile Navbar -->
+        <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasMenu"
+            aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasMenuLabel">
+                    <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
+                        <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2"
+                            style="width: 60px; height: auto;">
+                        <span>Dubai Car Repair Service</span>
+                    </a>
+                </h5>
+                <button type="button" class="custom-close-button" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="nav flex-column">
+                    <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+                    <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                    <a href="{{ route('mechanical-services') }}" class="nav-item nav-link">Mechanical Services</a>
+                    <a href="{{ route('car-electrical-services') }}" class="nav-item nav-link">Car Electrical
+                        Services</a>
+                    <a href="{{ route('vehicle-inspection') }}" class="nav-item nav-link">Vehicle Inspection</a>
+                    <a href="{{ route('engine-oil-change') }}" class="nav-item nav-link">Engine Oil Change</a>
+                    <a href="{{ route('car-brake-pad-replacement') }}" class="nav-item nav-link">Car Brake Pad
+                        Replacement</a>
+                    <a href="{{ route('car-maintenance') }}" class="nav-item nav-link">Car Maintenance</a>
+                    <a href="{{ route('car-repair-service') }}" class="nav-item nav-link">Car Repair Service</a>
+                    <a href="{{ route('car-repair-center') }}" class="nav-item nav-link">Car Repair Center</a>
+                    <a href="{{ route('car-battery-replacement') }}" class="nav-item nav-link">Car Battery
+                        Replacement</a>
+                    <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
 
 
@@ -218,7 +227,7 @@
             <div class="row g-5">
                 <div class="col-lg-4 col-md-4">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115493.43018679877!2d55.19476726826947!3d25.231208851415023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f438155692891%3A0x85f09a9921e1c24c!2sDXB%20Car%20Repair%20%7C%20Home%20%26%20Roadside%20Assistance%20-%20Dubai!5e0!3m2!1sen!2sbd!4v1698087133026!5m2!1sen!2sbd"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.644202007923!2d55.2771888!3d25.2312177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f438155692891%3A0x85f09a9921e1c24c!2sDubai%20Car%20Repair%20Service%20%7C%20Car%20Battery%20Change%20Dubai%20%7C%20Car%20Engine%20Service%20Dubai!5e1!3m2!1sen!2sbd!4v1779290540911!5m2!1sen!2sbd"
                         width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -228,6 +237,18 @@
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Al Satwa, Dubai, United Arab Emirates</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-6121423</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@dubaicarrepairservice.com</p>
+
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social me-2"
+                            href="https://www.facebook.com/share/17eHKHA45x/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social me-2"
+                            href="https://www.instagram.com/dubaicarrepairservice?igsh=MW5mOXFscXRpZWp0cg=="><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.pinterest.com/dubaicarrepairservice/"><i
+                                class="fab fa-pinterest-p"></i></a>
+                    </div>
+
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-light mb-4">Services</h4>
@@ -240,8 +261,8 @@
                     <a class="btn btn-link" href="{{route('car-repair-service')}}">Car Repair Service</a>
                 </div>
 
-<!-- Footer Car Brand Images -->
-                    <!-- <div class="row mt-5 align-items-center justify-content-center">
+                <!-- Footer Car Brand Images -->
+                <!-- <div class="row mt-5 align-items-center justify-content-center">
                         <div class="col-4 col-md-2 mb-4">
                             <img class="img-fluid" src="{{asset('public/img/c1.png')}}" 
                                 style="height: 60px; width: 100%; object-fit: contain;">

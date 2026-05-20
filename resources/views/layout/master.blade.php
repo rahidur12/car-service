@@ -26,10 +26,10 @@
 
 
     <meta charset="utf-8">
-    <title>Dubai Car Repair Service</title>
+    <title>{{ $meta_title ?? 'Dubai Car Repair Service | Best Car Repair & Maintenance in Dubai' }}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="{{$meta_keywords}}" name="keywords">
-    <meta content="{{$meta_description}}" name="description">
+    <meta content="{{ $meta_keywords ?? 'car repair dubai, auto maintenance, car service center' }}" name="keywords">
+    <meta content="{{ $meta_description ?? 'Professional car repair and maintenance in Dubai. Certified technicians, fast service, and fair prices. Book your service today!' }}" name="description">
 
     <!-- Favicon -->
     <link href="{{asset('public/img/logo-round.png')}}" rel="icon" type="image/webp">
@@ -230,7 +230,7 @@
             <div class="row g-5">
                 <div class="col-lg-4 col-md-4">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115493.43018679877!2d55.19476726826947!3d25.231208851415023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f438155692891%3A0x85f09a9921e1c24c!2sDXB%20Car%20Repair%20%7C%20Home%20%26%20Roadside%20Assistance%20-%20Dubai!5e0!3m2!1sen!2sbd!4v1698087133026!5m2!1sen!2sbd"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.644202007923!2d55.2771888!3d25.2312177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f438155692891%3A0x85f09a9921e1c24c!2sDubai%20Car%20Repair%20Service%20%7C%20Car%20Battery%20Change%20Dubai%20%7C%20Car%20Engine%20Service%20Dubai!5e1!3m2!1sen!2sbd!4v1779290540911!5m2!1sen!2sbd"
                         width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -240,6 +240,19 @@
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Al Satwa, Dubai, United Arab Emirates</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-6121423</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@dubaicarrepairservice.com</p>
+
+
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social me-2"
+                            href="https://www.facebook.com/share/17eHKHA45x/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social me-2"
+                            href="https://www.instagram.com/dubaicarrepairservice?igsh=MW5mOXFscXRpZWp0cg=="><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.pinterest.com/dubaicarrepairservice/"><i
+                                class="fab fa-pinterest-p"></i></a>
+                    </div>
+
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-light mb-4">Services</h4>
