@@ -9,10 +9,317 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 
     <meta charset="utf-8">
-    <title>Dubai Car Repair Service</title>
+    <title>{{ $meta_title ?? 'Dubai Car Repair Service | Best Car Repair & Maintenance in Dubai' }}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="{{$meta_keywords}}" name="keywords">
-    <meta content="{{$meta_description}}" name="description">
+    <meta content="{{ $meta_keywords ?? 'car repair dubai, auto maintenance, car service center' }}" name="keywords">
+    <meta content="{{ $meta_description ?? 'Professional car repair and maintenance in Dubai. Certified technicians, fast service, and fair prices. Book your service today!' }}" name="description">
+
+    <script type="application/ld+json">
+    @verbatim
+    {
+                "@context": "https://schema.org",
+                "@type": ["AutoRepair", "LocalBusiness"],
+                "@id": "https://dubaicarrepairservice.com/#localbusiness",
+                "name": "Dubai Car Repair Service | Car Battery Change Dubai | Car Engine Service Dubai",
+                "alternateName": [
+                    "Dubai Car Repair Service",
+                    "Dubai Car Repair"
+                ],
+                "url": "https://dubaicarrepairservice.com/",
+                "telephone": "+971566121423",
+                "email": "contact@dubaicarrepairservice.com",
+                "priceRange": "AED 50 – AED 1,500",
+                "currenciesAccepted": "AED",
+                "paymentAccepted": "Cash, Credit Card, Debit Card",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://dubaicarrepairservice.com/public/img/logo.webp"
+                },
+                "image": "https://dubaicarrepairservice.com/public/img/logo.webp",
+                "description": "Dubai Car Repair Service is a trusted vehicle repair shop in Al Satwa, Dubai, offering fast and reliable solutions for all car problems. Our expert mechanics handle mechanical and electrical services, car inspection, engine oil change, brake pad replacement, AC repair, and transmission work. We specialize in car battery replacement and mobile car repair across Dubai.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "222 Al Satwa Rd - Al Satwa",
+                    "addressLocality": "Dubai",
+                    "addressRegion": "Dubai",
+                    "addressCountry": "AE"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 25.23121,
+                    "longitude": 55.27718
+                },
+                "hasMap": "https://www.google.com/maps?cid=9651383983944090188",
+                "openingHoursSpecification": [
+                    {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday",
+                        "https://schema.org/Sunday"
+                    ],
+                    "opens": "07:00",
+                    "closes": "22:00"
+                    }
+                ],
+                "serviceArea": [
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Al Satwa"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Sheikh Zayed Road"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Al Quoz"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Dubai Marina"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Business Bay"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Jumeirah Village Circle (JVC)"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Al Barsha"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Downtown Dubai"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Dubai Silicon Oasis"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "Dubai Investment Park"
+                    },
+                    {
+                    "@type": "AdministrativeArea",
+                    "name": "International City"
+                    }
+                ],
+                "knowsAbout": [
+                    "Mechanical Services",
+                    "Car Electrical Services",
+                    "Car Inspection",
+                    "Engine Oil Change",
+                    "Brake Pad Replacement",
+                    "Car Maintenance Service",
+                    "Air Filter Replacement",
+                    "Exhaust Repair",
+                    "Car Battery Replacement",
+                    "Transmission Repair",
+                    "AC Repair Service"
+                ],
+                "contactPoint": [
+                    {
+                    "@type": "ContactPoint",
+                    "telephone": "+971566121423",
+                    "contactType": "customer service",
+                    "areaServed": "AE",
+                    "availableLanguage": [
+                        "English",
+                        "Arabic"
+                    ]
+                    }
+                ],
+                "sameAs": [
+                    "https://www.google.com/maps/place/Dubai+Car+Repair+Service+%7C+Car+Battery+Change+Dubai+%7C+Car+Engine+Service+Dubai/data=!4m2!3m1!1s0x0:0x85f09a9921e1c24c",
+                    "https://www.facebook.com/share/17eHKHA45x/",
+                    "https://www.instagram.com/dubaicarrepairservice?igsh=MW5mOXFscXRpZWp0cg==",
+                    "https://www.pinterest.com/dubaicarrepairservice/",
+                    "https://wa.me/971566121423"
+                ],
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Auto Repair Services in Dubai",
+                    "itemListElement": [
+                    {
+                        "@type": "Service",
+                        "name": "Mechanical Services",
+                        "serviceType": "Auto Mechanical Repair",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Car Electrical Services",
+                        "serviceType": "Automotive Electrical Repair",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Car Inspection",
+                        "serviceType": "Vehicle Inspection Service",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Engine Oil Change",
+                        "serviceType": "Car Oil Change Service",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Brake Pad Replacement",
+                        "serviceType": "Brake Repair Service",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Car Maintenance Service",
+                        "serviceType": "Vehicle Maintenance",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Air Filter Replacement",
+                        "serviceType": "Car Air Filter Service",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Exhaust Repair",
+                        "serviceType": "Car Exhaust System Repair",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Car Battery Replacement",
+                        "serviceType": "Mobile Car Battery Change",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Transmission Repair",
+                        "serviceType": "Transmission Service",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "AC Repair Service",
+                        "serviceType": "Car AC Repair",
+                        "provider": {
+                        "@id": "https://dubaicarrepairservice.com/#localbusiness"
+                        },
+                        "areaServed": "Dubai"
+                    }
+                    ]
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "reviewCount": "23"
+                },
+                "review": [
+                    {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Vivek Kumar Gautam"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "reviewBody": "Top-notch service! My car battery was replaced in no time. Highly recommend Dubai Car Repair Service!"
+                    },
+                    {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Mohammad Ashek"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "reviewBody": "Efficient and reliable! They handled my car engine service professionally. Best in Dubai."
+                    },
+                    {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Muhammad Isa"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "reviewBody": "Great experience with Dubai Car Repair Service. I called them for car AC repair in Dubai, and they came quickly and fixed the issue professionally."
+                    },
+                    {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Shahariar Hosen"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "reviewBody": "Fast service, great result. Very satisfied."
+                    },
+                    {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "MD.Shehub"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "reviewBody": "Most pleasant staff. I would recommend this garage to everyone."
+                    }
+                ]
+                }
+
+    @endverbatim
+    </script>
 
     <!-- Favicon -->
     <link href="{{asset('public/img/logo-round.png')}}" rel="icon" type="image/webp">
@@ -103,7 +410,7 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2 .nav_clr_upr{"></small>
-                    <small>Sat–Fri, 7 AM–11:30 PM</small>
+                    <small>Sat–Fri, 7 AM–10:00 PM</small>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
