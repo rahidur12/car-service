@@ -45,7 +45,7 @@
                 "url": "https://dubaicarrepairservice.com/",
                 "telephone": "+971566121423",
                 "email": "contact@dubaicarrepairservice.com",
-                "priceRange": "AED 50 – AED 1,500",
+                "priceRange": "AED 50 – AED 2,500",
                 "currenciesAccepted": "AED",
                 "paymentAccepted": "Cash, Credit Card, Debit Card",
                 "logo": {
@@ -59,6 +59,7 @@
                     "streetAddress": "222 Al Satwa Rd - Al Satwa",
                     "addressLocality": "Dubai",
                     "addressRegion": "Dubai",
+                    "postalCode": "00000",
                     "addressCountry": "AE"
                 },
                 "geo": {
