@@ -2,17 +2,19 @@
 <html lang="en">
 
 <head>
-
-    <!-- Include Bootstrap's CSS and JS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-
     <meta charset="utf-8">
-    <title>{{ $meta_title ?? 'Dubai Car Repair Service | Best Car Repair & Maintenance in Dubai' }}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <link rel="preload" fetchpriority="high" as="image" href="{{ asset('public/img/hero2.webp') }}" type="image/webp">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <title>{{ $meta_title ?? 'Dubai Car Repair Service | Best Car Repair & Maintenance in Dubai' }}</title>
     <meta content="{{ $meta_keywords ?? 'car repair dubai, auto maintenance, car service center' }}" name="keywords">
     <meta content="{{ $meta_description ?? 'Professional car repair and maintenance in Dubai. Certified technicians, fast service, and fair prices. Book your service today!' }}" name="description">
+
+
 
     <script type="application/ld+json">
     @verbatim

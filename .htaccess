@@ -19,3 +19,27 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+# ====================================================================
+# PRIORITY 5: ENABLE STATIC BROWSER CACHING FOR SPEED
+# ====================================================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # Cache Images for 1 Year (Car repair images, banners, logos)
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    
+    # Cache CSS / JavaScript for 1 Month
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    
+    # Cache Fonts for 1 Year
+    ExpiresByType application/x-font-ttf "access plus 1 year"
+    ExpiresByType font/opentype "access plus 1 year"
+</IfModule>

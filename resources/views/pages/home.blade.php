@@ -21,8 +21,7 @@
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasMenuLabel">
                             <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
-                                <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2"
-                                    style="width: 60px; height: auto;">
+                                <img src="{{ asset('public/img/logo.webp') }}" alt="Logo" class="logo-img me-2" width="60" height="60" style="width: 60px; height: auto;">
                                 <span>Dubai Car Repair Service</span>
                             </a>
                         </h5>
@@ -52,9 +51,7 @@
             <!-- Carousel Content -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('public/img/hero2.webp') }}" alt="Roadside Assistance
-                                        Anywhere in Dubai"
-                        style="height: 100vh; object-fit: cover;">
+                    <img class="w-100" src="{{ asset('public/img/hero2.webp') }}" fetchpriority="high" alt="Roadside Assistance Anywhere in Dubai" style="height: 100vh; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
@@ -145,7 +142,4 @@
     @include("sections.booking")
     @include("sections.team")
     @include("sections.testimonial")
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 @endsection
