@@ -2,6 +2,100 @@
 <html lang="en">
 
 <head>
+<style>
+/* ==========================================================================
+   FINAL COMPREHENSIVE MOBILE SPACING & IMAGE STRETCH FIX
+   ========================================================================== */
+@media (max-width: 991.98px) {
+    /* 1. Viewport boundary locking */
+    html, body {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important; 
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* 2. Force containers to use maximum mobile horizontal space */
+    .container, 
+    .container-sm, 
+    .container-md, 
+    .container-lg, 
+    .container-xl, 
+    .container-xxl {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 6px !important;   /* Minimal elegant margin */
+        padding-right: 6px !important;  /* Minimal elegant margin */
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* 3. Horizontal layout row balancing */
+    .row {
+        margin-left: -4px !important;
+        margin-right: -4px !important;
+        width: auto !important;
+    }
+
+    /* 4. Column block card width maximizing */
+    div[class^="col-"] {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+    }
+
+    /* 5. Tightened section vertical spacing gaps */
+    .py-5, 
+    #service.py-5, 
+    #about.py-5, 
+    #fact.py-5, 
+    #booking.py-5,
+    .service.py-5,
+    .team.py-5,
+    .testimonial.py-5 {
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
+    }
+
+    .text-center.mx-auto.mb-5, 
+    .section-title.mb-5,
+    .mb-5 {
+        margin-bottom: 1.25rem !important;
+    }
+
+    /* 6. AGGRESSIVE IMAGE CORRECTION: Forces full bleed inside service cards */
+    .service-item,
+    .service-item .position-relative,
+    .service-item .overflow-hidden,
+    #service .overflow-hidden,
+    #service_two .overflow-hidden {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        display: block !important; /* Overrides any flex-shrinking behaviors */
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Target the image directly and force it to span wall-to-wall */
+    .service-item img,
+    #service img,
+    #service_two img,
+    div[class^="col-"] .overflow-hidden img {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        height: 220px !important;     /* Uniform thumbnail height on phones */
+        object-fit: cover !important;  /* Elegant, un-distorted dynamic cropping */
+        display: block !important;
+    }
+
+    /* Clean typography margin adjustments inside description cards */
+    .service-item .p-4 {
+        padding: 1rem !important;      /* Frees text reading boundaries */
+    }
+}
+</style>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     
@@ -340,7 +434,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-    <link href="{{asset('public/css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- <link href="{{asset('public/css/bootstrap.min.css')}}" rel="stylesheet"> -->
     <link href="{{asset('public/css/style.css')}}" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" defer></script>
@@ -591,7 +685,7 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="{{asset('public/lib/wow/wow.min.js')}}"></script>
     <script src="{{asset('public/lib/easing/easing.min.js')}}"></script>
     <script src="{{asset('public/lib/waypoints/waypoints.min.js')}}"></script>
