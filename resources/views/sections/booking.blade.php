@@ -5,8 +5,8 @@
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
                     <div class="py-5">
-                        <h1 class="text-white mb-4">Car Repair Service Provider Within 30 Miniutes</h1>
-                        <p class="text-white mb-0">We are a trusted car service provider with a team of experienced and certified technicians. We offer a wide range of services, including car battery,engine servicec, oil changes, tire service, brake repairs, and more. We are committed to providing our customers with quality service at a fair price. Book us today to keep your car running smoothly and safely.</p>
+                        <h1 class="text-white mb-4">Book Your Car Service in Dubai - Takes 30 Second</h1>
+                        <p class="text-white mb-0">Keep your vehicle in peak condition with Dubai’s trusted car service experts. Our experienced mechanics specialize in comprehensive auto care, including precision engine tuning, AC repair, battery fitting, oil service, and brake replacement. Located conveniently on Al Satwa Road, our workshop is open from 7 AM to 10 PM daily to serve you. Schedule your service now for fast, fair-priced, and high-quality workmanship.</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
