@@ -114,6 +114,12 @@
     <meta content="{{ $meta_keywords ?? 'car repair dubai, auto workshop al satwa, car maintenance dubai, professional mechanic dubai, car service dubai' }}" name="keywords">
     <meta content="{{ $meta_description ?? 'Trusted car repair in Dubai since 2012. Engine, AC, battery, brakes & diagnostics. 8 certified mechanics at 222 Al Satwa Rd. Open 7AM–10PM. Call 056 612 1423.' }}" name="description">
 
+        <meta charset="utf-8">
+    <title>{{ $meta_title ?? 'Car Repair Service in Dubai | Al Satwa - 12 Years, 8,500+ Fixed' }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="{{ $meta_keywords ?? 'car repair dubai, auto workshop al satwa, car maintenance dubai, professional mechanic dubai, car service dubai' }}" name="keywords">
+    <meta content="{{ $meta_description ?? 'Trusted car repair in Dubai since 2012. Engine, AC, battery, brakes & diagnostics. 8 certified mechanics at 222 Al Satwa Rd. Open 7AM–10PM. Call 056 612 1423.' }}" name="description">
+
     <script type="application/ld+json">
     @verbatim
         {
@@ -297,6 +303,15 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/counterup/1.0.0/jquery.counterup.min.js" defer></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WGTVV66H6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0WGTVV66H6');
+    </script>
 
     <!-- Custom CSS for the Navbar -->
     <style>
