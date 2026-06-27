@@ -1,21 +1,42 @@
 <IfModule mod_rewrite.c>
+
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
 
     RewriteEngine On
 
+    # -----------------------------
+    # FORCE CANONICAL DOMAIN (SEO FIX)
+    # https + non-www
+    # -----------------------------
+
+    # Redirect www → non-www
+    RewriteCond %{HTTP_HOST} ^www\.dubaicarrepairservice\.com$ [NC]
+    RewriteRule ^ https://dubaicarrepairservice.com%{REQUEST_URI} [L,R=301]
+
+    # Redirect http → https
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://dubaicarrepairservice.com%{REQUEST_URI} [L,R=301]
+
+    # -----------------------------
     # Handle Authorization Header
+    # -----------------------------
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
-    # Redirect Trailing Slashes If Not A Folder...
+    # -----------------------------
+    # Redirect Trailing Slashes If Not A Folder
+    # -----------------------------
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
 
-    # Handle Front Controller...
+    # -----------------------------
+    # Laravel Front Controller
+    # -----------------------------
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
 </IfModule>

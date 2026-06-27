@@ -28,7 +28,7 @@
                 <nav aria-label="breadcrumb" class="mt-4">
                     <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}" class="text-white-50 text-decoration-none">Home</a></li>
-                        <li class="breadcrumb-item"><a href="{{ route('service') }}" class="text-white-50 text-decoration-none">Services</a></li>
+                        <li class="breadcrumb-item"><a href="{{ route('car-repair-dubai') }}" class="text-white-50 text-decoration-none">Services</a></li>
                         <li class="breadcrumb-item text-white active" aria-current="page">Engine Oil Change Dubai</li>
                     </ol>
                 </nav>
