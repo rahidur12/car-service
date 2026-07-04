@@ -6,14 +6,15 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="{{ $meta_keywords ?? 'car repair dubai, auto workshop al satwa, car maintenance dubai, professional mechanic dubai, car service dubai' }}" name="keywords">
     <meta content="{{ $meta_description ?? 'Trusted car repair in Dubai since 2012. Engine, AC, battery, brakes & diagnostics. 8 certified mechanics at 222 Al Satwa Rd. Open 7AM–10PM. Call 056 612 1423.' }}" name="description">
-
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WGTVV66H6"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-0WGTVV66H6');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0WGTVV66H6');
     </script>
 
     <!-- Style Dependencies -->
