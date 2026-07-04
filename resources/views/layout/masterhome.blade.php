@@ -2,7 +2,16 @@
 <html lang="en">
 
 <head>
-    <style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WGTVV66H6"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-0WGTVV66H6');
+        </script>
+        <style>
         /* ==========================================================================
            FINAL COMPREHENSIVE MOBILE SPACING & IMAGE STRETCH FIX
            ========================================================================== */
