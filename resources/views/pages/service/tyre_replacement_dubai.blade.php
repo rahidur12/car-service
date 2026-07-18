@@ -20,7 +20,7 @@
                         Tyre Replacement Dubai - Fast, Affordable Tyre Change &amp; Alignment
                     </h1>
                     <p class="text-white mb-4" style="font-size:1.05rem;opacity:.85;max-width:640px;margin:0 auto;">
-                        We supply and fit tyres for all vehicle types in Dubai - from compact saloons to full-size SUVs.
+                        We supply and fit tyres for all vehicle types in <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> - from compact saloons to full-size SUVs.
                         Computerised wheel alignment, balancing, and rotation included. Workshop or mobile tyre service
                         available.
                     </p>

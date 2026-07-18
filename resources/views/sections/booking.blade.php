@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4">Book US For A Service</h1>
+                        <h2 class="text-white mb-4">Book US For A Service</h2>
                         <form action="{{route("send_booking_mail")}}" method="POST" >
                             @csrf
                             <div class="row g-3">
