@@ -20,7 +20,7 @@
                         Tyre Replacement Dubai - Fast, Affordable Tyre Change &amp; Alignment
                     </h1>
                     <p class="text-white mb-4" style="font-size:1.05rem;opacity:.85;max-width:640px;margin:0 auto;">
-                        We supply and fit tyres for all vehicle types in <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> - from compact saloons to full-size SUVs.
+                        We supply and fit tyres for all vehicle types in dubai car repair service - from compact saloons to full-size SUVs.
                         Computerised wheel alignment, balancing, and rotation included. Workshop or mobile tyre service
                         available.
                     </p>
@@ -72,7 +72,7 @@
                         checks.
                     </p>
                     <p style="color:#444;line-height:1.8;">
-                        At our <strong>222 Al Satwa Road workshop</strong>, we stock tyres across all vehicle categories -
+                        At our <strong>222 Al Satwa Road workshop</strong>, <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> tyres across all vehicle categories -
                         from city cars to heavy SUVs - from Bridgestone, Michelin, Pirelli, Continental, Yokohama, and more.
                         We perform computerised 4-wheel alignment on all replacement jobs, ensuring your new tyres wear
                         evenly from the first kilometre.
