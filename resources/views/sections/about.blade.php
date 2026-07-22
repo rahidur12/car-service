@@ -32,14 +32,21 @@
                 <h2 class="fw-bold mb-4" style="line-height:1.3;">
                     Dubai Car Repair Service - Trusted Auto Care in Al Satwa for Over 12 Years
                 </h2>
+
                 <p style="color:#444;line-height:1.8;">
-                    We are a full-service car repair garage at <strong>222 Al Satwa Road, Dubai</strong> - one of the most centrally located workshops in the city, minutes from Jumeirah, Bur Dubai, Karama, Downtown Dubai, and Sheikh Zayed Road.
+                    We are a trusted <strong>car repair shop Dubai</strong> vehicle owners rely on for professional automotive solutions. Located at <strong>222 Al Satwa Road, Dubai</strong>, our full-service <strong>car garage Dubai</strong> provides reliable repairs, maintenance, and inspection services. Our workshop is centrally located near Jumeirah, Bur Dubai, Karama, Downtown Dubai, and Sheikh Zayed Road, making quality <strong>car repair in Dubai</strong> easily accessible for drivers across the city.
                 </p>
+
                 <p style="color:#444;line-height:1.8;">
-                    With over <strong>12 years of experience</strong> and more than <strong>8,500 satisfied customers</strong>, our team of 8 certified mechanics has built a reputation on one thing: doing the job right the first time. We work on all makes and models - Toyota, Nissan, Honda, BMW, Mercedes-Benz, Mitsubishi, Kia, Hyundai, Land Rover, and more.
+                    With over <strong>12 years of experience</strong> and more than <strong>8,500 satisfied customers</strong>, our certified mechanics deliver dependable <strong>Dubai car repair service</strong> for all makes and models, including Toyota, Nissan, Honda, BMW, Mercedes-Benz, Mitsubishi, Kia, Hyundai, Land Rover, and more. Whether you need engine repairs, electrical solutions, diagnostics, or routine maintenance, our skilled <strong>car mechanic Dubai</strong> specialists provide accurate solutions with professional workmanship.
                 </p>
+
                 <p style="color:#444;line-height:1.8;">
-                    You get a clear quote before any work begins. No surprises. No upsells. Just honest, professional car care at a fair price - open <strong>7 days a week, 7AM to 10PM</strong>.
+                    As a complete <strong>car service center Dubai</strong> drivers trust, we focus on transparent pricing, genuine parts, and efficient repairs. Customers looking for reliable <strong>car servicing Dubai</strong> can expect detailed inspections, quality maintenance, and expert recommendations based on their vehicle's condition.
+                </p>
+
+                <p style="color:#444;line-height:1.8;">
+                    You receive a clear quote before any work begins. No surprises. No unnecessary upsells. Just honest automotive care at a fair price. Our <strong>car service in Dubai</strong> is available <strong>7 days a week, 7AM to 10PM</strong>, helping drivers maintain safe and reliable vehicles throughout the year.
                 </p>
 
                 {{-- 3 badges --}}

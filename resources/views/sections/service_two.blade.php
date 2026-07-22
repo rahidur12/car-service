@@ -274,15 +274,21 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <p class="d-inline-block border rounded text-white fw-semi-bold py-1 px-3">Diagnostic</p>
-                <h2 class="text-white mb-4">
-                    Advanced Car Diagnostic Test in Dubai - Know Exactly What's Wrong
-                </h2>
-                <p class="text-white">
-                    Most car problems show warning signs before they become serious. Our advanced diagnostic service
-                    uses the latest OBD-II scanning equipment to read your vehicle's computer, identify fault codes, and
-                    give you a clear, honest picture of your car's condition - so you only pay for what actually needs
-                    fixing.
-                </p>
+            <h2 class="text-white mb-4">
+                Advanced Car Diagnostic Test in Dubai - Know Exactly What's Wrong
+            </h2>
+
+            <p class="text-white">
+                Most vehicle problems show warning signs before becoming major repairs. Our advanced diagnostic service uses modern OBD-II scanning technology to identify fault codes, check vehicle systems, and provide an accurate assessment of your car's condition.
+            </p>
+
+            <p class="text-white">
+                Whether you need <strong>car repair Dubai</strong> diagnostics, electrical troubleshooting, engine inspection, or warning light analysis, our technicians identify the exact issue before repairs begin. We inspect essential systems including engine performance, transmission, ABS, battery health, and electrical components.
+            </p>
+
+            <p class="text-white">
+                Our detailed vehicle diagnostics help customers make informed decisions by identifying necessary repairs and avoiding unnecessary expenses. As part of our complete <strong>car repair services Dubai</strong>, we provide professional testing and reliable solutions for all vehicle brands.
+            </p>
                 <ul class="list-unstyled text-white mb-4">
                     <li class="mb-2"><i class="fa fa-check text-white me-2"></i>Full engine fault code scan</li>
                     <li class="mb-2"><i class="fa fa-check text-white me-2"></i>Electrical system &amp; battery check
@@ -431,8 +437,9 @@
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h2 class="mb-3" style="color: #001516; font-weight: 700;">Serving Car Owners Across All Dubai Areas</h2>
-            <p class="text-muted">Our garage at 222 Al Satwa Road is one of the most centrally located workshops in
-                Dubai - easy to reach from any direction.</p>
+            <p class="text-muted">
+                Our garage at 222 Al Satwa Road is one of the most centrally located workshops in Dubai - easy to reach from any direction. For drivers searching for <strong>car repair Dubai near me</strong>, our Al Satwa location provides convenient access to professional repair and maintenance services.
+            </p>
         </div>
 
         <div class="row g-3 wow fadeInUp" data-wow-delay="0.3s">

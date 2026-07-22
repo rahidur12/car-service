@@ -5,8 +5,19 @@
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
                     <div class="py-5">
-                        <h1 class="text-white mb-4">Book Your Car Service in Dubai - Takes 30 Second</h1>
-                        <p class="text-white mb-0">Keep your vehicle in peak condition with Dubai’s trusted car service experts. Our experienced mechanics specialize in comprehensive auto care, including precision engine tuning, AC repair, battery fitting, oil service, and brake replacement. Located conveniently on Al Satwa Road, our workshop is open from 7 AM to 10 PM daily to serve you. Schedule your service now for fast, fair-priced, and high-quality workmanship.</p>
+                        <h2 class="text-white mb-4">Book Your Car Service in Dubai - Takes 30 Seconds</h2>
+
+                        <p class="text-white mb-0">
+                            Keep your vehicle performing at its best with Dubai’s trusted automotive experts. Our professional team provides complete <strong>car service Dubai</strong> solutions, including engine tuning, AC repair, battery replacement, oil changes, brake services, and preventive maintenance.
+                        </p>
+
+                        <p class="text-white mb-0 mt-3">
+                            Located conveniently on Al Satwa Road, our workshop offers dependable <strong>car servicing</strong> and repair solutions for drivers across Dubai. Whether you need regular maintenance or urgent repairs, our experienced technicians deliver fast, affordable, and high-quality workmanship.
+                        </p>
+
+                        <p class="text-white mb-0 mt-3">
+                            Book your appointment today with a trusted <strong>Dubai car repair</strong> provider and experience reliable vehicle care from certified professionals. Our team is available from <strong>7 AM to 10 PM daily</strong> to keep your vehicle safe and road-ready.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
