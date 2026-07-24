@@ -283,11 +283,11 @@
             </p>
 
             <p class="text-white">
-                Whether you need <strong>car repair Dubai</strong> diagnostics, electrical troubleshooting, engine inspection, or warning light analysis, our technicians identify the exact issue before repairs begin. We inspect essential systems including engine performance, transmission, ABS, battery health, and electrical components.
+                Whether you need car diagnostics, electrical troubleshooting, engine inspection, or warning light analysis, our technicians identify the exact issue before repairs begin. We inspect essential systems including engine performance, transmission, ABS, battery health, and electrical components.
             </p>
 
             <p class="text-white">
-                Our detailed vehicle diagnostics help customers make informed decisions by identifying necessary repairs and avoiding unnecessary expenses. As part of our complete <strong>car repair services Dubai</strong>, we provide professional testing and reliable solutions for all vehicle brands.
+                Our detailed vehicle diagnostics help customers make informed decisions by identifying necessary repairs and avoiding unnecessary expenses. As part of our complete car repair services Dubai, we provide professional testing and reliable solutions for all vehicle brands.
             </p>
                 <ul class="list-unstyled text-white mb-4">
                     <li class="mb-2"><i class="fa fa-check text-white me-2"></i>Full engine fault code scan</li>
@@ -438,7 +438,7 @@
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h2 class="mb-3" style="color: #001516; font-weight: 700;">Serving Car Owners Across All Dubai Areas</h2>
             <p class="text-muted">
-                Our garage at 222 Al Satwa Road is one of the most centrally located workshops in Dubai - easy to reach from any direction. For drivers searching for <strong>car repair Dubai near me</strong>, our Al Satwa location provides convenient access to professional repair and maintenance services.
+                Our garage at 222 Al Satwa Road is one of the most centrally located workshops in Dubai - easy to reach from any direction. For drivers searching for car repair Dubai near me, our Al Satwa location provides convenient access to professional repair and maintenance services.
             </p>
         </div>
 

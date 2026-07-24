@@ -9,7 +9,6 @@
                         <div class="ps-4">
                             <h5 class="mb-3">Genuine Parts & Quality Guaranteed</h5>
                             <p>Every repair at our Al Satwa garage uses high-quality, manufacturer-approved parts and fluids - so your car stays safe on Dubai's roads long after it leaves our workshop. No shortcuts, no substitutes.</p>
-                            
                         </div>
                     </div>
                 </div>
@@ -18,7 +17,7 @@
                         <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0 nav_clr"></i>
                         <div class="ps-4">
                             <h5 class="mb-3">Certified Mechanics - 12 Years of Experience</h5>
-                            <p>Our team of 8 specialist mechanics has been diagnosing and repairing all car makes across Dubai since 2012 - Japanese, European, American, and Korean. From a minor fault to a major overhaul, we handle it all. With years of experience, skilled technicians, and thousands of completed repairs, we are recognized as a trusted choice for <strong>car repair Dubai</strong> services.</p>
+                            <p>Since 2012, our team of eight specialist mechanics has delivered expert diagnostics and comprehensive overhauls for all vehicle makes, establishing our workshop as a trusted destination for car repair Dubai.</p>
                         </div>
                     </div>
                 </div>
