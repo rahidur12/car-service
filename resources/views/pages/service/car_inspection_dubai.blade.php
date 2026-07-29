@@ -274,9 +274,6 @@
     </div>
 </div>
 
-Here is the fixed RTA section with the section header moved out of the left column and centered above the side-by-side grid:
-
-HTML
 {{-- ═══ RTA SECTION ═══ --}}
 <div class="container-fluid py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
@@ -377,7 +374,6 @@ HTML
 {{-- ═══ WHY CHOOSE US ═══ --}}
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
-        <div class="text-center mx-auto mb-5" style="max-width:600px;">
         <div class="text-center mx-auto mb-5" style="max-width:600px;">
             <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
                 style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Why Choose Us</span>
