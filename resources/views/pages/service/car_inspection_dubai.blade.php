@@ -53,16 +53,16 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
                 <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                      style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
+                    style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
                 <h2 class="fw-bold mb-4">Car Inspection in Dubai - What a Professional Vehicle Check Covers</h2>
                 <p style="color:#444;line-height:1.8;">
-                    Car inspection in <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> serves three distinct purposes - and knowing which one you need determines exactly what our mechanics check and what we include in your written report. Whether you're preparing for an <strong>RTA roadworthiness test</strong>, evaluating a <strong>used car before purchase</strong>, or simply want a full <strong>annual safety check</strong> on your current vehicle, our 50-point inspection process is built around what matters in the UAE driving environment.
+                    Car Inspection Dubai services at <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> serve three distinct purposes - and knowing whether you need an RTA pre-test, pre-purchase evaluation, or routine car check up determines exactly what our mechanics check and what we include in your written report. Whether you're preparing for an RTA roadworthiness test, evaluating a used car before purchase, or simply want a full annual safety check on your current vehicle, our 50-point inspection process is built around what matters in the UAE driving environment.
                 </p>
                 <p style="color:#444;line-height:1.8;">
                     Dubai's combination of extreme heat, dusty road conditions, high highway speeds, and stop-and-go urban traffic creates specific wear patterns that a standard checklist written for cooler climates misses entirely. Our inspection specifically examines heat-related deterioration - AC system performance, tyre sidewall cracking from UV and heat cycling, coolant system condition, and brake fluid boiling point degradation - in addition to standard safety items.
                 </p>
                 <p style="color:#444;line-height:1.8;">
-                    Every inspection at our <strong>222 Al Satwa Road workshop</strong> concludes with a printed vehicle health report itemising each check, the condition found, and any recommended action - categorised by urgency so you can prioritise what needs immediate attention versus what to plan for in future services.
+                    Every driver searching for a car inspection near me and visiting our 222 Al Satwa Road workshop receives a printed vehicle health report itemising each check, the condition found, and any recommended action - categorised by urgency so you can prioritise what needs immediate attention versus what to plan for in future services.
                 </p>
             </div>
             <div class="col-lg-6">
@@ -274,46 +274,59 @@
     </div>
 </div>
 
+Here is the fixed RTA section with the section header moved out of the left column and centered above the side-by-side grid:
+
+HTML
 {{-- ═══ RTA SECTION ═══ --}}
 <div class="container-fluid py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
+        {{-- Centered Header Above Section --}}
+        <div class="text-center mx-auto mb-5" style="max-width:600px;">
+            <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
+                style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">RTA Inspection Dubai</span>
+            <h2 class="fw-bold mb-2">Preparing Your Car for RTA Inspection in Dubai</h2>
+        </div>
+
+        {{-- Side-by-Side Content Grid --}}
         <div class="row g-5 align-items-center">
+            {{-- Left Column: Description & Checklist --}}
             <div class="col-lg-6">
-                    <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                        style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">RTA Inspection Dubai</span>
-                    <h2 class="fw-bold mb-4">Preparing Your Car for RTA Inspection in Dubai</h2>
-                    <p style="color:#444;line-height:1.8;">
-                        RTA vehicle registration renewal in Dubai requires a passing roadworthiness test at an authorised test centre - including Tasjeel, Wasel, and Emirates Vehicle Gate. Vehicles older than 3 years from registration must pass this test annually. Failing the test requires immediate repairs and a return visit, adding cost and time.
-                    </p>
-                    <p style="color:#444;line-height:1.8;">
-                        Our pre-RTA inspection replicates the actual test criteria used at Dubai test centres - checking the exact items that cause failures. Common RTA failure reasons we fix before you arrive:
-                    </p>
-                    @php $rtaFails = [
-                        'Cracked windscreen in the driver\'s primary sightline',
-                        'Tyre tread below 1.6mm minimum or sidewall damage',
-                        'Non-functional brake lights, headlights, or indicators',
-                        'Worn wiper blades leaving streaks across the screen',
-                        'Excessive exhaust emissions (catalytic converter fault)',
-                        'Horn failure - one of the most common test fails',
-                        'Brake imbalance detected by the roller brake tester',
-                        'Suspension knock audible during steering full-lock test',
-                    ]; @endphp
-                    <ul class="list-unstyled mt-3 mb-4">
-                        @foreach($rtaFails as $f)
-                        <li class="d-flex align-items-start gap-2 mb-2">
-                            <i class="fa fa-times-circle text-danger mt-1" style="font-size:.9rem;flex-shrink:0;"></i>
-                            <span style="font-size:.9rem;color:#444;">{{ $f }}</span>
-                        </li>
-                        @endforeach
-                    </ul>
-                    <a href="tel:0566121423" 
-                    class="btn btn-primary rounded-pill px-4 py-2 fw-semibold d-inline-flex align-items-center justify-content-center text-center lh-sm" 
-                    style="max-width: 100%; white-space: normal; word-break: break-word; font-size: calc(13px + 0.3vw);">
-                        <i class="fa fa-phone-alt me-2 flex-shrink-0"></i>
-                        <span>Book an Inspection - 056 612 1423</span>
-                    </a>
-                </div>
+                <p style="color:#444;line-height:1.8;">
+                    RTA vehicle registration renewal in Dubai requires a passing roadworthiness test at an authorised test centre - including <strong>Tasjeel, Wasel, and Emirates Vehicle Gate</strong>. Vehicles older than 3 years from registration must pass this test annually. Failing the test requires immediate repairs and a return visit, adding cost and time.
+                </p>
+                <p style="color:#444;line-height:1.8;">
+                    Our pre-RTA inspection replicates the actual test criteria used at Dubai test centres - checking the exact items that cause failures. Common RTA failure reasons we fix before you arrive:
+                </p>
+
+                @php $rtaFails = [
+                    'Cracked windscreen in the driver\'s primary sightline',
+                    'Tyre tread below 1.6mm minimum or sidewall damage',
+                    'Non-functional brake lights, headlights, or indicators',
+                    'Worn wiper blades leaving streaks across the screen',
+                    'Excessive exhaust emissions (catalytic converter fault)',
+                    'Horn failure - one of the most common test fails',
+                    'Brake imbalance detected by the roller brake tester',
+                    'Suspension knock audible during steering full-lock test',
+                ]; @endphp
+
+                <ul class="list-unstyled mt-3 mb-4">
+                    @foreach($rtaFails as $f)
+                    <li class="d-flex align-items-start gap-2 mb-2">
+                        <i class="fa fa-times-circle text-danger mt-1" style="font-size:.9rem;flex-shrink:0;"></i>
+                        <span style="font-size:.9rem;color:#444;">{{ $f }}</span>
+                    </li>
+                    @endforeach
+                </ul>
+
+                <a href="tel:0566121423" 
+                   class="btn btn-primary rounded-pill px-4 py-2 fw-semibold d-inline-flex align-items-center justify-content-center text-center lh-sm" 
+                   style="max-width: 100%; white-space: normal; word-break: break-word; font-size: calc(13px + 0.3vw);">
+                    <i class="fa fa-phone-alt me-2 flex-shrink-0"></i>
+                    <span>Book an Inspection - 056 612 1423</span>
+                </a>
             </div>
+
+            {{-- Right Column: Pricing Table Card --}}
             <div class="col-lg-6">
                 <div class="bg-white border rounded-3 p-4 shadow-sm">
                     <h4 class="fw-bold mb-4">Inspection Pricing Guide</h4>
@@ -365,19 +378,20 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width:600px;">
+        <div class="text-center mx-auto mb-5" style="max-width:600px;">
             <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                  style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Why Choose Us</span>
+                style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Why Choose Us</span>
             <h2 class="fw-bold mb-2">Why Dubai Drivers Trust Our Inspection Service</h2>
         </div>
         <div class="row g-4">
             @php
             $reasons = [
-                ['fa-file-alt',       'Written Report, Not Just a Verbal',     'You receive a printed report for every inspection - itemised by system, rated Pass/Advisory/Fail, with photos of any issues found. Not a quick look-over and a verbal "seems fine."'],
-                ['fa-search',         'Independent - No Repair Conflict',       'Our inspection mechanics are separate from our repair team. You\'ll never receive an inspection report inflated with unnecessary repairs. We find what\'s wrong and tell you the truth.'],
-                ['fa-road',           'Dubai Climate Specific',                 'Our checklist includes UAE-specific items competitors ignore - tyre DOT age, brake fluid boiling point in heat, AC performance, UV-damaged rubber seals, and coolant concentration for 50°C+ engine bay temperatures.'],
-                ['fa-certificate',    'Certified Technicians Only',             'Every inspection is performed by a certified mechanic - not an apprentice with a clipboard. Your 12-year-old son can\'t drive the car yet, but he can spot more than some "inspectors" we\'ve seen at other workshops.'],
-                ['fa-camera',         'Photo Documentation Included',           'Suspect damage or a failed component is photographed and attached to your report. You\'ll have visual evidence to negotiate on a used car purchase or understand what the issue looks like before authorising any repair.'],
-                ['fa-tools',          'Fix-It Service Available Same Day',      'If the inspection identifies items needing immediate repair - brake pads, bulbs, tyres - our mechanics can often rectify them the same visit at our Al Satwa workshop, saving you a return trip.'],
+                ['fa-file-alt',       'Written Report, Not Just a Verbal',     'You receive a printed report detailing your full car check up - itemised by system, rated Pass/Advisory/Fail, with photos of any issues found. Not a quick look-over and a verbal "seems fine."'],
+                ['fa-search',         'Independent - No Repair Conflict',      'Our inspection mechanics are separate from our repair team. While some workshops advertise a Free car inspection dubai only to inflate repair bills, we find what\'s wrong and tell you the truth without conflict of interest.'],
+                ['fa-road',           'Dubai Climate Specific',                'We deliver the Best car inspection in Dubai by assessing UAE-specific items competitors ignore - tyre DOT age, brake fluid boiling point in heat, AC performance, UV-damaged rubber seals, and coolant concentration for 50°C+ engine bay temperatures.'],
+                ['fa-certificate',    'Certified Technicians Only',            'Every Car inspection UAE safety check is performed by a certified mechanic - not an apprentice with a clipboard. Your 12-year-old son can\'t drive the car yet, but he can spot more than some "inspectors" we\'ve seen at other workshops.'],
+                ['fa-camera',         'Photo Documentation Included',          'Suspect damage or a failed component is photographed and attached to your report. You\'ll have visual evidence to negotiate on a used car purchase or understand what the issue looks like before authorising any repair.'],
+                ['fa-tools',          'Fix-It Service Available Same Day',      'Whether you evaluate a car at a showroom or request a car inspection dubai at home consultation, our Al Satwa workshop provides full ramp access to fix issues - like brake pads, bulbs, or tyres - on the same visit.'],
             ];
             @endphp
             @foreach($reasons as $r)
@@ -415,19 +429,19 @@
                     $faqs = [
                         [
                             'How do I prepare my car for RTA inspection in Dubai?',
-                            'Before visiting an RTA test centre, check that all lights are working (headlights, brake lights, indicators, hazards, reverse light), your horn functions, wipers clear the screen properly, all tyres have adequate tread and no visible sidewall damage, and no warning lights are illuminated on the dashboard. Our pre-RTA inspection covers all of these and more - identifying anything that would cause a test failure so you can fix it before the official test, saving you the cost and inconvenience of a re-test.',
+                            'Before visiting an RTA test centre or searching for car testing near me, check that all lights are working (headlights, brake lights, indicators, hazards, reverse light), your horn functions, wipers clear the screen properly, all tyres have adequate tread and no visible sidewall damage, and no warning lights are illuminated on the dashboard. Our pre-RTA inspection covers all of these and more - identifying anything that would cause a test failure so you can fix it before the official test, saving you the cost and inconvenience of a re-test.',
                         ],
                         [
                             'How much does car inspection cost in Dubai?',
-                            'Our inspection prices range from AED 99 for an RTA pre-test check to AED 250 for a comprehensive pre-purchase inspection including OBD scan and paint thickness test. The inspection fee is charged separately from any repair costs identified. We never combine inspection and repair charges - you see exactly what the inspection cost and what the repairs cost.',
+                            'Understanding the full car inspection dubai cost upfront keeps your vehicle maintenance transparent. Our car inspection dubai price structure ranges from AED 99 for an RTA pre-test check to AED 250 for a comprehensive pre-purchase inspection including OBD scan and paint thickness test. The inspection fee is charged separately from any repair costs identified. We never combine inspection and repair charges - you see exactly what the inspection cost and what the repairs cost.',
                         ],
                         [
                             'Can you do a pre-purchase inspection on a used car I\'m buying in Dubai?',
-                            'Yes - this is one of our most valuable services. Bring the used car to our Al Satwa workshop before completing any purchase. We inspect all 50 points including a paint thickness test (detects hidden accident repairs), OBD-II scan for stored fault codes the seller hasn\'t cleared, tyre DOT age check, and full mechanical assessment. Many customers have avoided purchasing seriously problematic vehicles based on our pre-purchase reports.',
+                            'Yes - this is one of our most valuable services. Schedule a car inspection dubai appointment to bring the used car to our Al Satwa workshop before completing any purchase. We inspect all 50 points including a paint thickness test (detects hidden accident repairs), OBD-II scan for stored fault codes the seller hasn\'t cleared, tyre DOT age check, and full mechanical assessment. Many customers have avoided purchasing seriously problematic vehicles based on our pre-purchase reports.',
                         ],
                         [
                             'Does your inspection guarantee the car will pass the RTA test?',
-                            'Our pre-RTA inspection identifies every item we can assess on our ramp and with our diagnostic equipment that matches RTA test criteria. If we pass all items and the car still fails at the test centre, we will re-inspect the car and address whatever the inspectors flagged at no additional inspection charge. We cannot guarantee the outcome of a third-party test, but our process is designed to eliminate all foreseeable failure reasons.',
+                            'Our pre-RTA inspection identifies every item we can assess on our ramp and with our diagnostic equipment that matches RTA test criteria. If you searched for a Car inspection Dubai near me garage, booked with us, and the car still fails at the test centre, we will re-inspect the car and address whatever the inspectors flagged at no additional inspection charge. We cannot guarantee the outcome of a third-party test, but our process is designed to eliminate all foreseeable failure reasons.',
                         ],
                         [
                             'What is the RTA car inspection age rule in Dubai?',
@@ -435,7 +449,7 @@
                         ],
                         [
                             'How long does a car inspection take?',
-                            'An RTA pre-test inspection takes 45–60 minutes. A pre-purchase used car inspection, which includes OBD scanning and paint thickness testing, takes 60–90 minutes. An annual safety inspection takes 60–75 minutes. We recommend booking in advance to secure a convenient time slot, though walk-ins are welcome subject to availability.',
+                            'When looking for a car inspection dubai near me, expect an RTA pre-test inspection to take 45–60 minutes. A pre-purchase used car inspection, which includes OBD scanning and paint thickness testing, takes 60–90 minutes. An annual safety inspection takes 60–75 minutes. We recommend booking in advance to secure a convenient time slot, though walk-ins are welcome subject to availability.',
                         ],
                         [
                             'Can old tyres fail an RTA inspection even if the tread is fine?',
