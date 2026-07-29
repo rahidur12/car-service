@@ -54,16 +54,16 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
                 <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                      style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
+                    style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
                 <h2 class="fw-bold mb-4">Car Engine Service in Dubai - What Dubai's Heat Does to Your Engine</h2>
                 <p style="color:#444;line-height:1.8;">
-                    Car engine service in Dubai encompasses a wider range of issues than most drivers expect - because an engine operating continuously in 45°C+ ambient temperatures faces stress that European or North American service schedules simply don't account for. Cooling systems work at maximum capacity for months at a time, oil degrades faster, rubber hoses and gaskets age in half the time, and turbocharged engines face heat-soak conditions that accelerate bearing wear significantly.
+                    Car Engine Service Dubai options at our garage encompass a wider range of issues than most drivers expect - because an engine operating continuously in 45°C+ ambient temperatures faces stress that European or North American service schedules simply don't account for. Cooling systems work at maximum capacity for months at a time, oil degrades faster, rubber hoses and gaskets age in half the time, and turbocharged engines face heat-soak conditions that accelerate bearing wear significantly.
                 </p>
                 <p style="color:#444;line-height:1.8;">
-                    At <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a>, every engine repair begins with a <strong>full OBD-II diagnostic scan</strong> covering all modules - engine, transmission, ABS, and body electrics - so we know exactly what fault codes are stored and what the live data reveals before a single component is removed. We pair this with a <strong>physical inspection</strong> covering oil condition, coolant level and concentration, belt condition, and any visible leaks.
+                    At <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a>, every car engine repair dubai project begins with a full OBD-II diagnostic scan covering all modules - engine, transmission, ABS, and body electrics - so we know exactly what fault codes are stored and what the live data reveals before a single component is removed. We pair this with a physical inspection covering oil condition, coolant level and concentration, belt condition, and any visible leaks.
                 </p>
                 <p style="color:#444;line-height:1.8;">
-                    Whether your car needs a simple <strong>spark plug and filter service</strong>, a <strong>timing belt replacement</strong>, a <strong>head gasket repair</strong>, or a <strong>full engine rebuild</strong>, our team at 222 Al Satwa Road has the equipment, parts sourcing, and experience across <strong>Japanese, European, American, and Korean engines</strong> to get it done correctly.
+                    Whether your car engine in dubai needs a simple spark plug and filter service, a timing belt replacement, a head gasket repair, or a full engine rebuild, our team at 222 Al Satwa Road has the equipment, parts sourcing, and experience across Japanese, European, American, and Korean engines to get it done correctly.
                 </p>
             </div>
             <div class="col-lg-6">
@@ -291,20 +291,20 @@
 {{-- ═══ WHY CHOOSE US ═══ --}}
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
-        <div class="text-center mx-auto mb-5" style="max-width:600px;">
+        <div class="col-lg-6">
             <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                  style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Why Choose Us</span>
+                style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Why Choose Us</span>
             <h2 class="fw-bold mb-2">Why Dubai Drivers Trust Us for Engine Service</h2>
         </div>
         <div class="row g-4">
             @php
             $reasons = [
-                ['fa-laptop-code', 'Diagnostic Before Mechanical', 'We never start removing parts before we know exactly what is wrong. Our OBD-II scan and live data analysis pinpoints the fault - saving you from paying for unnecessary component replacements.'],
-                ['fa-award',       'Genuine Parts, OEM Tolerances', 'Engine internals fitted to wrong tolerances fail within months. We use genuine or OEM-specification parts and follow manufacturer torque specifications - not approximations.'],
-                ['fa-shield-alt',  'Workmanship Warranty',          'All engine repairs at our Al Satwa workshop are covered by a workmanship warranty. If the same fault recurs within the warranty period, we rectify it at no additional charge.'],
+                ['fa-laptop-code', 'Diagnostic Before Mechanical', 'As the Best car service center in Dubai, we never start removing parts before we know exactly what is wrong. Our OBD-II scan and live data analysis pinpoints the fault - saving you from paying for unnecessary component replacements.'],
+                ['fa-award',       'Genuine Parts, OEM Tolerances', 'Engine internals fitted to wrong tolerances fail within months. Whether installing brand-new OEM components or sourcing a reliable used car engine in dubai, we follow precise manufacturer torque specifications - not approximations.'],
+                ['fa-shield-alt',  'Workmanship Warranty',          'Providing the Best car engine service dubai means backing all engine repairs at our Al Satwa workshop with a comprehensive workmanship warranty. If the same fault recurs within the warranty period, we rectify it at no additional charge.'],
                 ['fa-car',         '12 Years, All Engine Types',    'From a Toyota 1ZZ timing chain to a BMW N54 injector replacement - 12 years of experience across all major engine platforms in the UAE gives our team genuine depth.'],
                 ['fa-receipt',     'Quote Before Work Begins',      'Major engine repairs are expensive. You always receive a written quote - itemised by parts and labour - before any strip-down or parts ordering begins.'],
-                ['fa-wrench',      'Full Rebuild Capability',       'Unlike many workshops that refer engine rebuilds externally, we perform full in-house engine overhauls - maintaining accountability and quality throughout the process.'],
+                ['fa-wrench',      'Full Rebuild Capability',       'Unlike a basic Mobile car engine service dubai team that can only perform light roadside checks, our fully equipped workshop performs complete in-house engine overhauls - maintaining accountability and quality throughout the process.'],
             ];
             @endphp
             @foreach($reasons as $r)
@@ -342,11 +342,11 @@
                     $faqs = [
                         [
                             'What does car engine service include in Dubai?',
-                            'Engine service in Dubai ranges from a basic tune-up (spark plugs, air filter, oil change) to a full diagnostic assessment covering OBD-II fault codes, compression testing, cooling system, and fluid conditions. At Dubai Car Repair Service, every engine service begins with a full diagnostic scan so we identify what your specific engine needs - not a standard menu of parts.',
+                            'Engine service in Dubai ranges from a basic tune-up (spark plugs, air filter, oil change) to a full diagnostic assessment covering OBD-II fault codes, compression testing, cooling system, and fluid conditions. If you are searching for a Car engine service dubai near me, our workshop at Dubai Car Repair Service starts every job with a full diagnostic scan so we identify what your specific engine needs - not a standard menu of parts.',
                         ],
                         [
                             'How do I know if my engine needs a tune-up or a major repair?',
-                            'A tune-up is typically appropriate when the engine runs slightly rough, fuel economy has dropped, or the car is simply due for its scheduled service interval. Major repair is indicated by dashboard warning lights, overheating, oil or coolant consumption, unusual noises, or significant power loss. We diagnose precisely using OBD-II scanning and physical inspection before recommending any work.',
+                            'A tune-up is typically appropriate when the engine runs slightly rough, fuel economy has dropped, or the car is simply due for its scheduled service interval. Major repair is indicated by dashboard warning lights, overheating, oil or coolant consumption, unusual noises, or significant power loss. Factoring in the total Car engine service dubai cost, we diagnose precisely using OBD-II scanning and physical inspection before recommending any major work.',
                         ],
                         [
                             'When should I replace the timing belt in Dubai?',
@@ -354,7 +354,7 @@
                         ],
                         [
                             'How much does an engine overhaul cost in Dubai?',
-                            'A full engine overhaul starts at around AED 3,500 for a small-displacement Japanese engine and can reach AED 12,000+ for large European or American V8 platforms. We always compare the overhaul cost against the vehicle\'s value and condition before recommending this route - in many cases, an overhaul is significantly more economical than engine replacement or purchasing a replacement vehicle.',
+                            'When evaluating the car engine price in dubai, a full engine overhaul starts at around AED 3,500 for a small-displacement Japanese engine and can reach AED 12,000+ for large European or American V8 platforms. Our Car engine service dubai price policy ensures you see a transparent breakdown comparing overhaul costs against vehicle value before work begins - in many cases, an overhaul is significantly more economical than engine replacement or purchasing a replacement vehicle.',
                         ],
                         [
                             'Why is my engine using oil in Dubai?',

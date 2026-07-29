@@ -46,17 +46,17 @@
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
-                <span class="d-inline-block border  border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                      style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
+                <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
+                    style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
                 <h2 class="fw-bold mb-4">Car Battery Replacement in Dubai - What You Need to Know</h2>
                 <p style="color:#444;line-height:1.8;">
-                    Car battery replacement in Dubai is one of the most frequently requested auto services - and for good reason. Dubai's extreme heat accelerates the chemical breakdown inside lead-acid batteries, shortening their lifespan to just <strong>2–3 years</strong> compared to 4–5 years in cooler climates. Temperatures regularly exceeding 45°C cause battery fluid to evaporate, plates to corrode, and charge capacity to drop - often without warning.
+                    Car Battery Replacement Dubai options are among the most frequently requested auto services - and for good reason. Dubai's extreme heat accelerates the chemical breakdown inside lead-acid batteries, shortening their lifespan to just 2–3 years compared to 4–5 years in cooler climates. Temperatures regularly exceeding 45°C cause battery fluid to evaporate, plates to corrode, and charge capacity to drop - often without warning.
                 </p>
                 <p style="color:#444;line-height:1.8;">
-                    At <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a>, our mechanics perform a <strong>full battery health test</strong> before recommending any replacement. We measure cold cranking amps (CCA), state of charge, and internal resistance - giving you an honest assessment, not a sales pitch. If your battery can be recharged and has healthy cells, we'll tell you. If it needs replacing, we carry a range of <strong>genuine Exide, Bosch, Varta, and Amaron batteries</strong> and fit the correct specification for your vehicle on the spot.
+                    At <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a>, our mechanics perform a full battery health test before determining if your vehicle needs a swap or if car battery repair dubai solutions like terminal cleaning and cell recharging are sufficient. We measure cold cranking amps (CCA), state of charge, and internal resistance - giving you an honest assessment, not a sales pitch. If your battery can be recharged and has healthy cells, we'll tell you. If it needs replacing, we carry a range of genuine Exide, Bosch, Varta, and Amaron batteries and fit the correct specification for your vehicle on the spot.
                 </p>
                 <p style="color:#444;line-height:1.8;">
-                    Our mobile mechanics cover all Dubai areas - from <strong>Al Satwa and Jumeirah</strong> to <strong>Business Bay, Dubai Marina, and JVC</strong> - so you never need to call a tow truck for a dead battery.
+                    Our mobile mechanics specialize in mobile car battery replacement dubai services covering all areas - from Al Satwa and Jumeirah to Business Bay, Dubai Marina, and JVC - so you never need to call a tow truck for a dead battery.
                 </p>
             </div>
             <div class="col-lg-6">
@@ -114,15 +114,15 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
                 <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                      style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Battery Types &amp; Brands</span>
+                    style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Battery Types &amp; Brands</span>
                 <h2 class="fw-bold mb-4">Genuine Battery Brands for Dubai's Climate</h2>
                 <p style="color:#444;line-height:1.8;">
-                    Not all car batteries are built equally for the UAE environment. We stock and fit batteries specifically rated for extreme heat - including AGM (Absorbent Glass Mat) and EFB (Enhanced Flooded Battery) types, which resist heat degradation significantly better than standard flooded lead-acid units.
+                    Not all units are built equally for the UAE environment when you need to perform a car battery change dubai vehicle owners can rely on. We stock and fit batteries specifically rated for extreme heat - including AGM (Absorbent Glass Mat) and EFB (Enhanced Flooded Battery) types, which resist heat degradation significantly better than standard flooded lead-acid units.
                 </p>
                 <div class="row g-3 mt-2">
                     @php $brands = [
                         ['Exide','✅ Heat-resistant, UAE-certified, 2-yr warranty'],
-                        ['Bosch','✅ OEM supplier for BMW, Mercedes, VW - exact fit'],
+                        ['Bosch','✅ Premium bosch car battery replacement dubai OEM supplier for BMW, Mercedes, VW - exact fit'],
                         ['Varta','✅ German engineering, AGM range for stop-start cars'],
                         ['Amaron','✅ Designed for tropical heat, Indian subcontinent certified'],
                         ['ACDelco','✅ OEM brand for GM, Chevrolet, and American vehicles'],
@@ -203,15 +203,15 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
                 <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                      style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Transparent Pricing</span>
+                    style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Transparent Pricing</span>
                 <h2 class="fw-bold mb-4">Car Battery Replacement Cost in Dubai</h2>
                 <p style="color:#444;line-height:1.8;">
-                    Battery replacement costs in Dubai vary based on battery type, brand, and vehicle requirements. We publish our price ranges openly - something no competitor in Al Satwa does. You will always receive a confirmed quote before we begin.
+                    Understanding your total car battery replacement cost dubai expectations depends on battery type, brand, and vehicle requirements. While drivers often search for the Cheapest car battery replacement dubai options, we publish our price ranges openly - something no competitor in Al Satwa does. You will always receive a confirmed quote before we begin.
                 </p>
                 <div class="table-responsive mt-4">
                     <table class="table table-bordered table-hover">
                         <thead class="table-dark">
-                            <tr><th>Battery Type</th><th>Price Range (AED)</th><th>Warranty</th></tr>
+                            <tr><th>Battery Type</th><th>Car battery price in Dubai (AED)</th><th>Warranty</th></tr>
                         </thead>
                         <tbody>
                             <tr><td>Standard Flooded (SLI)</td><td>AED 150 – 250</td><td>12 months</td></tr>
@@ -221,7 +221,7 @@
                         </tbody>
                     </table>
                 </div>
-                <p class="text-muted mt-2" style="font-size:.8rem;"><i class="fa fa-info-circle text-primary me-1"></i>Prices include supply, installation, and system test. Labour included. Old battery disposed of responsibly.</p>
+                <p class="text-muted mt-2" style="font-size:.8rem;"><i class="fa fa-info-circle text-primary me-1"></i>Prices reflect standard Car battery price in UAE benchmarks and include supply, installation, and system test. Labour included. Old battery disposed of responsibly.</p>
             </div>
                 <div class="col-lg-6">
                     <div class="bg-light border rounded-3 p-4">
@@ -292,13 +292,13 @@
             <div class="col-lg-9">
                 <div class="accordion" id="batteryFaq">
                     @php $faqs = [
-                        ['How long does a car battery last in Dubai?','In Dubai\'s climate, most car batteries last between 2 and 3 years. The extreme heat - regularly above 45°C - accelerates internal corrosion and fluid evaporation, significantly shortening the lifespan compared to 4–5 years typical in cooler countries. We recommend an annual battery health check for any battery over 18 months old.'],
-                        ['Can you replace my car battery at my home or office?','Yes - our mobile mechanics carry a full range of batteries and testing equipment. We come to your home, office, car park, or roadside anywhere in Dubai. No towing required. Most on-site replacements are completed within 45 minutes.'],
-                        ['How do I know if my battery needs replacing or just charging?','A professional load test is the only reliable way to determine this. We measure your battery\'s cold cranking amps (CCA) and internal resistance. A battery that tests below 70% of its rated CCA on a load test should be replaced - recharging a failing battery only delays the inevitable and risks leaving you stranded.'],
-                        ['What battery brands do you carry?','We stock Exide, Bosch, Varta, Amaron, and ACDelco batteries - all genuine, brand-new units with manufacturer warranties. We also carry AGM and EFB types for modern vehicles with stop-start technology. We fit the correct specification for your car, not the cheapest available.'],
-                        ['Does my car need an AGM battery?','If your vehicle has stop-start technology, regenerative braking, or a high electrical load (advanced infotainment, dashcam, etc.), your manufacturer specification requires an AGM battery. Fitting a standard flooded battery in an AGM-spec car will cause premature failure within months. Our mechanics check your vehicle\'s specification before recommending any battery type.'],
-                        ['How much does car battery replacement cost in Dubai?','Our battery replacement prices start at AED 150 for a standard unit and range up to AED 650 for premium AGM batteries for European or luxury vehicles. The price includes the battery, installation, and system test - no hidden labour charges. You receive a confirmed quote before any work begins.'],
-                        ['Can a new battery fix electrical problems in my car?','A weak or failed battery can cause a wide range of electrical symptoms - dim lights, slow windows, infotainment resets, and warning lights. However, some electrical faults originate in the alternator, wiring, or ECU rather than the battery itself. We test both the battery and the charging system to pinpoint the correct cause before recommending any parts.'],
+                        ['How long does a car battery last in Dubai?','In Dubai\'s climate, most car batteries last between 2 and 3 years. The extreme heat - regularly above 45°C - accelerates internal corrosion and fluid evaporation, significantly shortening the lifespan compared to 4–5 years typical in cooler countries, leading to sudden dead battery replacement scenarios. We recommend an annual battery health check for any battery over 18 months old.'],
+                        ['Can you replace my car battery at my home or office?','Yes - our Mobile battery replacement Dubai service utilizes mechanics carrying a full range of batteries and testing equipment. We come to your home, office, car park, or roadside anywhere in Dubai for a fast same day car battery replacement with no towing required. Most on-site replacements are completed within 45 minutes.'],
+                        ['How do I know if my battery needs replacing or just charging?','A professional load test is the only reliable way to determine this before you choose to change car battery units. We measure your battery\'s cold cranking amps (CCA) and internal resistance. A battery that tests below 70% of its rated CCA on a load test should be replaced - recharging a failing battery only delays the inevitable and leaves drivers looking for car battery replacement dubai near me options when stranded later.'],
+                        ['What battery brands do you carry?','We stock Exide, Bosch, Varta, Amaron, and ACDelco batteries - providing the best car battery replacement dubai drivers can rely on with genuine, brand-new units and manufacturer warranties. We also carry AGM and EFB types for modern vehicles with stop-start technology. We fit the correct specification for your car, not the cheapest available.'],
+                        ['Does my car need an AGM battery?','If your vehicle has stop-start technology, regenerative braking, or a high electrical load (advanced infotainment, dashcam, etc.), your manufacturer specification requires a premium Car battery Dubai option like an AGM unit. Searching for a Car battery Dubai near me technician ensures correct fitting, as using a standard flooded battery in an AGM-spec car causes premature failure within months.'],
+                        ['How much does car battery replacement cost in Dubai?','Our Car battery replacement UAE pricing starts at AED 150 for a standard unit and ranges up to AED 650 for premium AGM batteries for European or luxury vehicles. The price includes the battery, installation, and system test - no hidden labour charges. You receive a confirmed quote before any work begins.'],
+                        ['Can a new battery fix electrical problems in my car?','A weak or failed battery can cause a wide range of electrical symptoms - dim lights, slow windows, infotainment resets, and warning lights. However, some electrical faults originate in the alternator, wiring, or ECU rather than the battery itself. We factor in full diagnostics so you know the full car battery replacement dubai cost upfront and avoid unnecessary parts replacement if the charging system is at fault.'],
                     ]; @endphp
                     @foreach($faqs as $i => $faq)
                     <div class="accordion-item border rounded-3 mb-3" style="border-color:#e4e8ec!important;">

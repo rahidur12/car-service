@@ -58,24 +58,13 @@
                         style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
                     <h2 class="fw-bold mb-4">Tyre Replacement in Dubai - What the UAE Climate Does to Your Tyres</h2>
                     <p style="color:#444;line-height:1.8;">
-                        Tyre replacement in Dubai is needed more frequently - and for different reasons - than in cooler
-                        climates. While tread wear is the obvious indicator, <strong>heat degradation and UV damage</strong>
-                        are the leading causes of dangerous tyre failure on UAE roads. Rubber compounds harden and crack
-                        under sustained exposure to 60°C+ road surface temperatures and intense solar UV radiation, making
-                        the tyre sidewall brittle and prone to sudden blowout - even when tread depth appears adequate.
+                        Tyre Replacement Dubai solutions are needed more frequently - and for different reasons - than in cooler climates. Whether you drive to our workshop or request mobile tyre replacement dubai assistance after an unexpected blowout, understanding heat degradation and UV damage is critical. Rubber compounds harden and crack under sustained exposure to 60°C+ road surface temperatures and intense solar UV radiation, making the tyre sidewall brittle and prone to sudden failure - even when tread depth appears adequate.
                     </p>
                     <p style="color:#444;line-height:1.8;">
-                        The UAE standard - and international safety consensus - is that <strong>no tyre more than 5 years
-                            old should remain in service</strong>, regardless of tread depth. The manufacturing date is
-                        encoded in the last four digits of the DOT code on every tyre sidewall (week and year format). This
-                        is one of the most overlooked safety issues we find on pre-purchase inspections and annual safety
-                        checks.
+                        The UAE standard - and international safety consensus - is that no tyre more than 5 years old should remain in service, regardless of tread depth. As part of our tyre replacement service dubai workflow, we verify the manufacturing date encoded in the last four digits of the DOT code on every tyre sidewall (week and year format). This is one of the most overlooked safety issues we find on pre-purchase inspections and annual safety checks.
                     </p>
                     <p style="color:#444;line-height:1.8;">
-                        At our <strong>222 Al Satwa Road workshop</strong>, <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> tyres across all vehicle categories -
-                        from city cars to heavy SUVs - from Bridgestone, Michelin, Pirelli, Continental, Yokohama, and more.
-                        We perform computerised 4-wheel alignment on all replacement jobs, ensuring your new tyres wear
-                        evenly from the first kilometre.
+                        At our 222 Al Satwa Road workshop, the premier tyre shop satwa location, <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> provides car tyre replacement dubai services across all vehicle categories - from city cars to heavy SUVs - stocking Bridgestone, Michelin, Pirelli, Continental, Yokohama, and more. We perform computerised 4-wheel alignment on all replacement jobs, ensuring your new tyres wear evenly from the first kilometre.
                     </p>
                 </div>
                 <div class="col-lg-6">
@@ -403,21 +392,21 @@
     {{-- ═══ WHY CHOOSE US ═══ --}}
     <div class="container-fluid py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width:600px;">
+            <div class="col-lg-6">
                 <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
                     style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Why Choose Us</span>
                 <h2 class="fw-bold mb-2">Why Dubai Drivers Choose Us for Tyres</h2>
             </div>
             <div class="row g-4">
                 @php
-                    $reasons = [
-                        ['fa-circle', 'Full Brand Range Stocked', 'We carry budget, mid-range, and premium tyre brands across all common UAE vehicle sizes. Walk-in and drive away the same day in most cases.'],
-                        ['fa-crosshairs', 'Alignment Included with Replacement', 'Every tyre replacement job includes a 4-wheel alignment check. Fitting tyres without checking alignment means they wear unevenly within weeks.'],
-                        ['fa-calendar-alt', 'DOT Age Check on Every Visit', 'We check the manufacturing date on every tyre we inspect. You\'ll never leave our workshop with tyres that are past their safe service life.'],
-                        ['fa-shield-alt', 'Correct Specification Only', 'We fit the tyre grade and load/speed rating your vehicle requires - not a cheaper alternative that won\'t handle your car\'s performance envelope safely.'],
-                        ['fa-receipt', 'Transparent Pricing', 'Our prices include fitting, balancing, and valve stem check. No surprise disposal fees or "balancing extra" added at the till.'],
-                        ['fa-car', 'All Vehicles, All Sizes', 'From compact 15-inch saloon tyres to 22-inch SUV fitments and performance run-flats - we have the equipment and stock for everything on Dubai\'s roads.'],
-                    ];
+                $reasons = [
+                    ['fa-circle', 'Full Brand Range Stocked', 'We carry budget, mid-range, and premium tyre brands across all common UAE vehicle sizes. Drivers searching for tyre repair dubai marina or tyre repair dubai south options can visit our central hub to drive away the same day.'],
+                    ['fa-crosshairs', 'Alignment Included with Replacement', 'Every tyre replacement job includes a 4-wheel alignment check. If you need a tyre alignment near me check, fitting tyres without setting proper toe and camber angles means they wear unevenly within weeks.'],
+                    ['fa-calendar-alt', 'DOT Age Check on Every Visit', 'We perform a complete tyre repair dubai and age evaluation on every visit. By checking the manufacturing date on every tyre we inspect, you will never leave our workshop with rubber past its safe service life.'],
+                    ['fa-shield-alt', 'Correct Specification Only', 'During every tyre fitting dubai job, we match the exact speed rating and load capacity your vehicle manufacturer demands - ensuring high-speed stability across UAE highways.'],
+                    ['fa-receipt', 'Transparent Pricing', 'Our Tyre replacement dubai price structure includes fitting, wheel balancing, and new valve stems. No surprise disposal fees or hidden extras added at the till.'],
+                    ['fa-car', 'All Vehicles, All Sizes', 'Delivering the best tyre change dubai service means catering to all platforms - from compact 15-inch saloon tyres to 22-inch SUV fitments and performance run-flats.'],
+                ];
                 @endphp
                 @foreach($reasons as $r)
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -451,32 +440,32 @@
                 <div class="col-lg-9">
                     <div class="accordion" id="tyreFaq">
                         @php
-                            $faqs = [
-                                [
-                                    'How long do tyres last in Dubai?',
-                                    'In Dubai\'s heat, tyres typically last 30,000–50,000 km for standard saloons, and 20,000–35,000 km for heavier SUVs. However, age matters as much as mileage - tyres over 5 years from their DOT manufacture date should be replaced even if tread remains, because the rubber compound degrades invisibly at Dubai\'s sustained temperatures and UV levels.',
-                                ],
-                                [
-                                    'What tyre pressure should I use in Dubai?',
-                                    'Always use your manufacturer\'s recommended cold inflation pressure - found on a sticker inside the driver\'s door frame or in your owner\'s manual. Check pressure when the car has been parked for at least 3 hours. Never adjust pressure based on heat readings from hot tyres. For SUVs towing or carrying full loads, use the maximum recommended pressure printed on the tyre wall.',
-                                ],
-                                [
-                                    'Can I repair a punctured tyre or do I need to replace it?',
-                                    'A puncture in the central tread area can be safely repaired using a certified plug-patch repair method - if the hole is less than 6mm and the tyre is otherwise in good condition. A tyre cannot be repaired if the puncture is in the sidewall, if the tyre has run flat (even briefly), if the tread depth is below 2.5mm, or if the tyre is over 5 years old. Run-flat tyres cannot be repaired at all after they have operated in deflated mode.',
-                                ],
-                                [
-                                    'How do I read a tyre size on my car in Dubai?',
-                                    'The tyre size is printed on the sidewall in a standard format: 225/55R17 97W for example. 225 = tread width in mm. 55 = aspect ratio (sidewall height as % of width). R = radial construction. 17 = wheel diameter in inches. 97 = load index. W = speed rating (W = 270km/h). Your replacement tyre must match the size exactly, and the load index and speed rating must meet or exceed the original specification.',
-                                ],
-                                [
-                                    'How often should I do a wheel alignment in Dubai?',
-                                    'We recommend a 4-wheel alignment check every 15,000 km, after any significant pothole or kerb impact, whenever new tyres are fitted, and any time you notice the car pulling to one side. Dubai\'s road conditions - speed bumps, construction debris, and occasional sand covering on roads - knock alignment out of specification more frequently than smooth European roads do.',
-                                ],
-                                [
-                                    'Are cheap tyres safe in Dubai?',
-                                    'Very budget tyre brands may not carry the heat ratings needed for Dubai\'s road surface temperatures, which can exceed 70°C. We recommend mid-range brands from established manufacturers (Hankook, Yokohama, Dunlop) as the minimum for Dubai. Premium brands (Bridgestone, Michelin, Pirelli) for performance vehicles and high-speed highway driving. We never fit tyres below the manufacturer\'s load and speed rating requirements.',
-                                ],
-                            ];
+                        $faqs = [
+                            [
+                                'How long do tyres last in Dubai?',
+                                'When planning a tyre change dubai schedule, expect tyres in Dubai heat to last 30,000–50,000 km for standard saloons, and 20,000–35,000 km for heavier SUVs. However, age matters as much as mileage - tyres over 5 years from their DOT manufacture date should be replaced even if tread remains, because the rubber compound degrades invisibly at Dubai\'s sustained temperatures and UV levels.',
+                            ],
+                            [
+                                'What tyre pressure should I use in Dubai?',
+                                'Always use your manufacturer\'s recommended cold inflation pressure - found on a sticker inside the driver\'s door frame or in your owner\'s manual. If you notice steering wheel vibration alongside pressure drops, searching for tyre balancing near me can help pinpoint uneven rim wear. Check pressure when the car has been parked for at least 3 hours, and never adjust pressure based on hot tyre readings.',
+                            ],
+                            [
+                                'Can I repair a punctured tyre or do I need to replace it?',
+                                'A puncture in the central tread area can be safely repaired using a certified plug-patch repair method if the hole is under 6mm and no structural tyre cord dubai layers are severed. However, if you are searching for tyre repair dubai near me or Tyre repair Dubai near me options, note that a tyre cannot be repaired if the puncture is in the sidewall, if it ran flat, or if tread depth is under 2.5mm.',
+                            ],
+                            [
+                                'How do I read a tyre size on my car in Dubai?',
+                                'The tyre size is printed on the sidewall in a standard format: 225/55R17 97W. Here, 225 is tread width in mm, 55 is sidewall aspect ratio, R is radial construction, 17 is wheel diameter in inches, 97 is load index, and W is speed rating (270 km/h). Every professional tyre service dubai technician ensures replacement tyres match these exact dimensional specs.',
+                            ],
+                            [
+                                'How often should I do a wheel alignment in Dubai?',
+                                'We recommend a 4-wheel alignment check every 15,000 km, after kerb impacts, when fitting new tyres, or when combining routine tyre rotation dubai procedures. Dubai\'s road conditions - speed bumps, construction debris, and occasional sand covering on roads - knock alignment out of specification more frequently than smooth European roads do.',
+                            ],
+                            [
+                                'Are cheap tyres safe in Dubai?',
+                                'Drivers looking for the Cheapest tyre replacement dubai options must ensure budget brands carry heat ratings suited for road temperatures exceeding 70°C. Evaluating the total Tyre replacement dubai cost means balancing price against longevity; mid-range brands (Hankook, Yokohama, Dunlop) offer a safe baseline. When selecting a Tyre change Service near me, never fit tyres below your vehicle manufacturer\'s required load and speed ratings.',
+                            ],
+                        ];
                         @endphp
                         @foreach($faqs as $i => $faq)
                             <div class="accordion-item border rounded-3 mb-3" style="border-color:#e4e8ec!important;">

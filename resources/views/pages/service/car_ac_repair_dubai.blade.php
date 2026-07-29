@@ -45,20 +45,20 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
         <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-                <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                      style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
-                <h2 class="fw-bold mb-4">Car AC Repair in Dubai - Why the UAE Climate Demands Expert Diagnosis</h2>
-                <p style="color:#444;line-height:1.8;">
-                    Car AC repair in Dubai is not the same as AC service in cooler countries. When ambient temperatures exceed 45°C for months at a time, your vehicle's air conditioning system operates under sustained thermal stress that gradually degrades compressor seals, refrigerant hoses, and condenser efficiency far faster than in temperate climates.
-                </p>
-                <p style="color:#444;line-height:1.8;">
-                    The result: your AC may appear to function in the morning but fail completely by midday - leaving you driving in temperatures that pose a genuine health risk. At <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a>, our technicians use <strong>electronic leak detection equipment and manifold gauge sets</strong> to diagnose the exact fault before touching any components. We identify whether the issue is a refrigerant leak, compressor failure, condenser blockage, or expansion valve fault - and quote you accordingly.
-                </p>
-                <p style="color:#444;line-height:1.8;">
-                    We service systems using both <strong>R134a</strong> (older vehicles) and <strong>R1234yf</strong> (post-2017 models) refrigerants, across all makes including Toyota, Nissan, BMW, Mercedes-Benz, and Kia.
-                </p>
-            </div>
+                <div class="col-lg-6">
+                    <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
+                        style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Service Overview</span>
+                    <h2 class="fw-bold mb-4">Car AC Repair in Dubai - Why the UAE Climate Demands Expert Diagnosis</h2>
+                    <p style="color:#444;line-height:1.8;">
+                        Car AC Repair Dubai services are not the same as AC service in cooler countries. When ambient temperatures exceed 45°C for months at a time, your vehicle's air conditioning system operates under sustained thermal stress that gradually degrades compressor seals, refrigerant hoses, and condenser efficiency far faster than in temperate climates.
+                    </p>
+                    <p style="color:#444;line-height:1.8;">
+                        The result: your AC may appear to function in the morning but fail completely by midday - leaving you driving in temperatures that pose a genuine health risk. At <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a>, our technicians deliver a complete car ac repair service in dubai using electronic leak detection equipment and manifold gauge sets to diagnose the exact fault before touching any components. We identify whether the issue is a refrigerant leak, compressor failure, condenser blockage, or expansion valve fault - and quote you accordingly.
+                    </p>
+                    <p style="color:#444;line-height:1.8;">
+                        We provide specialized car air conditioning repair dubai solutions servicing systems using both R134a (older vehicles) and R1234yf (post-2017 models) refrigerants, across all makes including Toyota, Nissan, BMW, Mercedes-Benz, and Kia.
+                    </p>
+                </div>
             <div class="col-lg-6">
                 <div class="position-relative" style="min-height:380px;">
                     <img src="{{ asset('public/img/service6.webp') }}"
@@ -118,28 +118,28 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
                 <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                      style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Refrigerant Types</span>
+                    style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Refrigerant Types</span>
                 <h2 class="fw-bold mb-4">R134a vs R1234yf - Which Does Your Car Need?</h2>
                 <p style="color:#444;line-height:1.8;">
-                    One of the most common AC service errors in Dubai is using the wrong refrigerant type. Mixing refrigerants - or using R134a in a system designed for R1234yf - causes compressor damage and immediate system failure.
+                    One of the most common mistakes made during car aircon repair dubai procedures is using the wrong refrigerant type. Mixing refrigerants - or using R134a in a system designed for R1234yf - causes compressor damage and immediate system failure.
                 </p>
                 <div class="row g-3 mt-2">
                     <div class="col-12">
                         <div class="border rounded-3 p-4 bg-light">
                             <div class="fw-bold mb-2">R134a (HFC Refrigerant)</div>
-                            <p class="text-muted mb-1" style="font-size:.875rem;">Used in most vehicles manufactured before 2017. Lower cost, widely available. Still the majority of cars on Dubai roads use R134a systems.</p>
+                            <p class="text-muted mb-1" style="font-size:.875rem;">Used in most vehicles manufactured before 2017. Lower cost, widely available through standard car ac refill services dubai options. Still the majority of cars on Dubai roads use R134a systems.</p>
                             <span class="badge bg-primary" style="font-size:.75rem;">Pre-2017 vehicles</span>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="border rounded-3 p-4 bg-light">
                             <div class="fw-bold mb-2">R1234yf (HFO Refrigerant)</div>
-                            <p class="text-muted mb-1" style="font-size:.875rem;">Required in vehicles manufactured from 2017 onward by EU regulation (now adopted across most global manufacturers). Lower global warming potential. Higher cost. Cannot be substituted with R134a.</p>
+                            <p class="text-muted mb-1" style="font-size:.875rem;">Required in vehicles manufactured from 2017 onward by EU regulation (now adopted across most global manufacturers). Drivers seeking a car ac refill near me for newer models must ensure this eco-friendly gas is used, as it cannot be substituted with R134a.</p>
                             <span class="badge bg-success" style="font-size:.75rem;">2017+ vehicles</span>
                         </div>
                     </div>
                 </div>
-                <p class="mt-3" style="color:#444;line-height:1.8;font-size:.875rem;"><i class="fa fa-info-circle text-primary me-1"></i>Our technicians check your vehicle's refrigerant type from the under-hood label before any gas is added - protecting your compressor and your wallet.</p>
+                <p class="mt-3" style="color:#444;line-height:1.8;font-size:.875rem;"><i class="fa fa-info-circle text-primary me-1"></i>Our technicians check your vehicle's refrigerant type from the under-hood label before any gas is added when performing a Car AC repair near me evaluation - protecting your compressor and your wallet.</p>
             </div>
             <div class="col-lg-6">
                 <div class="bg-light border rounded-3 p-4">
@@ -175,9 +175,9 @@
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width:600px;">
             <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                  style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Pricing Guide</span>
+                style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Pricing Guide</span>
             <h2 class="fw-bold mb-2">Car AC Service Prices in Dubai - Published Transparently</h2>
-            <p class="text-muted">We publish our price ranges openly. You confirm the exact quote before any work begins.</p>
+            <p class="text-muted">We publish our price ranges openly for all car ac maintenance dubai packages. You confirm the exact quote before any work begins.</p>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -209,17 +209,17 @@
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width:600px;">
             <span class="d-inline-block border border-primary rounded text-primary fw-semibold py-1 px-3 mb-3"
-                  style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Why Choose Us</span>
+                style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;">Why Choose Us</span>
             <h2 class="fw-bold mb-2">Why Dubai Drivers Choose Us for AC Repair</h2>
         </div>
         <div class="row g-4">
             @php $reasons = [
-                ['fa-search','Diagnose Before We Charge','We locate the exact fault before recommending any parts. No guesswork, no unnecessary compressor replacements when a seal repair will do.'],
-                ['fa-snowflake','Correct Refrigerant, Always','We verify your vehicle\'s refrigerant specification before adding any gas. Mixing types destroys compressors - we prevent this.'],
-                ['fa-tools','Calibrated Recharge Equipment','We use refrigerant stations with built-in scales to charge your system to the exact manufacturer weight - not an approximation.'],
-                ['fa-shield-alt','Warranty on All Parts','All replacement components - compressors, condensers, valves - come with manufacturer warranty coverage.'],
-                ['fa-map-marker-alt','Workshop in Al Satwa','Our workshop is centrally located with proper AC equipment - not a mobile tool kit. Complex AC work is done correctly in the workshop.'],
-                ['fa-calendar-alt','Pre-Summer AC Check','We offer a seasonal AC health check before the Dubai summer peak - identifying issues when they\'re minor, not critical.'],
+                ['fa-search','Diagnose Before We Charge','We locate the exact fault before recommending any parts so you receive an accurate Car ac repair dubai price upfront. No guesswork, no unnecessary compressor replacements when a seal repair will do.'],
+                ['fa-snowflake','Correct Refrigerant, Always','We verify your vehicle\'s refrigerant specification before adding any gas during a car ac service in dubai inspection. Mixing types destroys compressors - we prevent this.'],
+                ['fa-tools','Calibrated Recharge Equipment','When performing a car ac service dubai routine, we use refrigerant stations with built-in scales to charge your system to the exact manufacturer weight - not an approximation.'],
+                ['fa-shield-alt','Warranty on All Parts','Unlike Cheap car ac repair dubai alternatives that use unreliable components, all our replacement parts - compressors, condensers, valves - come with manufacturer warranty coverage.'],
+                ['fa-map-marker-alt','Workshop in Al Satwa','Our workshop is centrally located with proper AC equipment - not a mobile tool kit. Whether you need service in Satwa or car ac repair dubai al quoz solutions, complex AC work is done correctly in our workshop.'],
+                ['fa-calendar-alt','Pre-Summer AC Check','We offer a seasonal check for car ac repair in dubai clients before the summer peak - identifying issues when they\'re minor, not critical.'],
             ]; @endphp
             @foreach($reasons as $r)
             <div class="col-md-6 col-lg-4">
@@ -251,12 +251,12 @@
             <div class="col-lg-9">
                 <div class="accordion" id="acFaq">
                     @php $faqs = [
-                        ['Why is my car AC not cooling properly in Dubai?','The most common causes are low refrigerant due to a leak, a failing compressor, a blocked condenser, or a faulty expansion valve. Dubai\'s heat accelerates wear on all these components. The only reliable way to identify the cause is a proper pressure test and leak detection - not simply adding more gas, which only delays the problem if a leak is present.'],
-                        ['How often should I service my car AC in Dubai?','We recommend an AC health check every 12 months - ideally before the summer peak in April. This includes a pressure check, leak inspection, cabin filter replacement, and condenser cleaning. Catching a minor refrigerant loss early costs AED 150–200. Leaving it until compressor failure costs AED 600–1,800.'],
-                        ['How long does AC gas last in a car?','A correctly sealed AC system loses no refrigerant. If your car needs gas refilling every year, there is a leak that needs repairing - not just topping up. We locate and repair the leak source before recharging, so the gas you pay for stays in the system.'],
-                        ['Is it safe to drive in Dubai without a working AC?','For short distances in cooler months, yes. But from April to October, Dubai temperatures regularly exceed 45°C - making a non-functional AC a serious health risk, particularly for children and the elderly. We treat AC failure as an urgent repair, not a cosmetic issue.'],
-                        ['How much does AC compressor replacement cost in Dubai?','Compressor replacement costs AED 600 to 1,800 depending on the vehicle make and whether a genuine OEM or high-quality aftermarket unit is used. We provide a clear written quote before any work begins. European vehicle compressors typically cost more than Japanese units due to parts availability.'],
-                        ['Can you recharge my car AC at my home or office?','Simple gas recharges can be performed at your location if the system is intact. However, if a leak or component fault is suspected, we recommend bringing the vehicle to our Al Satwa workshop where we have the full diagnostic equipment needed to locate leaks and test system performance properly.'],
+                        ['Why is my car AC not cooling properly in Dubai?','The most common causes are low refrigerant due to a leak, a failing compressor, a blocked condenser, or a faulty expansion valve. Dubai\'s heat accelerates wear on all these components, requiring a reliable car ac not cooling fix dubai driver trust. The only reliable way to identify the cause is a proper pressure test and leak detection - not simply adding more gas, which only delays the problem if a leak is present.'],
+                        ['How often should I service my car AC in Dubai?','We recommend an AC health check every 12 months - ideally before the summer peak in April. This includes a pressure check, leak inspection, cabin filter replacement, and condenser cleaning. Catching a minor refrigerant loss early costs AED 150–200, whereas delaying it until full car ac compressor repair dubai work is required can cost AED 600–1,800.'],
+                        ['How long does AC gas last in a car?','A correctly sealed AC system loses no refrigerant. If your car needs a car ac gas refill dubai service every year, there is a leak that needs repairing - not just topping up. We locate and repair the leak source before recharging, so the gas you pay for stays in the system.'],
+                        ['Is it safe to drive in Dubai without a working AC?','For short distances in cooler months, yes. But from April to October, Dubai temperatures regularly exceed 45°C - making a non-functional AC a serious health risk, particularly for children and the elderly. Relying on the Best car ac repair dubai specialists ensures your cooling system is treated as an urgent repair, not a cosmetic issue.'],
+                        ['How much does AC compressor replacement cost in Dubai?','Compressor replacement costs AED 600 to 1,800 depending on the vehicle make and whether a genuine OEM or high-quality aftermarket unit is used. Whether you book in Satwa or seek Car AC repair Al Quoz options, we provide a clear written quote before any work begins. European vehicle compressors typically cost more than Japanese units due to parts availability.'],
+                        ['Can you recharge my car AC at my home or office?','Simple gas recharges can be handled via Mobile car ac repair dubai assistance if the system is intact. However, if you need a permanent car ac fix dubai, or if a leak or component fault is suspected, we recommend bringing the vehicle to our facility. Finding a car ac repair dubai near me location with full diagnostic equipment ensures leaks are located and system performance is tested properly.'],
                     ]; @endphp
                     @foreach($faqs as $i => $faq)
                     <div class="accordion-item border rounded-3 mb-3" style="border-color:#e4e8ec!important;">
