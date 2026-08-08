@@ -22,7 +22,7 @@
                     The most important routine service for your engine - done with the correct grade oil for your car and Dubai climate. Under 30 minutes at our Al Satwa workshop or at your location.
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold"><i class="fa fa-phone-alt me-2"></i>Call 056 612 1423</a>
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold"><i class="fa fa-phone-alt me-2"></i>Call 056 612 1423</a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold"><i class="fab fa-whatsapp me-2"></i>WhatsApp Us</a>
                 </div>
                 <nav aria-label="breadcrumb" class="mt-4">
@@ -404,7 +404,7 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
                         <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">

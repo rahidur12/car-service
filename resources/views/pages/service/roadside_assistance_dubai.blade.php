@@ -26,7 +26,7 @@
                 {{-- Emergency CTA prominent --}}
                 <div class="d-flex flex-wrap gap-3 justify-content-center mb-3 text-center align-items-stretch col-12 col-md-10 mx-auto">
                     <!-- Equalized padding, typography styling, and applied fluid mobile width structural constraints -->
-                    <a href="tel:0566121423"
+                    <a href="tel:+971 56 612 1423"
                     class="btn btn-danger rounded-pill px-4 py-3 fw-bold flex-grow-1 w-100 d-inline-flex align-items-center justify-content-center"
                     style="font-size:1.1rem; max-width: 320px;">
                         <i class="fa fa-phone-alt me-2"></i>Call Now - 056 612 1423
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="col-lg-3 text-center">
-                <a href="tel:0566121423" class="btn btn-danger rounded-pill px-4 py-3 fw-bold w-100">
+                <a href="tel:+971 56 612 1423" class="btn btn-danger rounded-pill px-4 py-3 fw-bold w-100">
                     <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                 </a>
             </div>
@@ -429,7 +429,7 @@
             </div>
             <div class="col-lg-5 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
-                    <a href="tel:0566121423" class="btn btn-danger rounded-pill px-5 py-3 fw-bold" style="font-size:1.05rem;">
+                    <a href="tel:+971 56 612 1423" class="btn btn-danger rounded-pill px-5 py-3 fw-bold" style="font-size:1.05rem;">
                         <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">

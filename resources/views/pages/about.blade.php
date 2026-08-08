@@ -284,8 +284,8 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056-6121423
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
@@ -346,8 +346,8 @@
                     </li>
                     @endforeach
                 </ul>
-                <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-2">
-                    <i class="fa fa-phone-alt me-2"></i> Call 056-6121423
+                <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-2">
+                    <i class="fa fa-phone-alt me-2"></i> Call +971 56 612 1423
                 </a>
             </div>
         </div>
@@ -533,7 +533,7 @@
                         ],
                         [
                             'q' => 'Do I need an appointment or can I just walk in?',
-                            'a' => 'Both options work perfectly. Walk-ins are always welcome at 222 Al Satwa Road - if you\'re nearby and your car needs attention, just come in. If you\'d like to guarantee a specific time slot or have a complex repair planned, you can book in advance through our website or by calling 056-6121423.',
+                            'a' => 'Both options work perfectly. Walk-ins are always welcome at 222 Al Satwa Road - if you\'re nearby and your car needs attention, just come in. If you\'d like to guarantee a specific time slot or have a complex repair planned, you can book in advance through our website or by calling +971 56 612 1423.',
                         ],
                         [
                             'q' => 'What payment methods do you accept?',
@@ -635,7 +635,7 @@
       "name": "Can I walk in without an appointment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, walk-in customers are welcome at our Al Satwa workshop. You can also book an appointment in advance by calling 056-6121423 or through our website."
+        "text": "Yes, walk-in customers are welcome at our Al Satwa workshop. You can also book an appointment in advance by calling +971 56 612 1423 or through our website."
       }
     },
 

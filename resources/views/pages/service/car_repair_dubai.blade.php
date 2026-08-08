@@ -24,7 +24,7 @@
                     Engine faults, AC failure, battery issues, brake wear, electrical faults - diagnosed correctly and fixed right the first time. Transparent quotes before work begins. Open 7AM–10PM, every day.
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
                         <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
@@ -361,7 +361,7 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
                         <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">

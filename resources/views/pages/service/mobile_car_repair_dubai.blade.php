@@ -24,7 +24,7 @@
                     Car problem at home, the office, or stranded on the road? Our mobile mechanics come to your location across Dubai - equipped, certified, and ready to diagnose and fix on the spot.
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
                         <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
@@ -414,7 +414,7 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
                         <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">

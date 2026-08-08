@@ -78,7 +78,7 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2 .nav_clr_upr{"></small>
-                    <small>056-6121423</small>
+                    <small>+971 56 612 1423</small>
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Al Satwa, Dubai, United Arab Emirates</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>056-6121423</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+971 56 612 1423</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@dubaicarrepairservice.com</p>
                 </div>
                 <div class="col-lg-4 col-md-4">

@@ -24,7 +24,7 @@
                     From minor tune-ups to complete engine overhauls - our certified mechanics use OBD-II diagnostics and genuine parts to restore full engine performance across all car makes operating in Dubai's extreme climate.
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
                         <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
@@ -441,7 +441,7 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
-                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
                         <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">

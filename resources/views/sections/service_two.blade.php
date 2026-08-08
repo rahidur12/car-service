@@ -297,9 +297,9 @@
                     <li class="mb-2"><i class="fa fa-check text-white me-2"></i>AC system performance check</li>
                     <li class="mb-2"><i class="fa fa-check text-white me-2"></i>Printed vehicle health report</li>
                 </ul>
-                <a href="tel:0566121423" class="btn btn-light py-2 px-3 py-md-3 px-md-5 fs-md-6"
+                <a href="tel:+971 56 612 1423" class="btn btn-light py-2 px-3 py-md-3 px-md-5 fs-md-6"
                     style="font-size: 0.85rem; font-weight: 500; letter-spacing: 0.5px; white-space: nowrap;">
-                    <i class="fa fa-phone-alt me-2"></i> Book a Diagnostic: 056-6121423 <i
+                    <i class="fa fa-phone-alt me-2"></i> Book a Diagnostic: +971 56 612 1423 <i
                         class="fa fa-arrow-right ms-2"></i>
                 </a>
             </div>
@@ -466,7 +466,7 @@
 
         <div class="text-center mt-5">
             <p class="text-muted mb-3">Not listed? We welcome drivers from all areas across Dubai.</p>
-            <a href="tel:0566121423" class="btn rounded-pill py-3 px-5 text-white shadow-sm" style="background-color: #001516; font-weight: 600; transition: all 0.2s ease;" onmouseover="this.style.backgroundColor='#002d30'" onmouseout="this.style.backgroundColor='#001516'">
+            <a href="tel:+971 56 612 1423" class="btn rounded-pill py-3 px-5 text-white shadow-sm" style="background-color: #001516; font-weight: 600; transition: all 0.2s ease;" onmouseover="this.style.backgroundColor='#002d30'" onmouseout="this.style.backgroundColor='#001516'">
                 <i class="fa fa-phone-alt me-2"></i> Call Now - 056-6121423
             </a>
         </div>

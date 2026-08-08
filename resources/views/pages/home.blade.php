@@ -79,7 +79,7 @@
 
                                 <!-- CTA Buttons (Perfectly Aligned PC & Mobile) -->
                                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-2 mb-4">
-                                    <a href="tel:0566121423" class="btn btn-primary rounded-pill px-3 py-2 fw-semibold shadow-sm flex-grow-1 flex-sm-grow-0 text-center" style="font-size: 0.88rem; white-space: nowrap;">
+                                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-3 py-2 fw-semibold shadow-sm flex-grow-1 flex-sm-grow-0 text-center" style="font-size: 0.88rem; white-space: nowrap;">
                                         <i class="fa fa-phone-alt me-1"></i>Call 056 612 1423
                                     </a>
                                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-3 py-2 fw-semibold shadow-sm flex-grow-1 flex-sm-grow-0 text-center" style="font-size: 0.88rem; white-space: nowrap;">
