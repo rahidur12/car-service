@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title = 'Tyre Replacement Dubai | Balancing & Alignment | 056 612 1423';
-    $meta_description = 'Fast tyre replacement, balancing & wheel alignment in Dubai. All brands. Mobile or workshop. Transparent pricing. Call 056 612 1423 - open 7AM–10PM.';
+    $meta_title = 'Tyre Replacement Dubai | Balancing & Alignment | +971 56 612 1423';
+    $meta_description = 'Fast tyre replacement, balancing & wheel alignment in Dubai. All brands. Mobile or workshop. Transparent pricing. Call +971 56 612 1423 - open 7AM–10PM.';
     $meta_keywords = 'tyre replacement dubai, car tyres dubai, wheel alignment dubai, tyre change near me dubai, tyre balancing dubai';
 @endphp
 @section('content')
@@ -26,7 +26,7 @@
                     </p>
                     <div class="d-flex flex-wrap gap-3 justify-content-center">
                         <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                            <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                            <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                         </a>
                         <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                             <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
@@ -540,7 +540,7 @@
                 <div class="col-lg-4 text-center text-lg-end">
                     <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                         <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                            <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                            <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                         </a>
                         <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                             <i class="fab fa-whatsapp me-2"></i>WhatsApp

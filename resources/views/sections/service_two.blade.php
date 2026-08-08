@@ -467,7 +467,7 @@
         <div class="text-center mt-5">
             <p class="text-muted mb-3">Not listed? We welcome drivers from all areas across Dubai.</p>
             <a href="tel:+971 56 612 1423" class="btn rounded-pill py-3 px-5 text-white shadow-sm" style="background-color: #001516; font-weight: 600; transition: all 0.2s ease;" onmouseover="this.style.backgroundColor='#002d30'" onmouseout="this.style.backgroundColor='#001516'">
-                <i class="fa fa-phone-alt me-2"></i> Call Now - 056-6121423
+                <i class="fa fa-phone-alt me-2"></i> Call Now - +971 56 612 1423
             </a>
         </div>
     </div>

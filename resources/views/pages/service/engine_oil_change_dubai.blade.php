@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title       = 'Engine Oil Change Dubai | All Grades | From AED 89 | 056 612 1423';
-    $meta_description = 'Fast engine oil change in Dubai at 222 Al Satwa Rd. Synthetic, semi-synthetic & mineral oils. All makes. Genuine filters. Mobile service available. Call 056 612 1423.';
+    $meta_title       = 'Engine Oil Change Dubai | All Grades | From AED 89 | +971 56 612 1423';
+    $meta_description = 'Fast engine oil change in Dubai at 222 Al Satwa Rd. Synthetic, semi-synthetic & mineral oils. All makes. Genuine filters. Mobile service available. Call +971 56 612 1423.';
     $meta_keywords    = 'engine oil change dubai, oil change dubai, car oil change dubai, oil change near me, synthetic oil change dubai, engine oil service dubai';
 @endphp
 @section('content')
@@ -22,7 +22,7 @@
                     The most important routine service for your engine - done with the correct grade oil for your car and Dubai climate. Under 30 minutes at our Al Satwa workshop or at your location.
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
-                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold"><i class="fa fa-phone-alt me-2"></i>Call 056 612 1423</a>
+                    <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold"><i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423</a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold"><i class="fab fa-whatsapp me-2"></i>WhatsApp Us</a>
                 </div>
                 <nav aria-label="breadcrumb" class="mt-4">
@@ -273,7 +273,7 @@
                 ["fa-filter", "Genuine OEM Filters", "Cheap filters bypass under pressure, allowing unfiltered oil to circulate. Every filter we fit meets or exceeds OEM filtration efficiency and burst pressure rating."],
                 ["fa-search", "Old Oil Inspection Included", "We inspect drained oil for coolant contamination, fuel dilution, and abnormal metal content. Problems a quick-service centre ignores or doesn't mention."],
                 ["fa-receipt", "Price Confirmed Before We Start", "You know the exact cost before we drain a single drop. The price on your quote is the price on your invoice - no surprises."],
-                ["fa-car", "Mobile Service Across Dubai", "We perform oil changes at your home or office across all Dubai areas. Small call-out fee applies. Call 056 612 1423 to book."],
+                ["fa-car", "Mobile Service Across Dubai", "We perform oil changes at your home or office across all Dubai areas. Small call-out fee applies. Call +971 56 612 1423 to book."],
                 ["fa-clock", "Under 30 Minutes", "A standard oil and filter change at our Al Satwa workshop takes 20-30 minutes - not the 90-minute waits at dealer service centres."]
             ]; 
             @endphp
@@ -318,7 +318,7 @@
                         ],
                         [
                             "Can you do an oil change at my home or office in Dubai?",
-                            "Yes - our mobile service covers all Dubai areas. We bring the correct oil, OEM filter, and all equipment. A small call-out fee is added to the standard price. Call 056 612 1423 to book."
+                            "Yes - our mobile service covers all Dubai areas. We bring the correct oil, OEM filter, and all equipment. A small call-out fee is added to the standard price. Call +971 56 612 1423 to book."
                         ],
                         [
                             "Is fully synthetic oil worth the extra cost in Dubai?",
@@ -405,7 +405,7 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp

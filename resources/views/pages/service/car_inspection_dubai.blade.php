@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title       = 'Car Inspection Dubai | RTA Pre-Test & Pre-Purchase | 056 612 1423';
-    $meta_description = 'Professional car inspection in Dubai. RTA pre-test, pre-purchase & safety checks. 50-point inspection, full report, all makes. Book today - 056 612 1423.';
+    $meta_title       = 'Car Inspection Dubai | RTA Pre-Test & Pre-Purchase | +971 56 612 1423';
+    $meta_description = 'Professional car inspection in Dubai. RTA pre-test, pre-purchase & safety checks. 50-point inspection, full report, all makes. Book today - +971 56 612 1423.';
     $meta_keywords    = 'car inspection dubai, vehicle inspection dubai, rta car inspection dubai, pre-purchase car inspection dubai, car check dubai';
 @endphp
 @section('content')
@@ -25,7 +25,7 @@
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
@@ -319,7 +319,7 @@
                    class="btn btn-primary rounded-pill px-4 py-2 fw-semibold d-inline-flex align-items-center justify-content-center text-center lh-sm" 
                    style="max-width: 100%; white-space: normal; word-break: break-word; font-size: calc(13px + 0.3vw);">
                     <i class="fa fa-phone-alt me-2 flex-shrink-0"></i>
-                    <span>Book an Inspection - 056 612 1423</span>
+                    <span>Book an Inspection - +971 56 612 1423</span>
                 </a>
             </div>
 
@@ -529,7 +529,7 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp

@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title       = 'Car Repair Dubai | Expert Mechanics | Al Satwa | 056 612 1423';
-    $meta_description = 'Professional car repair in Dubai at 222 Al Satwa Rd. Engine, AC, battery, brakes, electrical & diagnostics. 12 years, certified mechanics, upfront pricing. Call 056 612 1423.';
+    $meta_title       = 'Car Repair Dubai | Expert Mechanics | Al Satwa | +971 56 612 1423';
+    $meta_description = 'Professional car repair in Dubai at 222 Al Satwa Rd. Engine, AC, battery, brakes, electrical & diagnostics. 12 years, certified mechanics, upfront pricing. Call +971 56 612 1423.';
     $meta_keywords    = 'car repair dubai, car repair near me dubai, auto repair dubai, car workshop dubai, car mechanic dubai, car service center dubai';
 @endphp
 @section('content')
@@ -25,7 +25,7 @@
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
@@ -166,7 +166,7 @@
             </div>
             <div class="col-lg-7">
                 @php $steps = [
-                    ['1','You Arrive or Call','Walk in to 222 Al Satwa Road, call 056 612 1423, or send us a WhatsApp message with your car details and the symptom you are experiencing. We confirm availability and, for complex issues, recommend a booking time.'],
+                    ['1','You Arrive or Call','Walk in to 222 Al Satwa Road, call +971 56 612 1423, or send us a WhatsApp message with your car details and the symptom you are experiencing. We confirm availability and, for complex issues, recommend a booking time.'],
                     ['2','Full Diagnostic Scan','We connect your car to our OBD-II diagnostic system covering all modules - engine, transmission, ABS, body control. Live data and stored fault codes are reviewed before the car is physically inspected.'],
                     ['3','Physical Inspection','Depending on the symptom, we perform a targeted physical inspection - checking fluid levels and condition, listening for noises, testing electrical circuits, or placing the car on the ramp for an underbody check.'],
                     ['4','Written Quote Provided','You receive a clear itemised quote - parts and labour listed separately. We explain what failed, why it failed, and what will happen if it is not repaired. You decide. We never start work without confirmation.'],
@@ -362,7 +362,7 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp

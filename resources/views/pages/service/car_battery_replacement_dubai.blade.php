@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title       = 'Car Battery Replacement Dubai | Same Day | 056 612 1423';
-    $meta_description = 'Dead car battery in Dubai? Fast on-site replacement at home, office or roadside. Certified mechanics, genuine batteries, transparent pricing. Call 056 612 1423.';
+    $meta_title       = 'Car Battery Replacement Dubai | Same Day | +971 56 612 1423';
+    $meta_description = 'Dead car battery in Dubai? Fast on-site replacement at home, office or roadside. Certified mechanics, genuine batteries, transparent pricing. Call +971 56 612 1423.';
     $meta_keywords    = 'car battery replacement dubai, car battery dubai, battery change dubai, dead battery dubai, car battery near me';
 @endphp
 @section('content')
@@ -23,7 +23,7 @@
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
@@ -172,7 +172,7 @@
         </div>
         <div class="row g-4 justify-content-center">
             @php $steps = [
-                ['1','Call or WhatsApp','Contact us at 056 612 1423 or WhatsApp with your location and car details. We\'ll confirm availability and give you an estimated arrival time.'],
+                ['1','Call or WhatsApp','Contact us at +971 56 612 1423 or WhatsApp with your location and car details. We\'ll confirm availability and give you an estimated arrival time.'],
                 ['2','Mechanic Arrives','Our certified mechanic arrives at your location - home, office, car park, or roadside - equipped with testing equipment and a range of battery stock.'],
                 ['3','Full Battery Test','We perform a professional battery load test measuring CCA, voltage, and internal resistance. We show you the results and explain them clearly.'],
                 ['4','Quote Confirmed','If replacement is needed, you receive a clear upfront price before any work begins. No hidden charges, no pressure tactics.'],
@@ -367,7 +367,7 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp

@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title       = 'Roadside Assistance Dubai | 30-Min Response | 056 612 1423';
-    $meta_description = 'Emergency roadside assistance across Dubai. Jump start, flat tyre, battery, lockout & towing. 30-minute response. Certified mechanics. Call 056 612 1423 now.';
+    $meta_title       = 'Roadside Assistance Dubai | 30-Min Response | +971 56 612 1423';
+    $meta_description = 'Emergency roadside assistance across Dubai. Jump start, flat tyre, battery, lockout & towing. 30-minute response. Certified mechanics. Call +971 56 612 1423 now.';
     $meta_keywords    = 'roadside assistance dubai, car breakdown dubai, emergency car repair dubai, breakdown recovery dubai, jump start dubai';
 @endphp
 @section('content')
@@ -29,7 +29,7 @@
                     <a href="tel:+971 56 612 1423"
                     class="btn btn-danger rounded-pill px-4 py-3 fw-bold flex-grow-1 w-100 d-inline-flex align-items-center justify-content-center"
                     style="font-size:1.1rem; max-width: 320px;">
-                        <i class="fa fa-phone-alt me-2"></i>Call Now - 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call Now - +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" 
                     class="btn btn-success rounded-pill px-4 py-3 fw-bold flex-grow-1 w-100 d-inline-flex align-items-center justify-content-center"
@@ -66,7 +66,7 @@
                     @php $immediate = [
                         ['1','Move to Safety','Pull to the hard shoulder, service road, or a safe parking area. Switch on hazard lights immediately.'],
                         ['2','Stay with the Car','Do not stand behind or in front of the vehicle. Stay inside or beside the car on the road side away from traffic.'],
-                        ['3','Call 056 612 1423','Tell us your exact location - building name, street, area, or nearest landmark - and we dispatch immediately.'],
+                        ['3','Call +971 56 612 1423','Tell us your exact location - building name, street, area, or nearest landmark - and we dispatch immediately.'],
                     ]; @endphp
                     @foreach($immediate as $step)
                     <div class="d-flex align-items-start gap-2">
@@ -81,7 +81,7 @@
             </div>
             <div class="col-lg-3 text-center">
                 <a href="tel:+971 56 612 1423" class="btn btn-danger rounded-pill px-4 py-3 fw-bold w-100">
-                    <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                    <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                 </a>
             </div>
         </div>
@@ -100,7 +100,7 @@
                     Roadside assistance in Dubai is needed most often for three reasons - and none of them give you advance warning. A dead battery that appeared healthy this morning. A tyre blowout caused by a sidewall that had been hardening invisibly for three years in UAE heat. An overheating engine that ran fine on the morning commute and stopped on the way home.
                 </p>
                 <p style="color:#444;line-height:1.8;">
-                    <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> mobile mechanics respond to breakdowns across all Dubai areas during operating hours - 7AM to 10PM, Saturday to Friday. When you call <strong>056 612 1423</strong>, you speak to our team directly. We confirm your location, identify the likely cause from your description, and dispatch a certified mechanic in a fully equipped service vehicle - not an untrained driver with a jump pack.
+                    <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> mobile mechanics respond to breakdowns across all Dubai areas during operating hours - 7AM to 10PM, Saturday to Friday. When you call <strong>+971 56 612 1423</strong>, you speak to our team directly. We confirm your location, identify the likely cause from your description, and dispatch a certified mechanic in a fully equipped service vehicle - not an untrained driver with a jump pack.
                 </p>
                 <p style="color:#444;line-height:1.8;">
                     Our roadside team carries the tools and stock to resolve the most common breakdown causes on the spot - dead batteries, flat tyres, fuel issues, and minor electrical faults - without requiring a tow. For faults that genuinely require workshop attention, we arrange towing to our <strong>222 Al Satwa Road workshop</strong> and prioritise your vehicle.
@@ -335,7 +335,7 @@
                     @php $faqs = [
                         [
                             'What should I do immediately if my car breaks down on Sheikh Zayed Road?',
-                            'Move your car to the hard shoulder or emergency lane as quickly and safely as possible. Switch on your hazard lights immediately. If you cannot move the car, stay inside with your seatbelt on until you can safely exit away from traffic. Do not stand behind the vehicle or in the traffic lanes. Once in a safe position, call us at 056 612 1423. Give us the nearest road marker number or exit number - they are posted on green signs along SZR. We dispatch immediately and update you on arrival time.',
+                            'Move your car to the hard shoulder or emergency lane as quickly and safely as possible. Switch on your hazard lights immediately. If you cannot move the car, stay inside with your seatbelt on until you can safely exit away from traffic. Do not stand behind the vehicle or in the traffic lanes. Once in a safe position, call us at +971 56 612 1423. Give us the nearest road marker number or exit number - they are posted on green signs along SZR. We dispatch immediately and update you on arrival time.',
                         ],
                         [
                             'How long does roadside assistance take to arrive in Dubai?',
@@ -355,7 +355,7 @@
                         ],
                         [
                             'My car overheated and the engine warning light is on - can I drive it?',
-                            'No. Do not drive an overheated car. Once the temperature gauge enters the red zone or the overheat warning illuminates, continued driving can cause catastrophic engine damage within 1–3 minutes - warped cylinder head, blown head gasket, or seized engine. Pull over safely, switch off the engine, and call us at 056 612 1423. We assess the cause at your location and advise whether the car can be driven after cooling or needs towing. Dubai\'s heat makes overheating particularly dangerous - the ambient temperature reduces the effectiveness of your cooling system at the critical moment.',
+                            'No. Do not drive an overheated car. Once the temperature gauge enters the red zone or the overheat warning illuminates, continued driving can cause catastrophic engine damage within 1–3 minutes - warped cylinder head, blown head gasket, or seized engine. Pull over safely, switch off the engine, and call us at +971 56 612 1423. We assess the cause at your location and advise whether the car can be driven after cooling or needs towing. Dubai\'s heat makes overheating particularly dangerous - the ambient temperature reduces the effectiveness of your cooling system at the critical moment.',
                         ],
                     ]; @endphp
                     @foreach($faqs as $i => $faq)
@@ -430,7 +430,7 @@
             <div class="col-lg-5 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                     <a href="tel:+971 56 612 1423" class="btn btn-danger rounded-pill px-5 py-3 fw-bold" style="font-size:1.05rem;">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp

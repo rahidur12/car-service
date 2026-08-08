@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title       = 'Car Maintenance Dubai | Scheduled Servicing | 056 612 1423';
-    $meta_description = 'Complete car maintenance in Dubai. Basic, full & major servicing packages. All makes & models. Genuine parts. Open 7AM–10PM. 222 Al Satwa Rd. Call 056 612 1423.';
+    $meta_title       = 'Car Maintenance Dubai | Scheduled Servicing | +971 56 612 1423';
+    $meta_description = 'Complete car maintenance in Dubai. Basic, full & major servicing packages. All makes & models. Genuine parts. Open 7AM–10PM. 222 Al Satwa Rd. Call +971 56 612 1423.';
     $meta_keywords    = 'car maintenance dubai, car service dubai, car servicing dubai, scheduled car service dubai, car maintenance near me dubai';
 @endphp
 @section('content')
@@ -25,7 +25,7 @@
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
@@ -427,7 +427,7 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp

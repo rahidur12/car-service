@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title       = 'Car Engine Service Dubai | Repair & Overhaul | 056 612 1423';
-    $meta_description = 'Trusted car engine service in Dubai. Tune-ups to full overhauls - certified mechanics diagnose & repair all engine faults. All makes. Call 056 612 1423.';
+    $meta_title       = 'Car Engine Service Dubai | Repair & Overhaul | +971 56 612 1423';
+    $meta_description = 'Trusted car engine service in Dubai. Tune-ups to full overhauls - certified mechanics diagnose & repair all engine faults. All makes. Call +971 56 612 1423.';
     $meta_keywords    = 'car engine service dubai, engine repair dubai, engine overhaul dubai, engine tune up dubai, engine diagnostic dubai';
 @endphp
 @section('content')
@@ -25,7 +25,7 @@
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
@@ -442,7 +442,7 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp

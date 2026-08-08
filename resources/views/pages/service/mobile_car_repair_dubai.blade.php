@@ -1,7 +1,7 @@
 @extends('layout.masterhome')
 @php
-    $meta_title       = 'Mobile Car Repair Dubai | Mechanic Comes to You | 056 612 1423';
-    $meta_description = 'Mobile car repair in Dubai - certified mechanic comes to your home, office or roadside. Battery, AC, oil, brakes & more. Fast response. Call 056 612 1423.';
+    $meta_title       = 'Mobile Car Repair Dubai | Mechanic Comes to You | +971 56 612 1423';
+    $meta_description = 'Mobile car repair in Dubai - certified mechanic comes to your home, office or roadside. Battery, AC, oil, brakes & more. Fast response. Call +971 56 612 1423.';
     $meta_keywords    = 'mobile car repair dubai, mobile mechanic dubai, car repair at home dubai, mechanic near me dubai, mobile car service dubai';
 @endphp
 @section('content')
@@ -25,7 +25,7 @@
                 </p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
@@ -206,7 +206,7 @@
         </div>
         <div class="row g-4 justify-content-center">
             @php $steps = [
-                ['1', 'fa-phone-alt',    'Call or WhatsApp',        'Contact us at 056 612 1423 or WhatsApp. Tell us your location, your car make and model, and describe the problem. We confirm whether the service is performable at your location and give you an estimated arrival time and price range.'],
+                ['1', 'fa-phone-alt',    'Call or WhatsApp',        'Contact us at +971 56 612 1423 or WhatsApp. Tell us your location, your car make and model, and describe the problem. We confirm whether the service is performable at your location and give you an estimated arrival time and price range.'],
                 ['2', 'fa-car',          'Mechanic Dispatched',     'A certified mechanic is dispatched from our Al Satwa base in a fully equipped service vehicle carrying diagnostic tools, the most common replacement parts, and the correct oil grade for your vehicle. We update you on arrival time.'],
                 ['3', 'fa-search',       'On-Site Diagnosis',       'We perform a proper diagnosis at your location - not a guess. OBD scan, physical inspection, battery load test, or pressure check depending on the symptom. You receive a clear explanation and a confirmed price before any work begins.'],
                 ['4', 'fa-check-circle', 'Repaired at Your Location','If the repair is within mobile scope, it is completed on the spot. You inspect the work and pay the agreed price. If the vehicle needs workshop attention, we explain exactly why and arrange for it to be brought in at your convenience.'],
@@ -240,7 +240,7 @@
                     Our mobile mechanics operate from our central Al Satwa base, covering all of Dubai's residential and commercial districts. We prioritise a fast response - most areas within 30–60 minutes of your call during operational hours (7AM–10PM, Saturday to Friday).
                 </p>
                 <p style="color:#444;line-height:1.8;">
-                    We service drivers in apartments, villas, office towers, mall car parks, hotel car parks, and on the roadside. If you are unsure whether we cover your area, call 056 612 1423 - we will confirm immediately.
+                    We service drivers in apartments, villas, office towers, mall car parks, hotel car parks, and on the roadside. If you are unsure whether we cover your area, call +971 56 612 1423 - we will confirm immediately.
                 </p>
                 <div class="bg-primary text-white rounded-3 p-4 mt-3">
                     <h5 class="fw-bold text-white mb-2">
@@ -415,7 +415,7 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-end">
                     <a href="tel:+971 56 612 1423" class="btn btn-primary rounded-pill px-4 py-3 fw-semibold">
-                        <i class="fa fa-phone-alt me-2"></i>Call 056 612 1423
+                        <i class="fa fa-phone-alt me-2"></i>Call +971 56 612 1423
                     </a>
                     <a href="https://wa.me/971566121423" class="btn btn-success rounded-pill px-4 py-3 fw-semibold">
                         <i class="fab fa-whatsapp me-2"></i>WhatsApp
