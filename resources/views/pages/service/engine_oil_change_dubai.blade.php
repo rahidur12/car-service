@@ -47,9 +47,9 @@
                     Why Oil Changes Matter More in Dubai
                 </span>
                 <h2 class="fw-bold mb-4">Engine Oil Change Dubai - What UAE Heat Does to Engine Oil</h2>
-                <p style="color:#444;line-height:1.8;">Engine oil change in <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> is more time-sensitive than your owner manual suggests. Manufacturers calculate service intervals at around 20°C ambient temperature. Dubai sustains 45°C+, meaning your engine runs <strong>15-20°C hotter</strong> than those tests assume - oil oxidises, thins, and loses its protective film strength far faster.</p>
-                <p style="color:#444;line-height:1.8;">The result is accelerated metal-on-metal wear in the crankshaft, camshaft, and cylinder bores. <strong>We recommend reducing your manufacturer interval by 20-25% in Dubai</strong>. If your manual says every 10,000 km, change at 7,500-8,000 km. If it says every 15,000 km, change at 11,000-12,000 km.</p>
-                <p style="color:#444;line-height:1.8;">We verify the correct oil grade for your vehicle - <strong>0W-20 for a modern Toyota hybrid</strong>, <strong>5W-30 for a European saloon</strong>, <strong>10W-40 for an older Nissan Patrol</strong> - and pair it with a genuine OEM-quality filter every single time.</p>
+                <p style="color:#444;line-height:1.8;">Arranging a car oil change dubai drivers trust through <a href="{{ route('home') }}" class="text-primary fw-semibold text-decoration-none">Dubai Car Repair Service</a> is more time-sensitive than your owner manual suggests. Whether booking a routine oil change dubai service or searching for an oil change near me, keeping fresh engine oil in dubai is critical because manufacturers calculate service intervals at around 20°C ambient temperature. Dubai sustains 45°C+, meaning your engine runs 15-20°C hotter than those tests assume - oil oxidises, thins, and loses its protective film strength far faster.</p>
+                <p style="color:#444;line-height:1.8;">The result is accelerated metal-on-metal wear in the crankshaft, camshaft, and cylinder bores. Scheduling a synthetic oil change dubai drivers rely on prevents premature component failure, which is why a timely engine oil change dubai vehicle owners carry out is essential. We recommend reducing your manufacturer interval by 20-25% in Dubai. If your manual says every 10,000 km, change at 7,500-8,000 km. If it says every 15,000 km, change at 11,000-12,000 km.</p>
+                <p style="color:#444;line-height:1.8;">When booking an oil service dubai motorists depend on, we perform a professional engine oil change using certified products. We verify the correct engine oil dubai requirements for your vehicle - 0W-20 for a modern Toyota hybrid, 5W-30 for a European saloon, 10W-40 for an older Nissan Patrol - and pair it with a genuine OEM-quality filter every single time.</p>
             </div>
             <div class="col-lg-6">
                 <div class="position-relative" style="min-height:380px;">
@@ -269,12 +269,12 @@
         <div class="row g-4">
             @php 
             $reasons = [
-                ["fa-award", "Correct Spec Oil Always", "We look up your manufacturer specification from the database - not from memory. BMW Longlife-04, Mercedes 229.5, Dexos - we use the approved grade every time."],
-                ["fa-filter", "Genuine OEM Filters", "Cheap filters bypass under pressure, allowing unfiltered oil to circulate. Every filter we fit meets or exceeds OEM filtration efficiency and burst pressure rating."],
-                ["fa-search", "Old Oil Inspection Included", "We inspect drained oil for coolant contamination, fuel dilution, and abnormal metal content. Problems a quick-service centre ignores or doesn't mention."],
-                ["fa-receipt", "Price Confirmed Before We Start", "You know the exact cost before we drain a single drop. The price on your quote is the price on your invoice - no surprises."],
-                ["fa-car", "Mobile Service Across Dubai", "We perform oil changes at your home or office across all Dubai areas. Small call-out fee applies. Call +971 56 612 1423 to book."],
-                ["fa-clock", "Under 30 Minutes", "A standard oil and filter change at our Al Satwa workshop takes 20-30 minutes - not the 90-minute waits at dealer service centres."]
+                ["fa-award", "Correct Spec Oil Always", "When delivering a car oil change service dubai vehicle owners trust, we look up your manufacturer specification from the database - not from memory. BMW Longlife-04, Mercedes 229.5, Dexos - we use the approved grade every time."],
+                ["fa-filter", "Genuine OEM Filters", "Executing a reliable car oil change in dubai requires uncompromised parts. Cheap filters bypass under pressure, allowing unfiltered oil to circulate. Every filter we fit meets or exceeds OEM filtration efficiency and burst pressure rating."],
+                ["fa-search", "Old Oil Inspection Included", "During every oil change service, we inspect drained oil for coolant contamination, fuel dilution, and abnormal metal content. Problems a quick-service centre ignores or doesn't mention."],
+                ["fa-receipt", "Price Confirmed Before We Start", "Whether comparing premium or standard engine oils in dubai, you know the exact cost before we drain a single drop. The price on your quote is the price on your invoice - no surprises."],
+                ["fa-car", "Mobile Service Across Dubai", "For a convenient car engine oil change dubai drivers rely on, we perform oil changes at your home or office across all Dubai areas. Small call-out fee applies. Call +971 56 612 1423 to book."],
+                ["fa-clock", "Under 30 Minutes", "If you need an oil change near me within 5 mi, a standard oil and filter change at our Al Satwa workshop takes 20-30 minutes - not the 90-minute waits at dealer service centres."]
             ]; 
             @endphp
             @foreach($reasons as $r)
@@ -310,29 +310,29 @@
                     $faqs = [
                         [
                             "How often should I change engine oil in Dubai?",
-                            "Reduce your manufacturer's interval by 20-25% in Dubai. Fully synthetic: every 7,500-8,000 km. Semi-synthetic: every 6,000 km. Mineral: every 5,000 km. Dubai's 45°C+ heat causes oil to degrade significantly faster."
+                            "Reduce your manufacturer's interval by 20-25% in Dubai. A proper oil change protects against thermal breakdown. When scheduling an engine oil change near me or looking up a car oil change near me, stick to tight intervals. Fully synthetic: every 7,500-8,000 km. Semi-synthetic: every 6,000 km. Mineral: every 5,000 km. Dubai's 45°C+ heat causes oil to degrade significantly faster."
                         ],
                         [
                             "What is the best engine oil for cars in Dubai?",
-                            "Fully synthetic oil with the correct viscosity for your engine. 0W-20 for modern Toyota, Honda, and Lexus engines. 5W-30 for BMW, Mercedes, and Nissan VQ engines. 5W-40 for turbodiesel variants or high-mileage cars."
+                            "Fully synthetic oil with the correct viscosity for your engine. If you want to buy engine oil near me, ensure it matches factory specifications. The overall engine oil change dubai price depends on fluid type. 0W-20 for modern Toyota, Honda, and Lexus engines. 5W-30 for BMW, Mercedes, and Nissan VQ engines. The total engine oil change dubai cost for 5W-40 applies well to turbodiesel variants or high-mileage cars."
                         ],
                         [
                             "Can you do an oil change at my home or office in Dubai?",
-                            "Yes - our mobile service covers all Dubai areas. We bring the correct oil, OEM filter, and all equipment. A small call-out fee is added to the standard price. Call +971 56 612 1423 to book."
+                            "Yes - providing the best engine oil change dubai mobile team can offer, our mobile service covers all Dubai areas. We bring the correct oil, OEM filter, and all equipment. Even with a cheap engine oil change dubai option, a small call-out fee is added to the standard price. Call +971 56 612 1423 to book."
                         ],
                         [
                             "Is fully synthetic oil worth the extra cost in Dubai?",
-                            "Yes. Fully synthetic costs AED 80-160 more per change but extends your interval by 50-60% and provides significantly better protection at high temperatures. For turbocharged engines, it is mandatory."
+                            "Yes. Comparing the standard oil change price in adnoc against synthetic alternatives shows long-term value. While an enoc oil change price may seem lower initially, fully synthetic costs AED 80-160 more per change but extends your interval by 50-60%. If considering an enoc oil change near me, remember synthetic provides significantly better protection at high temperatures. For turbocharged engines, it is mandatory."
                         ],
                         [
                             "What happens if I use the wrong oil grade in Dubai?",
-                            "Using too-thick oil in a modern engine with tight VVT oil galleries causes sluggish start-up and starves components of lubrication. Too-thin oil in a high-mileage engine with worn components can cause rapid oil thinning under severe summer ambient air heat conditions."
+                            "The underlying engine oil price in dubai reflects product grade and additive quality. Checking the current engine oil price in uae helps avoid sub-standard lubricants. The average engine oil change price in uae varies by specification, but using too-thick oil in a modern engine with tight VVT oil galleries causes sluggish start-up and starves components of lubrication. Too-thin oil in a high-mileage engine with worn components can cause rapid oil thinning under severe summer ambient air heat conditions."
                         ],
                         [
                             "Why is my engine using oil between changes in Dubai?",
-                            "Normal consumption is up to 500ml per 1,000 km for many modern engines. Beyond this indicates worn piston rings (blue smoke at throttle), valve stem seals (blue smoke at cold start), or a failing PCV system."
+                            "Understanding the engine oil change cost in dubai involves knowing your engine's mechanical baseline. Scheduling a comprehensive engine oil change service dubai drivers depend on helps diagnose consumption. Normal consumption is up to 500ml per 1,000 km for many modern engines. Beyond this indicates worn piston rings (blue smoke at throttle), valve stem seals (blue smoke at cold start), or a failing PCV system."
                         ]
-                    ]; 
+                    ];
                     @endphp
                     @foreach($faqs as $i => $faq)
                     <div class="accordion-item border rounded-3 mb-3" style="border-color:#e4e8ec!important;">
