@@ -402,7 +402,7 @@
                         Location
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="locationDropdown">
-                        <li><a class="dropdown-item" href="{{route('car-repair-al-satwa')}}">Car Repair Al Satwa</a></li>
+                        <li><a class="dropdown-item" href="#">Al Satwa Car</a></li>
                         <li><a class="dropdown-item" href="#">Al Quoz</a></li>
                         <li><a class="dropdown-item" href="#">Deira</a></li>
                         <li><a class="dropdown-item" href="#">Al Barsha</a></li>
