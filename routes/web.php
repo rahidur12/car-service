@@ -31,8 +31,6 @@ Route::view('/car-repair-dubai', 'pages.service.car_repair_dubai')->name('car-re
 Route::view('/roadside-assistance-dubai', 'pages.service.roadside_assistance_dubai')->name('roadside-assistance-dubai');
 Route::view('/car-battery-replacement-dubai', 'pages.service.car_battery_replacement_dubai')->name('car-battery-replacement-dubai');
 Route::view('/car-ac-repair-dubai', 'pages.service.car_ac_repair_dubai')->name('car-ac-repair-dubai');
-
-//Location Page
 Route::view('/car-repair-al-satwa', 'pages.service.car_repair_al_satwa')->name('car-repair-al-satwa');
 
 
