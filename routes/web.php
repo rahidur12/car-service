@@ -33,7 +33,7 @@ Route::view('/car-battery-replacement-dubai', 'pages.service.car_battery_replace
 Route::view('/car-ac-repair-dubai', 'pages.service.car_ac_repair_dubai')->name('car-ac-repair-dubai');
 
 //Location Page
-Route::view('/car-repair-al-satwa', 'pages.service.car_repair_al_satwa')->name('car-repair-al-satwa');
+Route::view('/car-repair-al-satwa', 'pages.location.car_repair_al_satwa')->name('car-repair-al-satwa');
 
 
 // Form Actions & External Email Communication API Handlers
